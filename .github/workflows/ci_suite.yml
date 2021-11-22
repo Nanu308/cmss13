@@ -55,4 +55,4 @@ jobs:
           bash tools/ci/install_byond.sh
           source $HOME/BYOND/byond/bin/byondsetup
           python3 tools/ci/template_dm_generator.py
-          bash tools/ci/dm.sh -DCIBUILDING -DCITESTING -DALL_MAPS ColonialMarinesALPHA.dme
+          bash tools/ci/dm.sh -DTESTING -DDEBUG ColonialMarinesALPHA.dme
