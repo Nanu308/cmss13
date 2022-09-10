@@ -59,20 +59,20 @@
 #define SOUND_ENVIRONMENT_DIZZY 24
 #define SOUND_ENVIRONMENT_PSYCHOTIC 25
 
-#define AMBIENCE_SHIP 'sound/ambience/shipambience.ogg'
-#define AMBIENCE_JUNGLE 'sound/ambience/ambienceLV624.ogg'
-#define AMBIENCE_RIVER  'sound/ambience/ambienceriver.ogg'
-#define AMBIENCE_MALL 'sound/ambience/medbay1.ogg'
-#define AMBIENCE_CAVE 'sound/ambience/desert.ogg'
-#define AMBIENCE_YAUTJA 'sound/ambience/yautja_ship.ogg'
+#define AMBIENCE_SHIP list('sound/ambience/shipambience.ogg')
+#define AMBIENCE_JUNGLE list('sound/ambience/ambienceLV624.ogg')
+#define AMBIENCE_RIVER  list('sound/ambience/ambienceriver.ogg')
+#define AMBIENCE_MALL list('sound/ambience/medbay1.ogg')
+#define AMBIENCE_CAVE list('sound/ambience/desert.ogg')
+#define AMBIENCE_YAUTJA list('sound/ambience/yautja_ship.ogg')
 
-#define SOUND_MARINE_DRUMS 'sound/effects/drums.ogg'
+#define SOUND_MARINE_DRUMS list('sound/effects/drums.ogg')
 
-#define AMBIENCE_ALMAYER 'sound/ambience/almayerambience.ogg'
-#define AMBIENCE_LV624 'sound/ambience/ambienceLV624.ogg'
-#define AMBIENCE_BIGRED 'sound/ambience/desert.ogg'
-#define AMBIENCE_PRISON 'sound/ambience/shipambience.ogg'
-#define AMBIENCE_TRIJENT 'sound/ambience/desert.ogg'
+#define AMBIENCE_ALMAYER list('sound/ambience/almayerambience.ogg')
+#define AMBIENCE_LV624 list('sound/ambience/ambienceLV624.ogg')
+#define AMBIENCE_BIGRED list('sound/ambience/desert.ogg')
+#define AMBIENCE_PRISON list('sound/ambience/shipambience.ogg')
+#define AMBIENCE_TRIJENT list('sound/ambience/desert.ogg')
 
 #define SCAPE_PL_WIND list('sound/soundscape/wind1.ogg','sound/soundscape/wind2.ogg')
 #define SCAPE_PL_CAVE list('sound/soundscape/rocksfalling1.ogg', 'sound/soundscape/rocksfalling2.ogg')
