@@ -325,7 +325,9 @@
 /area/adminlevel/ert_station/upp_station)
 "dK" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/marine/colony{
-	name = "Station Hallway"
+	name = "Station Hallway";
+	req_one_access = null;
+	req_one_access_txt = "34"
 	},
 /turf/open/floor/strata{
 	dir = 4;
@@ -454,7 +456,9 @@
 /area/adminlevel/ert_station/upp_station)
 "fi" = (
 /obj/structure/machinery/door/airlock/almayer/medical/colony{
-	name = "\improper Morgue"
+	name = "\improper Morgue";
+	req_one_access = null;
+	req_one_access_txt = "34"
 	},
 /obj/effect/decal/strata_decals/catwalk/prison,
 /obj/structure/pipes/standard/simple/hidden/cyan{
@@ -565,7 +569,9 @@
 /area/adminlevel/ert_station/upp_station)
 "hj" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/marine/colony{
-	name = "Shuttle Bay"
+	name = "Shuttle Bay";
+	req_one_access = null;
+	req_one_access_txt = "34"
 	},
 /turf/open/floor/strata{
 	dir = 4;
@@ -646,7 +652,9 @@
 "iM" = (
 /obj/structure/machinery/door/airlock/almayer/security/colony{
 	dir = 8;
-	name = "\improper Brig Cell"
+	name = "\improper Brig Cell";
+	req_one_access = null;
+	req_one_access_txt = "34"
 	},
 /turf/open/floor/strata{
 	dir = 4;
@@ -821,6 +829,12 @@
 	pixel_y = -1
 	},
 /obj/structure/closet/crate/ammo/alt,
+/obj/item/ammo_magazine/minigun,
+/obj/item/ammo_magazine/minigun,
+/obj/item/ammo_magazine/minigun,
+/obj/item/ammo_magazine/minigun,
+/obj/item/ammo_magazine/minigun,
+/obj/item/ammo_magazine/minigun,
 /turf/open/floor/corsat{
 	icon_state = "plate"
 	},
@@ -991,7 +1005,10 @@
 	},
 /area/adminlevel/ert_station/upp_station)
 "oK" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/comdoor/colony,
+/obj/structure/machinery/door/airlock/multi_tile/almayer/comdoor/colony{
+	req_one_access = null;
+	req_one_access_txt = "34"
+	},
 /turf/open/floor/strata{
 	dir = 4;
 	icon_state = "floor3"
@@ -1108,7 +1125,9 @@
 /area/adminlevel/ert_station/upp_station)
 "qM" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
-	dir = 1
+	dir = 1;
+	req_one_access = null;
+	req_one_access_txt = "34"
 	},
 /turf/open/floor/strata{
 	dir = 4;
@@ -1179,6 +1198,8 @@
 /area/adminlevel/ert_station/upp_station)
 "rC" = (
 /obj/structure/closet/crate/ammo,
+/obj/item/ammo_box/magazine/type71/ap,
+/obj/item/ammo_box/magazine/type71/ap,
 /turf/open/floor/corsat{
 	icon_state = "plate"
 	},
@@ -1436,6 +1457,16 @@
 /area/adminlevel/ert_station/upp_station)
 "va" = (
 /obj/structure/closet/crate/ammo/alt/flame,
+/obj/item/ammo_magazine/rifle/type71,
+/obj/item/ammo_magazine/rifle/type71,
+/obj/item/ammo_magazine/rifle/type71,
+/obj/item/ammo_magazine/rifle/type71,
+/obj/item/ammo_magazine/rifle/type71,
+/obj/item/ammo_magazine/rifle/type71/ap,
+/obj/item/ammo_magazine/rifle/type71/ap,
+/obj/item/ammo_magazine/rifle/type71/ap,
+/obj/item/ammo_magazine/rifle/type71/ap,
+/obj/item/ammo_magazine/rifle/type71/ap,
 /turf/open/floor/corsat{
 	icon_state = "plate"
 	},
@@ -1572,6 +1603,8 @@
 	desc = "A remote control-switch for the elevator. This one seems broken."
 	},
 /obj/structure/closet/crate/ammo,
+/obj/item/ammo_box/magazine/type71,
+/obj/item/ammo_box/magazine/type71,
 /turf/open/floor/corsat{
 	icon_state = "plate"
 	},
@@ -1591,7 +1624,8 @@
 "wY" = (
 /obj/structure/pipes/standard/simple/hidden/cyan,
 /obj/structure/machinery/door/airlock/multi_tile/almayer/marine/colony{
-	name = "Station Hallway"
+	name = "Station Hallway";
+	req_one_access = null
 	},
 /turf/open/floor/strata{
 	dir = 4;
@@ -1873,7 +1907,9 @@
 "Cu" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/glass/colony{
 	name = "Engineering";
-	dir = 1
+	dir = 1;
+	req_one_access = null;
+	req_one_access_txt = "34"
 	},
 /turf/open/floor/strata{
 	dir = 4;
@@ -1927,7 +1963,9 @@
 "CM" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/colony{
 	name = "\improper Elevator Airlock";
-	dir = 1
+	dir = 1;
+	req_one_access = null;
+	req_one_access_txt = "34"
 	},
 /turf/open/floor/corsat{
 	icon_state = "plate"
@@ -2401,7 +2439,9 @@
 /area/adminlevel/ert_station/upp_station)
 "Lk" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/glass/colony{
-	name = "Engineering"
+	name = "Engineering";
+	req_one_access = null;
+	req_one_access_txt = "34"
 	},
 /turf/open/floor/strata{
 	dir = 4;
@@ -2479,7 +2519,9 @@
 /obj/effect/decal/strata_decals/catwalk/prison,
 /obj/structure/pipes/standard/simple/hidden/cyan,
 /obj/structure/machinery/door/airlock/multi_tile/almayer/marine/colony{
-	name = "Station Hallway"
+	name = "Station Hallway";
+	req_one_access = null;
+	req_one_access_txt = "34"
 	},
 /turf/open/floor/strata{
 	dir = 4;
@@ -2663,7 +2705,9 @@
 /area/space)
 "PJ" = (
 /obj/structure/machinery/door/airlock/almayer/maint/colony{
-	name = "\improper Cryo Cells"
+	name = "\improper Cryo Cells";
+	req_one_access = null;
+	req_one_access_txt = "34"
 	},
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 4
@@ -2850,7 +2894,8 @@
 	icon_state = "book-5";
 	pixel_y = 18;
 	pixel_x = 2;
-	density = 0
+	density = 0;
+	opacity = 0
 	},
 /turf/open/floor/strata{
 	icon_state = "green3";
@@ -2942,7 +2987,9 @@
 "SR" = (
 /obj/structure/machinery/door/airlock/almayer/maint/colony{
 	dir = 1;
-	name = "\improper Toilet"
+	name = "\improper Toilet";
+	req_one_access = null;
+	req_one_access_txt = "34"
 	},
 /obj/structure/pipes/standard/simple/hidden/cyan,
 /turf/open/floor/strata{
@@ -2972,7 +3019,9 @@
 	},
 /obj/structure/machinery/door/airlock/multi_tile/almayer/marine/colony{
 	name = "Station Hallway";
-	dir = 1
+	dir = 1;
+	req_one_access = null;
+	req_one_access_txt = "34"
 	},
 /turf/open/floor/strata{
 	dir = 4;
@@ -3022,10 +3071,12 @@
 	},
 /area/adminlevel/ert_station/upp_station)
 "Ty" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/marine/colony{
-	name = "Shuttle Bay"
-	},
 /obj/structure/pipes/standard/simple/hidden/cyan,
+/obj/structure/machinery/door/airlock/multi_tile/almayer/marine/colony{
+	name = "Shuttle Bay";
+	req_one_access = null;
+	req_one_access_txt = "34"
+	},
 /turf/open/floor/strata{
 	dir = 4;
 	icon_state = "floor3"
@@ -3355,7 +3406,9 @@
 /area/adminlevel/ert_station/upp_station)
 "WK" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/marine/colony{
-	name = "Station Hallway"
+	name = "Station Hallway";
+	req_one_access = null;
+	req_one_access_txt = "34"
 	},
 /turf/open/floor/strata{
 	icon_state = "floor2"

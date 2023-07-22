@@ -2098,6 +2098,9 @@
 "Zj" = (
 /obj/structure/closet/crate,
 /obj/item/reagent_container/food/snacks/appletart,
+/obj/structure/machinery/power/apc/antag{
+	dir = 1
+	},
 /turf/open/floor/wood{
 	icon_state = "wood-broken"
 	},
