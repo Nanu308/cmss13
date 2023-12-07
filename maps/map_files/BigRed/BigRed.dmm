@@ -1522,7 +1522,6 @@
 	},
 /area/space)
 "aeA" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor{
 	icon_state = "whitegreen";
 	tag = "icon-whitegreen"
@@ -1623,15 +1622,13 @@
 /area/bigredv2/outside/marshal_office)
 "aeQ" = (
 /turf/open/floor{
-	icon_state = "dark";
-	tag = "icon-dark"
+	icon_state = "dark"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aeV" = (
 /turf/open/floor{
 	dir = 8;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (WEST)"
+	icon_state = "vault"
 	},
 /area/bigredv2/caves)
 "aeY" = (
@@ -1639,15 +1636,6 @@
 	dir = 8;
 	icon_state = "darkgreencorners2";
 	tag = "icon-darkgreencorners2 (WEST)"
-	},
-/area/bigredv2/caves)
-"aeZ" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4;
-	tag = "icon-intact-supply (EAST)"
-	},
-/turf/open/floor{
-	icon_state = "white"
 	},
 /area/bigredv2/caves)
 "afb" = (
@@ -1780,10 +1768,9 @@
 "afu" = (
 /turf/open/floor{
 	dir = 4;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (EAST)"
+	icon_state = "darkpurplecorners2"
 	},
-/area/bigredv2/caves)
+/area/bigredv2/caves/lambda/breakroom)
 "afv" = (
 /obj/structure/window/framed/solaris,
 /obj/structure/machinery/door/poddoor/shutters/almayer{
@@ -1793,7 +1780,10 @@
 /turf/open/floor/plating,
 /area/bigredv2/outside/telecomm)
 "afz" = (
-/turf/open/floor/plating,
+/turf/open/floor{
+	dir = 4;
+	icon_state = "darkpurple2"
+	},
 /area/bigredv2/caves/lambda/research)
 "afA" = (
 /obj/effect/decal/warning_stripes{
@@ -1957,8 +1947,7 @@
 "afY" = (
 /turf/open/floor{
 	dir = 9;
-	icon_state = "asteroidwarning";
-	tag = "icon-asteroidwarning (NORTHWEST)"
+	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/outside/ne)
 "afZ" = (
@@ -1969,12 +1958,11 @@
 /area/bigredv2/caves_lambda)
 "agb" = (
 /obj/structure/showcase{
-	icon_state = "bus";
-	tag = "icon-bus"
+	icon_state = "showcase_5"
 	},
 /turf/open/floor{
-	icon_state = "dark";
-	tag = "icon-dark"
+	dir = 8;
+	icon_state = "vault"
 	},
 /area/bigredv2/caves)
 "agg" = (
@@ -1984,32 +1972,27 @@
 "agh" = (
 /turf/open/floor{
 	dir = 1;
-	icon_state = "asteroidfloor";
-	tag = "icon-asteroidfloor (NORTH)"
+	icon_state = "asteroidfloor"
 	},
 /area/bigredv2/caves)
 "agi" = (
 /turf/open/floor{
-	icon_state = "dark";
-	tag = "icon-dark"
+	icon_state = "dark"
 	},
 /area/bigredv2/caves/lambda/xenobiology)
 "agj" = (
 /turf/open/floor{
-	dir = 10;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (EAST)"
+	dir = 4;
+	icon_state = "asteroidwarning"
 	},
-/area/bigredv2/caves_east)
+/area/bigredv2/caves/lambda/virology)
 "agk" = (
-/obj/structure/pipes/standard/manifold/fourway/hidden/supply,
-/turf/open/floor{
-	icon_state = "white"
-	},
-/area/bigredv2/caves_lambda)
+/turf/open/floor,
+/area/bigredv2/caves/lambda/xenobiology)
 "agl" = (
 /turf/open/floor{
-	icon_state = "white"
+	dir = 4;
+	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves/lambda/xenobiology)
 "agm" = (
@@ -2196,17 +2179,11 @@
 	},
 /area/bigredv2/outside/general_offices)
 "agQ" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 1;
-	tag = "icon-intact-supply (NORTH)"
-	},
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /turf/open/floor{
-	dir = 1;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (NORTH)"
+	icon_state = "darkpurplecorners2"
 	},
 /area/bigredv2/caves/lambda/research)
 "agU" = (
@@ -2218,23 +2195,16 @@
 /area/bigredv2/caves_east)
 "agV" = (
 /turf/open/floor{
-	dir = 1;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (NORTH)"
+	icon_state = "darkpurplecorners2"
 	},
 /area/bigredv2/caves/lambda/virology)
 "agX" = (
 /obj/structure/showcase{
-	icon_state = "broadcaster_send";
-	tag = "icon-broadcaster_send"
-	},
-/obj/structure/pipes/standard/manifold/hidden/supply{
-	dir = 4;
-	tag = "icon-map-supply (EAST)"
+	icon_state = "showcase_2"
 	},
 /turf/open/floor{
-	icon_state = "dark";
-	tag = "icon-dark"
+	dir = 8;
+	icon_state = "vault"
 	},
 /area/bigredv2/caves/lambda/research)
 "agY" = (
@@ -2373,13 +2343,10 @@
 	},
 /area/bigredv2/caves_lambda)
 "ahC" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor{
-	dir = 6;
-	icon_state = "darkgreen2";
-	tag = "icon-darkgreen2 (SOUTHEAST)"
+	icon_state = "asteroidwarning"
 	},
-/area/bigredv2/caves_lambda)
+/area/bigredv2/caves)
 "ahF" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/closed/wall/solaris/rock,
@@ -2395,13 +2362,6 @@
 	icon_state = "delivery"
 	},
 /area/bigredv2/outside/space_port)
-"ahM" = (
-/turf/open/floor{
-	dir = 10;
-	icon_state = "darkgreen2";
-	tag = "icon-darkgreen2 (SOUTHWEST)"
-	},
-/area/bigredv2/caves)
 "ahN" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/solaris/reinforced,
@@ -2522,8 +2482,8 @@
 /area/bigredv2/outside/marshal_office)
 "aig" = (
 /turf/open/floor{
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2"
+	dir = 4;
+	icon_state = "darkpurplecorners2"
 	},
 /area/bigredv2/caves_lambda)
 "aih" = (
@@ -2560,14 +2520,18 @@
 	name = "\improper Lambda Lab Virology Quarantine";
 	req_one_access = null
 	},
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves_east)
 "ail" = (
 /obj/effect/decal/warning_stripes{
-	icon_state = "SE-in";
-	tag = "icon-SE-in"
+	icon_state = "W";
+	layer = 2.5
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	tag = "icon-N"
 	},
 /turf/open/floor{
 	icon_state = "darkgreencorners2";
@@ -2587,11 +2551,10 @@
 /area/bigredv2/outside/medical)
 "aio" = (
 /turf/open/floor{
-	dir = 8;
-	icon_state = "darkgreen2";
-	tag = "icon-darkgreen2 (WEST)"
+	dir = 9;
+	icon_state = "darkpurple2"
 	},
-/area/bigredv2/caves/lambda/research)
+/area/bigredv2/caves/lambda/xenobiology)
 "aip" = (
 /obj/structure/surface/table,
 /obj/structure/pipes/vents/pump,
@@ -2772,8 +2735,8 @@
 /area/bigredv2/outside/marshal_office)
 "aiS" = (
 /turf/open/floor{
-	icon_state = "darkpurplecorners2";
-	tag = "icon-darkpurplecorners2"
+	dir = 8;
+	icon_state = "darkpurplecorners2"
 	},
 /area/bigredv2/caves)
 "aiT" = (
@@ -2785,11 +2748,9 @@
 /area/bigredv2/caves_lambda)
 "aiV" = (
 /turf/open/floor{
-	dir = 10;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (EAST)"
+	icon_state = "darkpurplecorners2"
 	},
-/area/bigredv2/caves)
+/area/bigredv2/caves/lambda/breakroom)
 "aiW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/crap_item,
@@ -2889,14 +2850,11 @@
 	},
 /area/bigredv2/outside/dorms)
 "ajn" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 1;
-	tag = "icon-intact-supply (NORTH)"
-	},
 /turf/open/floor{
-	icon_state = "delivery"
+	dir = 4;
+	icon_state = "darkpurple2"
 	},
-/area/bigredv2/caves/lambda/research)
+/area/bigredv2/caves_east)
 "ajp" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_2"
@@ -2910,15 +2868,11 @@
 	},
 /area/bigredv2/caves_lambda)
 "ajr" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 1;
-	tag = "icon-intact-supply (NORTH)"
-	},
 /turf/open/floor{
-	icon_state = "dark";
-	tag = "icon-dark"
+	dir = 4;
+	icon_state = "darkpurplecorners2"
 	},
-/area/bigredv2/caves/lambda/research)
+/area/space)
 "ajv" = (
 /obj/structure/machinery/shower{
 	dir = 8;
@@ -2936,16 +2890,18 @@
 	},
 /area/bigredv2/caves_lambda)
 "ajw" = (
-/obj/structure/machinery/door/poddoor/almayer/closed{
-	dir = 4;
-	id = "lambda";
-	name = "Lambda Lockdown"
+/obj/structure/barricade/handrail/wire{
+	dir = 8
+	},
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "warning_c";
+	dir = 1
 	},
 /turf/open/floor{
-	icon_state = "asteroidwarning";
-	tag = "icon-asteroidwarning"
+	dir = 1;
+	icon_state = "asteroidfloor"
 	},
-/area/bigredv2/outside/lambda_cave_cas)
+/area/bigredv2/caves_lambda)
 "ajx" = (
 /turf/open/floor{
 	dir = 1;
@@ -3073,9 +3029,8 @@
 /turf/open/floor,
 /area/bigredv2/outside/marshal_office)
 "ajO" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves)
 "ajP" = (
@@ -3115,8 +3070,8 @@
 	},
 /area/bigredv2/outside/n)
 "ajW" = (
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves_lambda)
 "ajX" = (
@@ -3147,20 +3102,10 @@
 	},
 /area/bigredv2/outside/nw)
 "aka" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "E";
-	tag = "icon-E"
-	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4;
-	tag = "icon-intact-supply (EAST)"
-	},
 /turf/open/floor{
-	dir = 8;
-	icon_state = "darkgreen2";
-	tag = "icon-darkgreen2 (WEST)"
+	icon_state = "darkpurplecorners2"
 	},
-/area/bigredv2/caves_lambda)
+/area/space)
 "akc" = (
 /obj/structure/window/framed/solaris,
 /turf/open/floor/plating,
@@ -3325,10 +3270,9 @@
 "akD" = (
 /turf/open/floor{
 	dir = 6;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (EAST)"
+	icon_state = "darkpurple2"
 	},
-/area/bigredv2/caves)
+/area/bigredv2/caves/lambda/xenobiology)
 "akF" = (
 /turf/open/mars_cave{
 	icon_state = "mars_dirt_4"
@@ -3337,8 +3281,7 @@
 "akG" = (
 /turf/open/floor{
 	dir = 4;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (EAST)"
+	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves_lambda)
 "akK" = (
@@ -3446,8 +3389,12 @@
 /area/bigredv2/caves/lambda/virology)
 "ald" = (
 /obj/effect/decal/warning_stripes{
-	icon_state = "NE-in";
-	tag = "icon-NE-in"
+	icon_state = "S";
+	tag = "icon-S"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5
 	},
 /turf/open/floor{
 	dir = 4;
@@ -3455,13 +3402,6 @@
 	tag = "icon-darkgreencorners2 (EAST)"
 	},
 /area/bigredv2/caves)
-"alh" = (
-/turf/open/floor{
-	dir = 1;
-	icon_state = "asteroidwarning";
-	tag = "icon-asteroidwarning (NORTH)"
-	},
-/area/bigredv2/outside/ne)
 "alj" = (
 /obj/structure/machinery/alarm{
 	dir = 1;
@@ -3471,11 +3411,11 @@
 /turf/closed/wall/solaris/reinforced,
 /area/bigredv2/caves)
 "alk" = (
-/obj/structure/pipes/standard/manifold/hidden/supply,
 /turf/open/floor{
-	icon_state = "white"
+	dir = 10;
+	icon_state = "darkpurple2"
 	},
-/area/bigredv2/caves)
+/area/bigredv2/caves/lambda/breakroom)
 "all" = (
 /turf/open/floor{
 	icon_state = "asteroidwarning"
@@ -3664,12 +3604,13 @@
 	},
 /area/bigredv2/outside/dorms)
 "alU" = (
-/turf/open/floor{
-	dir = 1;
-	icon_state = "asteroidwarning";
-	tag = "icon-asteroidwarning (NORTH)"
+/obj/structure/window/reinforced{
+	dir = 8
 	},
-/area/bigredv2/outside/e)
+/turf/open/floor{
+	icon_state = "darkpurple2"
+	},
+/area/bigredv2/caves/lambda/research)
 "alV" = (
 /turf/open/floor{
 	icon_state = "whitegreencorner";
@@ -3687,8 +3628,10 @@
 /turf/closed/wall/solaris/reinforced,
 /area/bigredv2/outside/medical)
 "alY" = (
-/turf/open/floor/plating,
-/area/bigredv2/caves)
+/turf/open/floor{
+	icon_state = "darkpurple2"
+	},
+/area/bigredv2/caves/lambda/breakroom)
 "alZ" = (
 /obj/structure/window/framed/solaris,
 /obj/structure/machinery/door/poddoor/shutters/almayer{
@@ -3932,8 +3875,8 @@
 	dir = 1;
 	tag = "icon-intact-supply (NORTH)"
 	},
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves)
 "amL" = (
@@ -3952,9 +3895,8 @@
 /area/bigredv2/caves_east)
 "amO" = (
 /turf/open/floor{
-	dir = 4;
-	icon_state = "darkpurplecorners2";
-	tag = "icon-darkpurplecorners2 (EAST)"
+	dir = 1;
+	icon_state = "darkpurplecorners2"
 	},
 /area/bigredv2/caves)
 "amP" = (
@@ -3986,8 +3928,7 @@
 /obj/item/clothing/glasses/welding,
 /turf/open/floor{
 	dir = 8;
-	icon_state = "purplecorner";
-	tag = "icon-purplecorner (WEST)"
+	icon_state = "darkyellowcorners2"
 	},
 /area/bigredv2/caves/lambda/research)
 "amV" = (
@@ -4000,16 +3941,11 @@
 /turf/open/floor/plating,
 /area/bigredv2/outside/dorms)
 "amW" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "N";
-	tag = "icon-N"
-	},
-/obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor{
-	icon_state = "darkgreen2";
-	tag = "icon-darkgreen2"
+	dir = 8;
+	icon_state = "darkpurple2"
 	},
-/area/bigredv2/caves_lambda)
+/area/bigredv2/caves/lambda/xenobiology)
 "amX" = (
 /turf/closed/wall/strata_ice/jungle,
 /area/bigredv2/caves_lambda)
@@ -4132,13 +4068,8 @@
 /turf/closed/wall/solaris,
 /area/bigredv2/outside/general_offices)
 "ano" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 1;
-	tag = "icon-intact-supply (NORTH)"
-	},
 /turf/open/floor{
-	icon_state = "dark";
-	tag = "icon-dark"
+	icon_state = "dark"
 	},
 /area/bigredv2/caves)
 "anp" = (
@@ -4164,8 +4095,7 @@
 /obj/effect/landmark/crap_item,
 /turf/open/floor{
 	dir = 1;
-	icon_state = "asteroidfloor";
-	tag = "icon-asteroidfloor (NORTH)"
+	icon_state = "asteroidfloor"
 	},
 /area/bigredv2/outside/ne)
 "anw" = (
@@ -4275,14 +4205,14 @@
 /turf/closed/wall/solaris/rock,
 /area/space)
 "anR" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 10;
-	tag = "icon-intact-supply (SOUTHWEST)"
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "warning_c"
 	},
 /turf/open/floor{
-	icon_state = "white"
+	dir = 1;
+	icon_state = "asteroidfloor"
 	},
-/area/bigredv2/caves_lambda)
+/area/bigredv2/caves/lambda/virology)
 "anS" = (
 /turf/open/floor{
 	dir = 5;
@@ -4303,9 +4233,8 @@
 /area/bigredv2/outside/hydroponics)
 "anV" = (
 /turf/open/floor{
-	dir = 10;
-	icon_state = "darkgreen2";
-	tag = "icon-darkgreen2 (SOUTHWEST)"
+	dir = 1;
+	icon_state = "darkpurplecorners2"
 	},
 /area/bigredv2/caves/lambda/research)
 "anW" = (
@@ -4357,8 +4286,7 @@
 "aoe" = (
 /turf/open/floor{
 	dir = 4;
-	icon_state = "purple";
-	tag = "icon-purple (EAST)"
+	icon_state = "darkyellow2"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aof" = (
@@ -4534,8 +4462,7 @@
 "aoG" = (
 /turf/open/floor{
 	dir = 6;
-	icon_state = "purple";
-	tag = "icon-purple (SOUTHEAST)"
+	icon_state = "darkyellow2"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aoH" = (
@@ -4736,9 +4663,7 @@
 /area/bigredv2/outside/ne)
 "app" = (
 /turf/open/floor{
-	dir = 1;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (NORTH)"
+	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves)
 "apq" = (
@@ -4787,21 +4712,16 @@
 /turf/open/floor/plating,
 /area/bigredv2/outside/general_store)
 "apv" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4;
-	tag = "icon-intact-supply (EAST)"
-	},
 /turf/open/floor{
-	icon_state = "delivery"
+	icon_state = "brown"
 	},
-/area/bigredv2/caves)
+/area/bigredv2/caves_lambda)
 "apw" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
 /turf/open/floor{
-	icon_state = "asteroidwarning";
-	tag = "icon-asteroidwarning"
+	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/caves_lambda)
 "apy" = (
@@ -4814,14 +4734,12 @@
 	},
 /area/bigredv2/caves)
 "apA" = (
-/obj/structure/showcase,
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4;
-	tag = "icon-intact-supply (EAST)"
+/obj/structure/showcase{
+	icon_state = "glassboxb0"
 	},
 /turf/open/floor{
-	icon_state = "dark";
-	tag = "icon-dark"
+	dir = 8;
+	icon_state = "vault"
 	},
 /area/bigredv2/caves)
 "apB" = (
@@ -5004,23 +4922,14 @@
 	},
 /area/bigredv2/outside/ne)
 "aqb" = (
-/obj/structure/bed/chair{
-	dir = 4
-	},
-/obj/structure/machinery/light{
-	dir = 8
-	},
 /turf/open/floor{
-	dir = 4;
-	icon_state = "darkgreencorners2";
-	tag = "icon-darkgreencorners2 (EAST)"
+	icon_state = "dark"
 	},
 /area/bigredv2/caves/lambda/research)
 "aqc" = (
-/obj/structure/pipes/vents/scrubber/on,
-/obj/effect/landmark/crap_item,
 /turf/open/floor{
-	icon_state = "white"
+	dir = 1;
+	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aqe" = (
@@ -5030,16 +4939,12 @@
 	tag = "icon-darkgreen2 (EAST)"
 	},
 /area/bigredv2/caves_lambda)
-"aqg" = (
-/turf/open/floor{
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2"
-	},
-/area/bigredv2/caves)
 "aqj" = (
 /obj/effect/decal/warning_stripes{
-	icon_state = "NW-in";
-	tag = "icon-NW-in"
+	icon_state = "S"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
 	},
 /turf/open/floor{
 	dir = 1;
@@ -5048,8 +4953,8 @@
 	},
 /area/bigredv2/caves_lambda)
 "aql" = (
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves_east)
 "aqo" = (
@@ -5057,8 +4962,7 @@
 /obj/effect/spawner/random/technology_scanner,
 /turf/open/floor{
 	dir = 9;
-	icon_state = "purple";
-	tag = "icon-purple (NORTHWEST)"
+	icon_state = "darkyellow2"
 	},
 /area/bigredv2/caves/lambda/research)
 "aqp" = (
@@ -5520,10 +5424,9 @@
 	},
 /area/bigredv2/caves)
 "arN" = (
-/obj/structure/machinery/light,
 /turf/open/floor{
-	icon_state = "dark";
-	tag = "icon-dark"
+	dir = 8;
+	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves/lambda/research)
 "arO" = (
@@ -5727,7 +5630,6 @@
 	tag = "icon-rwindow (EAST)"
 	},
 /obj/structure/machinery/computer/pandemic,
-/obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor{
 	icon_state = "white"
 	},
@@ -5977,8 +5879,7 @@
 /obj/item/tool/pickaxe/drill,
 /turf/open/floor{
 	dir = 10;
-	icon_state = "purple";
-	tag = "icon-purple (SOUTHWEST)"
+	icon_state = "darkyellow2"
 	},
 /area/bigredv2/caves/lambda/research)
 "atf" = (
@@ -5988,11 +5889,9 @@
 /area/bigredv2/caves)
 "ati" = (
 /turf/open/floor{
-	dir = 4;
-	icon_state = "darkpurplecorners2";
-	tag = "icon-darkpurplecorners2 (EAST)"
+	icon_state = "darkpurple2"
 	},
-/area/bigredv2/caves_lambda)
+/area/bigredv2/caves/lambda/xenobiology)
 "atl" = (
 /obj/structure/barricade/wooden,
 /turf/open/floor{
@@ -6166,30 +6065,23 @@
 /area/bigredv2/outside/office_complex)
 "atK" = (
 /turf/open/floor{
-	icon_state = "purplecorner";
-	tag = "icon-purplecorner"
+	icon_state = "darkyellowcorners2"
 	},
 /area/bigredv2/caves)
 "atL" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4;
-	tag = "icon-intact-supply (EAST)"
-	},
 /obj/structure/window/reinforced{
 	dir = 4
 	},
 /turf/open/floor{
-	dir = 4;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (EAST)"
+	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves)
 "atM" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
 	name = "\improper Lambda Lab Break Room"
 	},
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves)
 "atP" = (
@@ -6407,11 +6299,11 @@
 	},
 /area/bigredv2/caves_lambda)
 "auw" = (
-/obj/structure/pipes/vents/pump,
 /turf/open/floor{
-	icon_state = "white"
+	dir = 4;
+	icon_state = "darkpurplecorners2"
 	},
-/area/bigredv2/caves)
+/area/bigredv2/caves/lambda/xenobiology)
 "aux" = (
 /obj/structure/platform/shiva{
 	dir = 4
@@ -6564,12 +6456,6 @@
 /obj/structure/window/framed/solaris/reinforced,
 /turf/open/floor/plating,
 /area/bigredv2/outside/c)
-"auZ" = (
-/turf/open/floor{
-	icon_state = "dark";
-	tag = "icon-dark"
-	},
-/area/bigredv2/caves)
 "ava" = (
 /turf/open/floor{
 	icon_state = "darkgreen2";
@@ -6578,11 +6464,10 @@
 /area/bigredv2/caves/lambda/xenobiology)
 "avb" = (
 /turf/open/floor{
-	dir = 1;
-	icon_state = "asteroidfloor";
-	tag = "icon-asteroidfloor (NORTH)"
+	dir = 10;
+	icon_state = "darkpurple2"
 	},
-/area/bigredv2/outside/ne)
+/area/bigredv2/caves_east)
 "avc" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
@@ -6600,7 +6485,7 @@
 	},
 /turf/open/floor{
 	dir = 8;
-	icon_state = "warnwhite"
+	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/caves)
 "avf" = (
@@ -6610,11 +6495,9 @@
 /turf/closed/wall/solaris/reinforced,
 /area/bigredv2/caves_east)
 "avi" = (
-/obj/structure/pipes/vents/scrubber/on{
-	dir = 8
-	},
 /turf/open/floor{
-	icon_state = "white"
+	icon_state = "brown";
+	dir = 10
 	},
 /area/bigredv2/caves_lambda)
 "avm" = (
@@ -7018,8 +6901,11 @@
 /area/bigredv2/caves_east)
 "awD" = (
 /obj/effect/decal/warning_stripes{
-	icon_state = "SW-in";
-	tag = "icon-SW-in"
+	icon_state = "E"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	tag = "icon-N"
 	},
 /turf/open/floor{
 	dir = 8;
@@ -7029,20 +6915,15 @@
 /area/bigredv2/caves_lambda)
 "awG" = (
 /turf/open/floor{
-	icon_state = "white"
+	dir = 8;
+	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "awK" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4;
-	tag = "icon-intact-supply (EAST)"
-	},
 /turf/open/floor{
-	dir = 10;
-	icon_state = "darkgreen2";
-	tag = "icon-darkgreen2 (SOUTHWEST)"
+	icon_state = "darkpurplecorners2"
 	},
-/area/bigredv2/caves_lambda)
+/area/bigredv2/caves/lambda/xenobiology)
 "awL" = (
 /obj/structure/surface/table,
 /obj/item/storage/pill_bottle/tramadol,
@@ -7407,21 +7288,15 @@
 /area/bigredv2/outside/general_offices)
 "axT" = (
 /turf/open/floor{
-	dir = 9;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (EAST)"
+	icon_state = "dark"
 	},
 /area/bigredv2/caves_lambda)
 "axV" = (
-/obj/structure/pipes/vents/scrubber/on{
-	dir = 4
-	},
 /turf/open/floor{
-	dir = 8;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (WEST)"
+	icon_state = "brown";
+	dir = 8
 	},
-/area/bigredv2/caves/lambda/research)
+/area/bigredv2/caves)
 "axW" = (
 /turf/open/floor{
 	dir = 6;
@@ -7636,43 +7511,30 @@
 	},
 /area/bigredv2/outside/general_offices)
 "ayA" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 1;
-	tag = "icon-intact-supply (NORTH)"
-	},
 /obj/structure/window/reinforced,
 /turf/open/floor{
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2"
+	dir = 4;
+	icon_state = "darkpurplecorners2"
 	},
 /area/bigredv2/caves)
 "ayC" = (
-/obj/structure/showcase{
-	icon_state = "mechfab1";
-	tag = "icon-mechfab1"
-	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 1;
-	tag = "icon-intact-supply (NORTH)"
-	},
+/obj/structure/showcase,
 /turf/open/floor{
-	icon_state = "dark";
-	tag = "icon-dark"
+	dir = 8;
+	icon_state = "vault"
 	},
 /area/bigredv2/caves)
 "ayD" = (
 /turf/open/floor{
 	dir = 8;
-	icon_state = "darkpurplecorners2";
-	tag = "icon-darkpurplecorners2 (WEST)"
+	icon_state = "darkpurplecorners2"
 	},
 /area/bigredv2/caves_lambda)
 "ayE" = (
 /turf/open/floor{
-	icon_state = "darkgreencorners2";
-	tag = "icon-darkgreencorners2"
+	icon_state = "asteroidwarning"
 	},
-/area/bigredv2/caves/lambda/research)
+/area/bigredv2/caves/lambda/virology)
 "ayF" = (
 /obj/structure/window/framed/solaris,
 /turf/open/floor/plating,
@@ -7867,13 +7729,11 @@
 	},
 /area/bigredv2/caves_lambda)
 "azg" = (
-/obj/structure/machinery/vending/cola,
 /turf/open/floor{
-	dir = 4;
-	icon_state = "darkgreencorners2";
-	tag = "icon-darkgreencorners2 (EAST)"
+	dir = 1;
+	icon_state = "darkpurple2"
 	},
-/area/bigredv2/caves)
+/area/bigredv2/caves_east)
 "azi" = (
 /obj/structure/window/framed/solaris/reinforced,
 /turf/open/floor/plating,
@@ -8201,20 +8061,11 @@
 	},
 /area/bigredv2/outside/general_offices)
 "aAi" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 5;
-	tag = "icon-intact-supply (NORTHEAST)"
-	},
 /turf/open/floor{
-	icon_state = "white"
+	dir = 1;
+	icon_state = "darkpurple2"
 	},
-/area/bigredv2/caves)
-"aAo" = (
-/turf/open/floor{
-	icon_state = "dark";
-	tag = "icon-dark"
-	},
-/area/bigredv2/caves/lambda/research)
+/area/bigredv2/caves/lambda/xenobiology)
 "aAp" = (
 /turf/closed/wall/solaris/reinforced,
 /area/bigredv2/caves/eta/storage)
@@ -8383,44 +8234,35 @@
 	dir = 1
 	},
 /turf/open/floor{
-	dir = 1;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (NORTH)"
+	dir = 8;
+	icon_state = "darkpurplecorners2"
 	},
 /area/bigredv2/caves)
 "aAU" = (
 /turf/open/floor{
-	dir = 1;
-	icon_state = "darkpurplecorners2";
-	tag = "icon-darkpurplecorners2 (EAST)"
+	dir = 8;
+	icon_state = "asteroidwarning"
 	},
-/area/bigredv2/caves/lambda/research)
+/area/bigredv2/caves_lambda)
 "aAV" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
 	dir = 1;
 	name = "\improper Lambda Lab Break Room"
 	},
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves/lambda/research)
 "aAW" = (
-/obj/structure/sign/nosmoking_1{
-	pixel_y = 32
-	},
-/obj/structure/machinery/light{
-	dir = 1
-	},
 /turf/open/floor{
-	icon_state = "dark";
-	tag = "icon-dark"
+	dir = 4;
+	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "aAY" = (
 /turf/open/floor{
-	dir = 8;
-	icon_state = "darkpurplecorners2";
-	tag = "icon-darkpurplecorners2 (WEST)"
+	dir = 10;
+	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/caves/lambda/research)
 "aAZ" = (
@@ -8842,25 +8684,19 @@
 	},
 /area/bigredv2/caves)
 "aCs" = (
-/obj/structure/machinery/door/poddoor/almayer/closed{
-	dir = 4;
-	id = "lambda";
-	name = "Lambda Lockdown"
-	},
 /turf/open/floor{
-	dir = 1;
-	icon_state = "asteroidwarning";
-	tag = "icon-asteroidwarning (NORTH)"
+	dir = 8;
+	icon_state = "darkpurplecorners2"
 	},
-/area/bigredv2/outside/lambda_cave_cas)
+/area/bigredv2/caves/lambda/breakroom)
 "aCt" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
 	dir = 1;
 	name = "\improper Lambda Lab Virology Wing";
 	req_one_access = null
 	},
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves_lambda)
 "aCx" = (
@@ -8874,8 +8710,8 @@
 	},
 /area/bigredv2/caves_lambda)
 "aCy" = (
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves/lambda/xenobiology)
 "aCA" = (
@@ -9134,12 +8970,9 @@
 /turf/open/floor/plating,
 /area/bigredv2/caves/eta/xenobiology)
 "aDk" = (
-/obj/structure/pipes/vents/pump{
-	dir = 4
-	},
 /turf/open/floor{
-	icon_state = "darkgreen2";
-	tag = "icon-darkgreen2"
+	dir = 8;
+	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves)
 "aDl" = (
@@ -9156,47 +8989,39 @@
 /area/space)
 "aDn" = (
 /turf/open/floor{
-	icon_state = "white"
+	dir = 1;
+	icon_state = "asteroidfloor"
 	},
 /area/bigredv2/caves/lambda/research)
 "aDp" = (
-/obj/structure/pipes/vents/scrubber/on{
-	dir = 8
-	},
 /turf/open/floor{
-	dir = 6;
-	icon_state = "darkgreen2";
-	tag = "icon-darkgreen2 (SOUTHEAST)"
+	dir = 4;
+	icon_state = "asteroidwarning"
 	},
-/area/bigredv2/caves/lambda/research)
+/area/bigredv2/caves)
 "aDq" = (
 /turf/open/gm/river,
 /area/bigredv2/caves/lambda/research)
 "aDr" = (
-/obj/structure/extinguisher_cabinet{
-	pixel_x = -30
-	},
-/obj/structure/pipes/vents/pump{
+/turf/open/floor{
+	icon_state = "browncorner";
 	dir = 4
 	},
-/turf/open/floor{
-	dir = 8;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (WEST)"
-	},
-/area/bigredv2/caves/lambda/research)
+/area/bigredv2/caves)
 "aDs" = (
+/obj/structure/machinery/colony_floodlight{
+	icon_state = "flood_l_off"
+	},
 /turf/open/mars_cave{
 	icon_state = "mars_cave_18"
 	},
 /area/bigredv2/caves)
 "aDt" = (
-/obj/structure/pipes/standard/manifold/fourway/hidden/supply,
 /turf/open/floor{
-	icon_state = "darkgreen2";
-	tag = "icon-darkgreen2"
+	dir = 1;
+	icon_state = "darkpurplecorners2"
 	},
-/area/bigredv2/caves/lambda/research)
+/area/space)
 "aDv" = (
 /obj/structure/window/framed/solaris,
 /turf/open/floor/plating,
@@ -9246,13 +9071,6 @@
 	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/outside/nw)
-"aDB" = (
-/turf/open/floor{
-	dir = 1;
-	icon_state = "darkpurplecorners2";
-	tag = "icon-darkpurplecorners2 (EAST)"
-	},
-/area/bigredv2/caves)
 "aDC" = (
 /obj/structure/surface/table,
 /obj/item/tool/surgery/bonesetter,
@@ -9748,8 +9566,11 @@
 /area/bigredv2/outside/admin_building)
 "aFf" = (
 /obj/effect/decal/warning_stripes{
-	icon_state = "NE-in";
-	tag = "icon-NE-in"
+	icon_state = "S"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5
 	},
 /turf/open/floor{
 	dir = 4;
@@ -9781,11 +9602,10 @@
 /area/bigredv2/caves_east)
 "aFk" = (
 /turf/open/floor{
-	dir = 1;
-	icon_state = "darkgreencorners2";
-	tag = "icon-darkgreencorners2 (NORTH)"
+	dir = 8;
+	icon_state = "darkpurplecorners2"
 	},
-/area/bigredv2/caves/lambda/research)
+/area/space)
 "aFl" = (
 /turf/open/floor{
 	dir = 4;
@@ -9806,11 +9626,10 @@
 /area/bigredv2/caves)
 "aFo" = (
 /turf/open/floor{
-	dir = 4;
-	icon_state = "darkpurplecorners2";
-	tag = "icon-darkpurplecorners2 (EAST)"
+	dir = 8;
+	icon_state = "darkpurplecorners2"
 	},
-/area/bigredv2/caves_east)
+/area/bigredv2/caves/lambda/xenobiology)
 "aFq" = (
 /turf/open/floor{
 	dir = 6;
@@ -9820,8 +9639,12 @@
 /area/bigredv2/caves_east)
 "aFr" = (
 /obj/effect/decal/warning_stripes{
-	icon_state = "SE-in";
-	tag = "icon-SE-in"
+	icon_state = "W";
+	layer = 2.5
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	tag = "icon-N"
 	},
 /turf/open/floor{
 	icon_state = "darkgreencorners2";
@@ -10041,8 +9864,7 @@
 	tag = "icon-U-N"
 	},
 /turf/open/floor{
-	icon_state = "dark";
-	tag = "icon-dark"
+	icon_state = "dark"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aFW" = (
@@ -10106,8 +9928,7 @@
 "aGd" = (
 /turf/open/floor{
 	dir = 1;
-	icon_state = "purple";
-	tag = "icon-purple (NORTH)"
+	icon_state = "darkyellow2"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aGe" = (
@@ -10154,15 +9975,14 @@
 	},
 /turf/open/floor{
 	dir = 1;
-	icon_state = "purple";
-	tag = "icon-purple (NORTH)"
+	icon_state = "darkyellow2"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aGk" = (
 /obj/structure/window/reinforced,
 /turf/open/floor{
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2"
+	dir = 1;
+	icon_state = "darkpurplecorners2"
 	},
 /area/bigredv2/caves)
 "aGm" = (
@@ -10174,24 +9994,15 @@
 	},
 /turf/open/floor{
 	dir = 1;
-	icon_state = "purple";
-	tag = "icon-purple (NORTH)"
+	icon_state = "darkyellow2"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aGn" = (
-/obj/structure/extinguisher_cabinet{
-	pixel_y = -30
-	},
-/obj/structure/sign/safety/rad_haz{
-	pixel_y = -32
-	},
-/obj/structure/machinery/light,
 /turf/open/floor{
-	dir = 10;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (EAST)"
+	dir = 8;
+	icon_state = "darkpurple2"
 	},
-/area/bigredv2/caves)
+/area/bigredv2/caves_east)
 "aGo" = (
 /obj/structure/fence,
 /turf/open/mars_cave{
@@ -10401,8 +10212,7 @@
 /area/bigredv2/outside/general_store)
 "aGU" = (
 /turf/open/floor{
-	icon_state = "darkgreencorners2";
-	tag = "icon-darkgreencorners2"
+	icon_state = "dark"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "aGV" = (
@@ -10437,13 +10247,14 @@
 	dir = 8
 	},
 /turf/open/floor{
-	icon_state = "white"
+	dir = 1;
+	icon_state = "asteroidfloor"
 	},
 /area/bigredv2/caves/lambda/research)
 "aGZ" = (
 /turf/open/floor{
 	dir = 1;
-	icon_state = "warnwhite"
+	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aHa" = (
@@ -10717,9 +10528,8 @@
 	},
 /area/space)
 "aHY" = (
-/obj/structure/pipes/standard/manifold/hidden/supply,
 /turf/open/floor{
-	icon_state = "white"
+	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aHZ" = (
@@ -10946,31 +10756,22 @@
 /area/bigredv2/outside/library)
 "aIJ" = (
 /turf/open/floor{
-	dir = 5;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (EAST)"
+	dir = 1;
+	icon_state = "darkpurplecorners2"
 	},
-/area/bigredv2/caves)
+/area/bigredv2/caves/lambda/xenobiology)
 "aIK" = (
 /turf/open/mars_cave{
 	icon_state = "mars_sand_1"
 	},
 /area/bigredv2/caves_lambda)
-"aIL" = (
-/turf/open/floor{
-	dir = 4;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (EAST)"
-	},
-/area/bigredv2/caves/lambda/research)
 "aIQ" = (
 /obj/structure/window/reinforced{
 	dir = 8
 	},
 /turf/open/floor{
-	dir = 8;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (WEST)"
+	dir = 1;
+	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves/lambda/research)
 "aIS" = (
@@ -10993,16 +10794,10 @@
 /turf/open/floor,
 /area/bigredv2/outside/cargo)
 "aIU" = (
-/obj/structure/machinery/vending/sovietsoda{
-	icon_state = "sovietsoda-broken";
-	stat = 1
-	},
 /turf/open/floor{
-	dir = 1;
-	icon_state = "darkgreencorners2";
-	tag = "icon-darkgreencorners2 (NORTH)"
+	icon_state = "darkpurple2"
 	},
-/area/bigredv2/caves/lambda/research)
+/area/space)
 "aIV" = (
 /turf/open/floor{
 	icon_state = "podhatchfloor";
@@ -11015,8 +10810,7 @@
 	id = "anomalybelt"
 	},
 /turf/open/floor{
-	icon_state = "dark";
-	tag = "icon-dark"
+	icon_state = "dark"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aIX" = (
@@ -11026,8 +10820,7 @@
 	tag = "icon-conveyor0 (NORTHWEST)"
 	},
 /turf/open/floor{
-	icon_state = "dark";
-	tag = "icon-dark"
+	icon_state = "dark"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aIY" = (
@@ -11037,9 +10830,8 @@
 /area/bigredv2/outside/admin_building)
 "aJa" = (
 /turf/open/floor{
-	dir = 9;
-	icon_state = "darkgreen2";
-	tag = "icon-darkgreen2 (NORTHWEST)"
+	dir = 8;
+	icon_state = "darkpurplecorners2"
 	},
 /area/bigredv2/caves/lambda/research)
 "aJb" = (
@@ -11054,29 +10846,17 @@
 	},
 /area/bigredv2/outside/admin_building)
 "aJc" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4;
-	tag = "icon-intact-supply (EAST)"
-	},
 /turf/open/floor{
-	icon_state = "white"
+	icon_state = "browncorner"
 	},
 /area/bigredv2/caves_lambda)
-"aJd" = (
-/turf/open/floor{
-	dir = 8;
-	icon_state = "darkpurplecorners2";
-	tag = "icon-darkpurplecorners2 (WEST)"
-	},
-/area/bigredv2/caves)
 "aJe" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "warning_c"
 	},
 /turf/open/floor{
 	dir = 1;
-	icon_state = "asteroidfloor";
-	tag = "icon-asteroidfloor (NORTH)"
+	icon_state = "asteroidfloor"
 	},
 /area/bigredv2/outside/ne)
 "aJg" = (
@@ -11262,9 +11042,8 @@
 /area/bigredv2/outside/office_complex)
 "aJJ" = (
 /turf/open/floor{
-	dir = 8;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (WEST)"
+	dir = 4;
+	icon_state = "darkpurplecorners2"
 	},
 /area/bigredv2/caves/lambda/research)
 "aJL" = (
@@ -11272,19 +11051,6 @@
 	icon_state = "mars_cave_11"
 	},
 /area/bigredv2/caves)
-"aJM" = (
-/obj/structure/sign/nosmoking_1{
-	pixel_y = 32
-	},
-/obj/structure/machinery/light/built{
-	dir = 1;
-	tag = "icon-tube1 (NORTH)"
-	},
-/turf/open/floor{
-	icon_state = "dark";
-	tag = "icon-dark"
-	},
-/area/bigredv2/caves_lambda)
 "aJS" = (
 /obj/structure/window/reinforced/toughened{
 	icon_state = "fwindow";
@@ -11294,6 +11060,7 @@
 	dir = 8;
 	tag = "icon-rwindow (WEST)"
 	},
+/obj/structure/surface/table/reinforced/black,
 /turf/open/floor{
 	icon_state = "white"
 	},
@@ -11314,8 +11081,7 @@
 	dir = 1
 	},
 /turf/open/floor{
-	icon_state = "dark";
-	tag = "icon-dark"
+	icon_state = "dark"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aJV" = (
@@ -11326,14 +11092,13 @@
 	dir = 8
 	},
 /turf/open/floor{
-	icon_state = "dark";
-	tag = "icon-dark"
+	icon_state = "dark"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aJW" = (
 /turf/open/floor{
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2"
+	dir = 4;
+	icon_state = "darkpurplecorners2"
 	},
 /area/bigredv2/caves_east)
 "aJX" = (
@@ -11374,22 +11139,15 @@
 	},
 /area/bigredv2/caves_lambda)
 "aKd" = (
-/obj/structure/machinery/door/poddoor/almayer/closed{
-	dir = 4;
-	id = "lambda";
-	name = "Lambda Lockdown"
-	},
 /turf/open/floor{
-	dir = 1;
-	icon_state = "asteroidfloor";
-	tag = "icon-asteroidfloor (NORTH)"
+	icon_state = "brown";
+	dir = 6
 	},
-/area/bigredv2/outside/lambda_cave_cas)
+/area/bigredv2/caves_lambda)
 "aKf" = (
 /turf/open/floor{
-	dir = 9;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (EAST)"
+	dir = 4;
+	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves)
 "aKg" = (
@@ -11622,8 +11380,7 @@
 	},
 /obj/structure/plasticflaps,
 /turf/open/floor{
-	icon_state = "dark";
-	tag = "icon-dark"
+	icon_state = "dark"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aKT" = (
@@ -11660,18 +11417,12 @@
 	},
 /area/space)
 "aLa" = (
-/obj/structure/machinery/light/built,
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -30
 	},
-/obj/structure/machinery/power/apc{
-	dir = 8;
-	pixel_x = -30;
-	start_charge = 0
-	},
 /turf/open/floor{
-	icon_state = "dark";
-	tag = "icon-dark"
+	dir = 4;
+	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves)
 "aLc" = (
@@ -11888,15 +11639,13 @@
 "aLH" = (
 /turf/open/floor{
 	dir = 8;
-	icon_state = "purplecorner";
-	tag = "icon-purplecorner (WEST)"
+	icon_state = "darkyellowcorners2"
 	},
 /area/bigredv2/caves/lambda/research)
 "aLI" = (
 /turf/open/floor{
 	dir = 1;
-	icon_state = "purple";
-	tag = "icon-purple (NORTH)"
+	icon_state = "darkyellow2"
 	},
 /area/bigredv2/caves/lambda/research)
 "aLJ" = (
@@ -11913,15 +11662,13 @@
 	},
 /turf/open/floor{
 	dir = 1;
-	icon_state = "purple";
-	tag = "icon-purple (NORTH)"
+	icon_state = "darkyellow2"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aLO" = (
 /turf/open/floor{
 	dir = 5;
-	icon_state = "purple";
-	tag = "icon-purple (NORTHEAST)"
+	icon_state = "darkyellow2"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aLP" = (
@@ -12103,11 +11850,8 @@
 /turf/open/floor,
 /area/bigredv2/outside/hydroponics)
 "aMr" = (
-/obj/structure/pipes/standard/manifold/hidden/supply{
-	dir = 4
-	},
 /turf/open/floor{
-	icon_state = "white"
+	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/caves/lambda/research)
 "aMs" = (
@@ -12115,8 +11859,7 @@
 /obj/effect/spawner/random/technology_scanner,
 /turf/open/floor{
 	dir = 10;
-	icon_state = "purple";
-	tag = "icon-purple (SOUTHWEST)"
+	icon_state = "darkyellow2"
 	},
 /area/bigredv2/caves/lambda/research)
 "aMt" = (
@@ -12124,8 +11867,7 @@
 /obj/effect/spawner/random/powercell,
 /turf/open/floor{
 	dir = 8;
-	icon_state = "purple";
-	tag = "icon-purple (WEST)"
+	icon_state = "darkyellow2"
 	},
 /area/bigredv2/caves/lambda/research)
 "aMu" = (
@@ -12136,9 +11878,8 @@
 	dir = 4
 	},
 /turf/open/floor{
-	dir = 4;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (EAST)"
+	dir = 1;
+	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves)
 "aMB" = (
@@ -12267,7 +12008,7 @@
 	},
 /area/bigredv2/outside/e)
 "aMT" = (
-/turf/open/floor/plating,
+/turf/open/floor,
 /area/bigredv2/caves_lambda)
 "aMV" = (
 /turf/open/floor/bluegrid{
@@ -12290,8 +12031,8 @@
 /obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
 	name = "\improper Lambda Lab Biology Wing"
 	},
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "aMY" = (
@@ -12799,8 +12540,7 @@
 "aOm" = (
 /turf/open/floor{
 	dir = 8;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (WEST)"
+	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves_lambda)
 "aOp" = (
@@ -13211,11 +12951,10 @@
 /area/bigredv2/outside/library)
 "aPq" = (
 /turf/open/floor{
-	dir = 6;
-	icon_state = "darkgreen2";
-	tag = "icon-darkgreen2 (SOUTHEAST)"
+	icon_state = "brown";
+	dir = 5
 	},
-/area/bigredv2/caves/lambda/research)
+/area/bigredv2/caves)
 "aPr" = (
 /turf/closed/wall/solaris/rock,
 /area/bigredv2/outside/ne)
@@ -14045,11 +13784,11 @@
 	},
 /area/bigredv2/caves)
 "aRz" = (
-/obj/effect/landmark/monkey_spawn,
 /turf/open/floor{
-	icon_state = "white"
+	dir = 10;
+	icon_state = "darkpurple2"
 	},
-/area/bigredv2/caves)
+/area/bigredv2/caves/lambda/xenobiology)
 "aRD" = (
 /obj/effect/landmark/structure_spawner/xvx_hive/xeno_door,
 /turf/open/floor/plating,
@@ -14260,8 +13999,7 @@
 /obj/structure/blocker/forcefield/vehicles,
 /turf/open/floor{
 	dir = 5;
-	icon_state = "asteroidwarning";
-	tag = "icon-asteroidwarning (NORTHEAST)"
+	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/outside/lambda_cave_cas)
 "aSk" = (
@@ -14279,8 +14017,7 @@
 "aSm" = (
 /turf/open/floor{
 	dir = 1;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (NORTH)"
+	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves_lambda)
 "aSo" = (
@@ -14288,21 +14025,15 @@
 	pixel_x = 32
 	},
 /turf/open/floor{
-	dir = 1;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (NORTH)"
+	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aSp" = (
-/obj/effect/landmark/crap_item,
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 1;
-	tag = "icon-intact-supply (NORTH)"
-	},
 /turf/open/floor{
-	icon_state = "white"
+	dir = 5;
+	icon_state = "darkpurple2"
 	},
-/area/bigredv2/caves)
+/area/bigredv2/caves/lambda/xenobiology)
 "aSq" = (
 /turf/open/floor{
 	dir = 9;
@@ -14335,8 +14066,7 @@
 "aSt" = (
 /turf/open/floor{
 	dir = 6;
-	icon_state = "purple";
-	tag = "icon-purple (SOUTHEAST)"
+	icon_state = "darkyellow2"
 	},
 /area/bigredv2/caves)
 "aSu" = (
@@ -14775,51 +14505,48 @@
 /area/bigredv2/caves_lambda)
 "aTw" = (
 /turf/open/floor{
-	dir = 4;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (EAST)"
+	dir = 5;
+	icon_state = "darkpurple2"
 	},
-/area/bigredv2/caves_east)
+/area/bigredv2/caves/lambda/breakroom)
 "aTx" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor{
 	dir = 1;
-	icon_state = "asteroidwarning";
-	tag = "icon-asteroidwarning (NORTH)"
+	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/outside/lambda_cave_cas)
 "aTy" = (
 /turf/open/floor{
 	dir = 1;
-	icon_state = "asteroidwarning";
-	tag = "icon-asteroidwarning (NORTH)"
+	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/caves_lambda)
 "aTz" = (
 /turf/open/floor{
-	dir = 1;
-	icon_state = "asteroidwarning";
-	tag = "icon-asteroidwarning (NORTH)"
+	icon_state = "brown";
+	dir = 4
 	},
-/area/bigredv2/outside/lambda_cave_cas)
+/area/bigredv2/caves)
 "aTD" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
 	tag = "icon-E"
 	},
 /turf/open/floor{
-	icon_state = "white"
+	icon_state = "dark"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aTE" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 5;
-	tag = "icon-intact-supply (NORTHEAST)"
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "warning_c";
+	dir = 1
 	},
 /turf/open/floor{
-	icon_state = "white"
+	dir = 1;
+	icon_state = "asteroidfloor"
 	},
-/area/bigredv2/caves_lambda)
+/area/bigredv2/caves/lambda/research)
 "aTG" = (
 /turf/open/floor{
 	icon_state = "white"
@@ -15119,9 +14846,7 @@
 	name = "Lambda Lockdown"
 	},
 /turf/open/floor{
-	dir = 1;
-	icon_state = "asteroidfloor";
-	tag = "icon-asteroidfloor (NORTH)"
+	icon_state = "delivery"
 	},
 /area/bigredv2/outside/lambda_cave_cas)
 "aUx" = (
@@ -15132,14 +14857,12 @@
 /obj/structure/blocker/forcefield/vehicles,
 /turf/open/floor{
 	dir = 1;
-	icon_state = "asteroidfloor";
-	tag = "icon-asteroidfloor (NORTH)"
+	icon_state = "asteroidfloor"
 	},
 /area/bigredv2/outside/lambda_cave_cas)
 "aUy" = (
 /turf/open/floor{
-	icon_state = "asteroidwarning";
-	tag = "icon-asteroidwarning"
+	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/caves_lambda)
 "aUA" = (
@@ -15147,80 +14870,41 @@
 	dir = 4
 	},
 /turf/open/floor{
-	icon_state = "asteroidwarning";
-	tag = "icon-asteroidwarning"
+	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/outside/lambda_cave_cas)
-"aUD" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4;
-	tag = "icon-intact-supply (EAST)"
-	},
-/turf/open/floor{
-	icon_state = "white"
-	},
-/area/bigredv2/caves/lambda/virology)
 "aUE" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "E";
-	tag = "icon-E"
-	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4;
-	tag = "icon-intact-supply (EAST)"
-	},
 /turf/open/floor{
-	icon_state = "white"
+	dir = 6;
+	icon_state = "asteroidwarning";
+	tag = "icon-asteroidwarning (SOUTHEAST)"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aUF" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
-	dir = 1;
-	name = "\improper Lambda Lab Virology Wing"
-	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4;
-	tag = "icon-intact-supply (EAST)"
-	},
-/turf/open/floor{
-	icon_state = "delivery"
-	},
-/area/bigredv2/caves/lambda/virology)
-"aUH" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4;
-	tag = "icon-intact-supply (EAST)"
-	},
-/turf/open/floor{
-	dir = 4;
-	icon_state = "whitegreen";
-	tag = "icon-whitegreen (EAST)"
-	},
-/area/bigredv2/caves/lambda/virology)
+/turf/open/auto_turf/strata_grass/layer1,
+/area/space)
 "aUI" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4;
-	tag = "icon-intact-supply (EAST)"
-	},
 /obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
-	dir = 1;
-	name = "\improper Lambda Lab Virology Wing"
+	name = "\improper Lambda Lab Virology Quarantine";
+	req_one_access = null;
+	dir = 1
 	},
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aUJ" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4;
-	tag = "icon-intact-supply (EAST)"
+/obj/structure/barricade/handrail/wire{
+	dir = 4
+	},
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "warning_c"
 	},
 /turf/open/floor{
-	dir = 8;
-	icon_state = "whitegreen";
-	tag = "icon-whitegreen (WEST)"
+	dir = 1;
+	icon_state = "asteroidfloor"
 	},
-/area/bigredv2/caves/lambda/virology)
+/area/bigredv2/caves_lambda)
 "aUM" = (
 /obj/structure/machinery/computer/operating,
 /turf/open/floor{
@@ -15486,8 +15170,8 @@
 	pixel_x = 32
 	},
 /turf/open/floor{
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2"
+	dir = 1;
+	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves/lambda/virology)
 "aVz" = (
@@ -16032,8 +15716,7 @@
 /obj/effect/spawner/random/toolbox,
 /turf/open/floor{
 	dir = 10;
-	icon_state = "purple";
-	tag = "icon-purple (SOUTHWEST)"
+	icon_state = "darkyellow2"
 	},
 /area/bigredv2/caves/lambda/research)
 "aXd" = (
@@ -21047,10 +20730,6 @@
 /obj/structure/machinery/door/window{
 	dir = 8
 	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4;
-	tag = "icon-intact-supply (EAST)"
-	},
 /turf/open/floor{
 	icon_state = "white"
 	},
@@ -25899,6 +25578,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/bigredv2/caves/mining)
+"bKD" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "warning_s";
+	dir = 5
+	},
+/turf/open/mars_cave{
+	icon_state = "mars_cave_2"
+	},
+/area/bigredv2/caves)
 "bKY" = (
 /obj/structure/fence,
 /obj/structure/blocker/forcefield/multitile_vehicles,
@@ -25929,11 +25617,9 @@
 /area/bigredv2/outside/filtration_plant)
 "bMz" = (
 /turf/open/floor{
-	dir = 1;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (NORTH)"
+	icon_state = "darkpurplecorners2"
 	},
-/area/bigredv2/caves/lambda/research)
+/area/bigredv2/caves_east)
 "bNl" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_2"
@@ -26031,7 +25717,7 @@
 "bUN" = (
 /obj/structure/barricade/handrail/wire,
 /turf/open/floor{
-	icon_state = "warnwhite"
+	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/caves)
 "bWk" = (
@@ -26311,7 +25997,7 @@
 "cvf" = (
 /obj/structure/barricade/handrail/wire,
 /turf/open/floor{
-	icon_state = "warnwhite"
+	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/caves_lambda)
 "cvi" = (
@@ -26365,6 +26051,12 @@
 /obj/effect/decal/cleanable/blood/oil,
 /turf/open/floor/plating,
 /area/bigredv2/caves/mining)
+"cBc" = (
+/turf/open/floor{
+	dir = 10;
+	icon_state = "darkpurple2"
+	},
+/area/bigredv2/caves_lambda)
 "cCr" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/mars_cave{
@@ -26802,11 +26494,10 @@
 /area/bigredv2/outside/engineering)
 "dtf" = (
 /turf/open/floor{
-	dir = 5;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (EAST)"
+	dir = 4;
+	icon_state = "asteroidwarning"
 	},
-/area/bigredv2/caves/lambda/research)
+/area/bigredv2/caves_lambda)
 "dtX" = (
 /obj/structure/barricade/wooden{
 	desc = "This barricade is heavily reinforced. Nothing short of blasting it open seems like it'll do the trick, that or melting the breams supporting it...";
@@ -27064,9 +26755,7 @@
 /area/bigredv2/caves/mining)
 "dKR" = (
 /turf/open/floor{
-	dir = 8;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (WEST)"
+	icon_state = "dark"
 	},
 /area/bigredv2/caves_east)
 "dLe" = (
@@ -27616,8 +27305,8 @@
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
 	name = "\improper Anomaly Chamber"
 	},
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves_east)
 "eJU" = (
@@ -27735,6 +27424,11 @@
 	icon_state = "mars_dirt_7"
 	},
 /area/bigredv2/caves/mining)
+"eSD" = (
+/turf/open/mars_cave{
+	icon_state = "mars_cave_3"
+	},
+/area/bigredv2/caves)
 "eSN" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -27870,15 +27564,9 @@
 	},
 /area/bigredv2/caves_sw)
 "fgD" = (
-/obj/structure/machinery/power/apc{
-	dir = 1;
-	pixel_y = 28;
-	start_charge = 0
-	},
 /turf/open/floor{
-	dir = 9;
-	icon_state = "whitegreen";
-	tag = "icon-whitegreen (NORTHWEST)"
+	icon_state = "browncorner";
+	dir = 1
 	},
 /area/bigredv2/caves)
 "fgE" = (
@@ -27986,6 +27674,12 @@
 	},
 /turf/closed/wall/wood,
 /area/bigredv2/caves/mining)
+"fuf" = (
+/turf/open/floor{
+	dir = 4;
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves)
 "fus" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_7"
@@ -28060,6 +27754,12 @@
 	icon_state = "mars_cave_10"
 	},
 /area/bigredv2/outside/lz1_telecomm_cas)
+"fyn" = (
+/turf/open/floor{
+	dir = 1;
+	icon_state = "darkpurplecorners2"
+	},
+/area/bigredv2/caves/lambda/breakroom)
 "fyp" = (
 /obj/structure/machinery/power/apc,
 /turf/open/floor{
@@ -28093,6 +27793,18 @@
 	icon_state = "dark"
 	},
 /area/bigredv2/outside/filtration_plant)
+"fBH" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "warning_c"
+	},
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "warning_s";
+	dir = 4
+	},
+/turf/open/mars_cave{
+	icon_state = "mars_cave_2"
+	},
+/area/space)
 "fCb" = (
 /turf/open/floor,
 /area/bigredv2/outside/filtration_cave_cas)
@@ -28316,6 +28028,11 @@
 	icon_state = "delivery"
 	},
 /area/bigredv2/outside/engineering)
+"fWs" = (
+/turf/open/floor{
+	icon_state = "darkpurple2"
+	},
+/area/bigredv2/caves/lambda/research)
 "fWw" = (
 /turf/open/jungle{
 	bushes_spawn = 0;
@@ -28371,8 +28088,7 @@
 	},
 /turf/open/floor{
 	dir = 6;
-	icon_state = "purple";
-	tag = "icon-purple (SOUTHEAST)"
+	icon_state = "darkyellow2"
 	},
 /area/bigredv2/caves)
 "gcR" = (
@@ -28478,6 +28194,15 @@
 	},
 /turf/open/floor/plating,
 /area/bigredv2/outside/engineering)
+"gmI" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "warning_s";
+	dir = 1
+	},
+/turf/open/mars_cave{
+	icon_state = "mars_cave_2"
+	},
+/area/space)
 "gmN" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_18"
@@ -28737,10 +28462,10 @@
 /area/bigredv2/caves_research)
 "gOM" = (
 /turf/open/floor{
-	dir = 1;
-	icon_state = "warnwhite"
+	icon_state = "brown";
+	dir = 9
 	},
-/area/bigredv2/caves_lambda)
+/area/bigredv2/caves)
 "gPh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/door/airlock/almayer/secure/colony{
@@ -28821,6 +28546,20 @@
 	icon_state = "darkblue2"
 	},
 /area/bigredv2/caves/eta/research)
+"gWF" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "warning_c";
+	dir = 4
+	},
+/obj/structure/machinery/door/poddoor/almayer/closed{
+	dir = 4;
+	id = "lambda";
+	name = "Lambda Lockdown"
+	},
+/turf/open/floor{
+	icon_state = "delivery"
+	},
+/area/bigredv2/outside/ne)
 "gWU" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -28985,8 +28724,8 @@
 	},
 /area/bigredv2/outside/admin_building)
 "hmm" = (
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves/lambda/research)
 "hmJ" = (
@@ -29091,9 +28830,8 @@
 /area/bigredv2/caves/mining)
 "hwy" = (
 /turf/open/floor{
-	dir = 4;
-	icon_state = "darkgreen2";
-	tag = "icon-darkgreen2 (EAST)"
+	dir = 1;
+	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves/lambda/research)
 "hwY" = (
@@ -29140,6 +28878,12 @@
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
 /turf/open/floor,
 /area/bigredv2/outside/cargo)
+"hzF" = (
+/turf/open/floor{
+	dir = 4;
+	icon_state = "darkredcorners2"
+	},
+/area/bigredv2/caves/lambda/research)
 "hzP" = (
 /obj/item/paper/bigred/final,
 /turf/open/mars_cave{
@@ -29262,7 +29006,7 @@
 	},
 /turf/open/floor{
 	dir = 4;
-	icon_state = "warnwhite"
+	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/caves/lambda/research)
 "hNg" = (
@@ -29483,6 +29227,12 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/caves/mining)
+"ifK" = (
+/turf/open/floor{
+	dir = 5;
+	icon_state = "darkpurple2"
+	},
+/area/bigredv2/caves)
 "igM" = (
 /obj/effect/decal/cleanable/blood/drip{
 	pixel_x = 6
@@ -29600,6 +29350,12 @@
 /obj/effect/spawner/random/technology_scanner,
 /turf/open/floor/plating,
 /area/bigredv2/outside/filtration_plant)
+"irV" = (
+/turf/open/floor{
+	dir = 1;
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves/lambda/research)
 "isr" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E-corner"
@@ -29615,6 +29371,12 @@
 	icon_state = "white"
 	},
 /area/bigredv2/outside/virology)
+"ius" = (
+/obj/structure/machinery/door/window/northright{
+	pixel_y = -12
+	},
+/turf/closed/wall/solaris/reinforced,
+/area/bigredv2/caves_lambda)
 "iuu" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_16"
@@ -29634,6 +29396,14 @@
 	tag = "icon-podhatch (NORTHWEST)"
 	},
 /area/bigredv2/caves)
+"ixp" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "warning_s"
+	},
+/turf/open/mars_cave{
+	icon_state = "mars_cave_2"
+	},
+/area/bigredv2/caves)
 "ixA" = (
 /obj/item/ore,
 /turf/open/mars_cave{
@@ -29645,8 +29415,7 @@
 /obj/structure/blocker/forcefield/vehicles,
 /turf/open/floor{
 	dir = 1;
-	icon_state = "asteroidfloor";
-	tag = "icon-asteroidfloor (NORTH)"
+	icon_state = "asteroidfloor"
 	},
 /area/bigredv2/outside/lambda_cave_cas)
 "iyd" = (
@@ -29657,6 +29426,15 @@
 	icon_state = "darkyellow2"
 	},
 /area/bigredv2/outside/filtration_plant)
+"iyU" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "warning_c";
+	dir = 8
+	},
+/turf/open/mars_cave{
+	icon_state = "mars_cave_2"
+	},
+/area/bigredv2/caves)
 "iyY" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_13"
@@ -29771,6 +29549,12 @@
 	},
 /turf/closed/wall/solaris,
 /area/bigredv2/outside/chapel)
+"iJb" = (
+/obj/structure/barricade/handrail/strata,
+/turf/open/floor{
+	icon_state = "darkpurple2"
+	},
+/area/bigredv2/caves_lambda)
 "iJF" = (
 /obj/effect/decal/cleanable/blood{
 	icon_state = "gib6";
@@ -29801,6 +29585,12 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/caves/mining)
+"iNy" = (
+/turf/open/floor{
+	dir = 1;
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves_lambda)
 "iNR" = (
 /turf/open/gm/river,
 /area/bigredv2/outside/engineering)
@@ -29810,6 +29600,12 @@
 	icon_state = "mars_dirt_4"
 	},
 /area/bigredv2/caves_north)
+"iPk" = (
+/turf/open/floor{
+	dir = 6;
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves)
 "iPE" = (
 /obj/structure/prop/invuln/minecart_tracks{
 	dir = 1
@@ -30050,6 +29846,19 @@
 	},
 /turf/open/floor/plating,
 /area/bigredv2/outside/general_store)
+"jjW" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 4
+	},
+/obj/structure/machinery/colony_floodlight{
+	icon_state = "flood_l_off";
+	pixel_y = 17
+	},
+/turf/open/floor{
+	dir = 5;
+	icon_state = "asteroidwarning"
+	},
+/area/bigredv2/caves/lambda/research)
 "jkn" = (
 /obj/structure/surface/table,
 /obj/effect/decal/cleanable/dirt,
@@ -30199,7 +30008,8 @@
 	dir = 4
 	},
 /turf/open/floor{
-	icon_state = "white"
+	dir = 1;
+	icon_state = "asteroidfloor"
 	},
 /area/bigredv2/caves/lambda/virology)
 "jvt" = (
@@ -30364,6 +30174,12 @@
 	icon_state = "mars_cave_2"
 	},
 /area/bigredv2/outside/filtration_cave_cas)
+"jHb" = (
+/turf/open/floor{
+	dir = 1;
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves)
 "jHS" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/effect/decal/cleanable/blood/oil/streak,
@@ -30564,6 +30380,15 @@
 	icon_state = "mars_cave_9"
 	},
 /area/bigredv2/caves/mining)
+"jVE" = (
+/obj/structure/machinery/door/window/northright{
+	pixel_y = -12
+	},
+/obj/structure/surface/table/reinforced/prison,
+/turf/open/floor{
+	icon_state = "dark"
+	},
+/area/bigredv2/caves)
 "jVN" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
 /obj/effect/landmark/structure_spawner/xvx_hive/xeno_wall,
@@ -30610,6 +30435,12 @@
 	icon_state = "mars_cave_13"
 	},
 /area/bigredv2/caves/mining)
+"jWI" = (
+/obj/structure/flora/bush/desert/cactus/multiple,
+/turf/open/mars_cave{
+	icon_state = "mars_cave_3"
+	},
+/area/bigredv2/caves_lambda)
 "jXf" = (
 /obj/structure/pipes/standard/manifold/hidden/green{
 	dir = 4
@@ -30661,6 +30492,12 @@
 	icon_state = "mars_dirt_7"
 	},
 /area/bigredv2/caves/mining)
+"jZk" = (
+/obj/structure/barricade/handrail/strata,
+/turf/open/floor{
+	icon_state = "darkpurple2"
+	},
+/area/bigredv2/caves)
 "jZp" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -30825,7 +30662,7 @@
 "kih" = (
 /turf/open/floor{
 	dir = 1;
-	icon_state = "warnwhite"
+	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/caves/lambda/research)
 "kiq" = (
@@ -30834,7 +30671,7 @@
 	},
 /turf/open/floor{
 	dir = 5;
-	icon_state = "warnwhite"
+	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/caves/lambda/research)
 "kjr" = (
@@ -30909,6 +30746,12 @@
 	icon_state = "darkyellowcorners2"
 	},
 /area/bigredv2/outside/engineering)
+"kmL" = (
+/obj/structure/machinery/colony_floodlight{
+	icon_state = "flood_l_off"
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/bigredv2/caves)
 "knN" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -30923,6 +30766,12 @@
 	icon_state = "mars_cave_7"
 	},
 /area/bigredv2/outside/filtration_cave_cas)
+"koC" = (
+/turf/open/floor{
+	dir = 1;
+	icon_state = "darkpurple2"
+	},
+/area/space)
 "kpf" = (
 /turf/closed/wall/solaris/rock,
 /area/bigredv2/caves_lambda)
@@ -30931,8 +30780,8 @@
 	dir = 1;
 	name = "\improper Lambda Lab Virology Wing"
 	},
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves_east)
 "kqb" = (
@@ -30994,6 +30843,12 @@
 	icon_state = "mars_sand_10"
 	},
 /area/space)
+"ktM" = (
+/obj/structure/machinery/door/window/westleft,
+/turf/open/floor{
+	icon_state = "dark"
+	},
+/area/bigredv2/caves)
 "ktN" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_17"
@@ -31029,6 +30884,20 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/caves/mining)
+"kwA" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	tag = "icon-S"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/turf/open/floor{
+	dir = 1;
+	icon_state = "darkgreencorners2";
+	tag = "icon-darkgreencorners2 (NORTH)"
+	},
+/area/bigredv2/caves_lambda)
 "kwQ" = (
 /turf/open/floor{
 	dir = 10;
@@ -31128,6 +30997,12 @@
 	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/outside/se)
+"kKq" = (
+/obj/structure/flora/bush/desert/cactus,
+/turf/open/mars_cave{
+	icon_state = "mars_cave_11"
+	},
+/area/bigredv2/caves_lambda)
 "kKx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/ash,
@@ -31268,7 +31143,7 @@
 "kUO" = (
 /turf/open/floor{
 	dir = 1;
-	icon_state = "warnwhite"
+	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/caves)
 "kVS" = (
@@ -31500,6 +31375,12 @@
 	icon_state = "mars_cave_7"
 	},
 /area/bigredv2/caves_sw)
+"lxh" = (
+/obj/structure/machinery/colony_floodlight{
+	icon_state = "flood_l_off"
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/bigredv2/caves_lambda)
 "lxQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/paper/bigred/union,
@@ -31835,6 +31716,13 @@
 	icon_state = "darkyellow2"
 	},
 /area/bigredv2/outside/engineering)
+"mbn" = (
+/obj/structure/janitorialcart,
+/turf/open/floor{
+	icon_state = "brown";
+	dir = 9
+	},
+/area/bigredv2/caves)
 "mbT" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_21"
@@ -31985,8 +31873,8 @@
 /area/bigredv2/oob)
 "msf" = (
 /turf/open/floor{
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2"
+	dir = 4;
+	icon_state = "darkpurplecorners2"
 	},
 /area/bigredv2/caves/lambda/virology)
 "msq" = (
@@ -32031,6 +31919,15 @@
 "muP" = (
 /turf/closed/wall/wood,
 /area/bigredv2/caves_research)
+"muR" = (
+/obj/structure/barricade/handrail/strata{
+	dir = 8
+	},
+/turf/open/floor{
+	dir = 10;
+	icon_state = "darkpurple2"
+	},
+/area/bigredv2/caves)
 "mvh" = (
 /obj/structure/sink{
 	dir = 8;
@@ -32076,6 +31973,12 @@
 	icon_state = "mars_cave_15"
 	},
 /area/bigredv2/caves/mining)
+"myW" = (
+/turf/open/floor{
+	dir = 8;
+	icon_state = "asteroidwarning"
+	},
+/area/bigredv2/caves/lambda/research)
 "myY" = (
 /turf/open/floor{
 	icon_state = "delivery"
@@ -32176,6 +32079,11 @@
 	},
 /turf/closed/wall/solaris/rock,
 /area/bigredv2/caves)
+"mKT" = (
+/turf/open/floor{
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves)
 "mMf" = (
 /turf/open/mars{
 	icon_state = "mars_dirt_11"
@@ -32253,6 +32161,14 @@
 	icon_state = "darkred2"
 	},
 /area/bigredv2/outside/admin_building)
+"mTO" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "warning_c"
+	},
+/turf/open/mars_cave{
+	icon_state = "mars_cave_2"
+	},
+/area/bigredv2/caves)
 "mUy" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_7"
@@ -32459,6 +32375,12 @@
 	icon_state = "darkyellow2"
 	},
 /area/bigredv2/outside/engineering)
+"npp" = (
+/turf/open/floor{
+	dir = 8;
+	icon_state = "vault"
+	},
+/area/bigredv2/caves/lambda/research)
 "npz" = (
 /obj/structure/surface/table,
 /obj/item/spacecash/c100,
@@ -32945,8 +32867,7 @@
 	},
 /turf/open/floor{
 	dir = 1;
-	icon_state = "asteroidfloor";
-	tag = "icon-asteroidfloor (NORTH)"
+	icon_state = "asteroidfloor"
 	},
 /area/bigredv2/outside/ne)
 "ofn" = (
@@ -32978,7 +32899,8 @@
 	dir = 1
 	},
 /turf/open/floor{
-	icon_state = "white"
+	dir = 1;
+	icon_state = "asteroidfloor"
 	},
 /area/bigredv2/caves_lambda)
 "ofX" = (
@@ -33024,6 +32946,13 @@
 	},
 /turf/open/gm/river,
 /area/bigredv2/outside/engineering)
+"ojU" = (
+/obj/structure/surface/table/reinforced/prison,
+/turf/open/floor{
+	dir = 1;
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves/lambda/research)
 "okh" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -33110,9 +33039,7 @@
 /area/bigredv2/caves/mining)
 "ooi" = (
 /turf/open/floor{
-	dir = 4;
-	icon_state = "darkpurplecorners2";
-	tag = "icon-darkpurplecorners2 (EAST)"
+	icon_state = "darkpurplecorners2"
 	},
 /area/bigredv2/caves/lambda/research)
 "ooD" = (
@@ -33261,8 +33188,7 @@
 /area/bigredv2/caves_virology)
 "ozQ" = (
 /turf/open/floor{
-	icon_state = "dark";
-	tag = "icon-dark"
+	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves_lambda)
 "oAf" = (
@@ -33334,6 +33260,12 @@
 	},
 /turf/open/gm/river,
 /area/bigredv2/outside/engineering)
+"oJa" = (
+/turf/open/floor{
+	dir = 6;
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves_lambda)
 "oJd" = (
 /obj/structure/prop/invuln/minecart_tracks{
 	desc = "A heavy duty power cable for high voltage applications";
@@ -33586,9 +33518,7 @@
 /area/bigredv2/caves/eta/living)
 "pbK" = (
 /turf/open/floor{
-	dir = 1;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (NORTH)"
+	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves_east)
 "pbX" = (
@@ -33629,6 +33559,15 @@
 	icon_state = "mars_dirt_10"
 	},
 /area/bigredv2/outside/filtration_plant)
+"pdb" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "warning_s";
+	dir = 5
+	},
+/turf/open/mars_cave{
+	icon_state = "mars_cave_2"
+	},
+/area/space)
 "pdG" = (
 /obj/item/prop/alien/hugger,
 /turf/open/floor{
@@ -33677,6 +33616,19 @@
 	icon_state = "mars_cave_6"
 	},
 /area/bigredv2/caves_research)
+"phL" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 8
+	},
+/obj/structure/machinery/colony_floodlight{
+	icon_state = "flood_l_off";
+	pixel_y = 17
+	},
+/turf/open/floor{
+	dir = 9;
+	icon_state = "asteroidwarning"
+	},
+/area/bigredv2/caves/lambda/virology)
 "pjX" = (
 /obj/structure/machinery/shower{
 	dir = 8;
@@ -33807,6 +33759,12 @@
 	icon_state = "mars_cave_14"
 	},
 /area/bigredv2/caves/mining)
+"pxx" = (
+/obj/structure/flora/bush/desert/cactus,
+/turf/open/mars_cave{
+	icon_state = "mars_cave_10"
+	},
+/area/bigredv2/caves)
 "pxH" = (
 /obj/structure/platform_decoration{
 	dir = 4
@@ -34042,8 +34000,10 @@
 	},
 /area/bigredv2/caves/mining)
 "pSG" = (
-/turf/open/floor/plating,
-/area/space)
+/turf/open/mars_cave{
+	icon_state = "mars_cave_3"
+	},
+/area/bigredv2/caves_east)
 "pSO" = (
 /obj/item/reagent_container/food/snacks/grown/mushroom/plumphelmet{
 	pixel_x = 8
@@ -34164,8 +34124,8 @@
 /obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor/colony{
 	name = "\improper Lambda Lab Virology Wing"
 	},
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves_east)
 "pZe" = (
@@ -34541,6 +34501,15 @@
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
 /turf/open/floor,
 /area/bigredv2/outside/cargo)
+"qJs" = (
+/obj/structure/machinery/door/window/eastright{
+	dir = 8;
+	req_access_txt = "8"
+	},
+/turf/open/floor{
+	icon_state = "dark"
+	},
+/area/bigredv2/caves)
 "qJV" = (
 /obj/effect/decal/cleanable/blood/drip{
 	pixel_x = -5;
@@ -34571,8 +34540,8 @@
 	},
 /area/bigredv2/outside/eta)
 "qNu" = (
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/space)
 "qNP" = (
@@ -34611,7 +34580,8 @@
 	icon_state = "warning_c"
 	},
 /turf/open/floor{
-	icon_state = "white"
+	dir = 1;
+	icon_state = "asteroidfloor"
 	},
 /area/bigredv2/caves/lambda/research)
 "qSj" = (
@@ -34692,6 +34662,12 @@
 	icon_state = "dark"
 	},
 /area/bigredv2/caves/eta/research)
+"qZt" = (
+/turf/open/floor{
+	dir = 4;
+	icon_state = "darkpurplecorners2"
+	},
+/area/bigredv2/caves)
 "qZU" = (
 /obj/structure/machinery/light/small{
 	dir = 4
@@ -34715,6 +34691,12 @@
 	icon_state = "mars_cave_9"
 	},
 /area/bigredv2/outside/telecomm/lz2_cave)
+"rbt" = (
+/turf/open/floor{
+	dir = 10;
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves_lambda)
 "rbD" = (
 /obj/structure/largecrate/random,
 /turf/open/floor/plating{
@@ -34893,6 +34875,11 @@
 	icon_state = "mars_cave_19"
 	},
 /area/bigredv2/caves/mining)
+"rrh" = (
+/turf/open/floor{
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves_lambda)
 "rrl" = (
 /obj/effect/landmark/nightmare{
 	insert_tag = "filtration"
@@ -35000,6 +34987,15 @@
 	icon_state = "mars_dirt_12"
 	},
 /area/bigredv2/outside/se)
+"rBW" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "warning_s";
+	dir = 6
+	},
+/turf/open/mars_cave{
+	icon_state = "mars_cave_2"
+	},
+/area/space)
 "rCd" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor{
@@ -35406,6 +35402,12 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/caves/mining)
+"she" = (
+/turf/open/floor{
+	dir = 1;
+	icon_state = "darkpurple2"
+	},
+/area/bigredv2/caves)
 "shV" = (
 /turf/open/floor{
 	icon_state = "asteroidwarning"
@@ -35558,6 +35560,12 @@
 	icon_state = "mars_cave_2"
 	},
 /area/bigredv2/caves/mining)
+"ste" = (
+/obj/structure/surface/table/reinforced/prison,
+/turf/open/floor{
+	icon_state = "dark"
+	},
+/area/bigredv2/caves_lambda)
 "sus" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_23"
@@ -35718,6 +35726,12 @@
 	icon_state = "darkyellow2"
 	},
 /area/bigredv2/outside/engineering)
+"sDh" = (
+/turf/open/floor{
+	icon_state = "browncorner";
+	dir = 8
+	},
+/area/bigredv2/caves_lambda)
 "sDs" = (
 /obj/structure/closet/crate/miningcar,
 /obj/item/weapon/gun/smg/nailgun,
@@ -35789,6 +35803,12 @@
 	icon_state = "mars_dirt_6"
 	},
 /area/bigredv2/caves/mining)
+"sHI" = (
+/turf/open/floor{
+	dir = 1;
+	icon_state = "darkredcorners2"
+	},
+/area/bigredv2/caves_lambda)
 "sIb" = (
 /obj/structure/machinery/teleport/hub,
 /turf/open/floor{
@@ -36130,6 +36150,11 @@
 	icon_state = "mars_dirt_4"
 	},
 /area/bigredv2/caves/mining)
+"tiM" = (
+/turf/open/floor{
+	icon_state = "darkredcorners2"
+	},
+/area/bigredv2/caves_lambda)
 "tju" = (
 /obj/structure/machinery/shower{
 	dir = 8
@@ -36151,8 +36176,8 @@
 	name = "\improper Lambda Lab Anomaly Lab";
 	req_one_access = null
 	},
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves)
 "tlj" = (
@@ -36186,6 +36211,12 @@
 	icon_state = "mars_dirt_4"
 	},
 /area/bigredv2/caves_research)
+"tnq" = (
+/turf/open/floor{
+	dir = 8;
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves)
 "tnQ" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_20"
@@ -36468,7 +36499,7 @@
 "tFN" = (
 /obj/structure/barricade/handrail/wire,
 /turf/open/floor{
-	icon_state = "warnwhite"
+	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/caves/lambda/research)
 "tHl" = (
@@ -36708,8 +36739,8 @@
 	dir = 1;
 	name = "\improper Lambda Lab Administration Wing"
 	},
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves/lambda/research)
 "uaS" = (
@@ -36759,6 +36790,12 @@
 	icon_state = "darkgreencorners2"
 	},
 /area/bigredv2/caves/eta/research)
+"ufC" = (
+/turf/open/floor{
+	dir = 8;
+	icon_state = "darkredcorners2"
+	},
+/area/bigredv2/caves_lambda)
 "ufD" = (
 /turf/open/floor{
 	dir = 1;
@@ -36773,8 +36810,13 @@
 /obj/structure/barricade/handrail/wire{
 	dir = 4
 	},
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "warning_c";
+	dir = 8
+	},
 /turf/open/floor{
-	icon_state = "white"
+	dir = 1;
+	icon_state = "asteroidfloor"
 	},
 /area/bigredv2/caves_lambda)
 "ugW" = (
@@ -37277,9 +37319,7 @@
 	pixel_x = 32
 	},
 /turf/open/floor{
-	dir = 5;
-	icon_state = "darkpurple2";
-	tag = "icon-darkpurple2 (EAST)"
+	icon_state = "dark"
 	},
 /area/bigredv2/caves/lambda/research)
 "vct" = (
@@ -37398,6 +37438,15 @@
 	icon_state = "asteroidfloor"
 	},
 /area/bigredv2/outside/filtration_plant)
+"vjt" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "warning_s";
+	dir = 4
+	},
+/turf/open/mars_cave{
+	icon_state = "mars_cave_2"
+	},
+/area/bigredv2/caves)
 "vld" = (
 /obj/item/tool/warning_cone,
 /turf/open/mars_cave{
@@ -37408,8 +37457,13 @@
 /obj/structure/barricade/handrail/wire{
 	dir = 8
 	},
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "warning_c";
+	dir = 4
+	},
 /turf/open/floor{
-	icon_state = "white"
+	dir = 1;
+	icon_state = "asteroidfloor"
 	},
 /area/bigredv2/caves_lambda)
 "vlr" = (
@@ -37686,8 +37740,8 @@
 /turf/closed/wall/wood,
 /area/bigredv2/caves/mining)
 "vHA" = (
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "vJh" = (
@@ -37702,7 +37756,7 @@
 	},
 /turf/open/floor{
 	dir = 9;
-	icon_state = "warnwhite"
+	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/caves/lambda/virology)
 "vKv" = (
@@ -37757,6 +37811,13 @@
 	icon_state = "wood"
 	},
 /area/bigredv2/outside/admin_building)
+"vOC" = (
+/obj/structure/surface/table/reinforced/prison,
+/turf/open/floor{
+	dir = 1;
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves_lambda)
 "vPP" = (
 /obj/effect/decal/cleanable/blood/drip{
 	pixel_x = 6
@@ -37779,8 +37840,8 @@
 	dir = 1;
 	name = "\improper Lambda Lab Cell"
 	},
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/space)
 "vQZ" = (
@@ -37797,8 +37858,8 @@
 /area/bigredv2/caves/mining)
 "vRK" = (
 /turf/open/floor{
-	icon_state = "purple";
-	tag = "icon-purple"
+	dir = 8;
+	icon_state = "darkyellowcorners2"
 	},
 /area/bigredv2/caves)
 "vRR" = (
@@ -38041,15 +38102,6 @@
 	icon_state = "podhatchfloor"
 	},
 /area/bigredv2/outside/engineering)
-"wjW" = (
-/obj/structure/pipes/standard/manifold/hidden/supply{
-	dir = 4;
-	tag = "icon-map-supply (EAST)"
-	},
-/turf/open/floor{
-	icon_state = "white"
-	},
-/area/bigredv2/caves/lambda/research)
 "wko" = (
 /turf/closed/wall/strata_ice/jungle,
 /area/bigredv2/caves/lambda/xenobiology)
@@ -38185,8 +38237,8 @@
 	},
 /area/bigredv2/outside/filtration_plant)
 "wvR" = (
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves/lambda/virology)
 "wwT" = (
@@ -38207,6 +38259,15 @@
 	icon_state = "darkyellow2"
 	},
 /area/bigredv2/outside/engineering)
+"wAY" = (
+/obj/structure/barricade/handrail/strata{
+	dir = 8
+	},
+/turf/open/floor{
+	dir = 9;
+	icon_state = "darkpurple2"
+	},
+/area/bigredv2/caves)
 "wBi" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -38437,6 +38498,16 @@
 	icon_state = "mars_cave_7"
 	},
 /area/bigredv2/caves_lambda)
+"wQF" = (
+/obj/structure/machinery/door/poddoor/almayer/closed{
+	dir = 4;
+	id = "lambda";
+	name = "Lambda Lockdown"
+	},
+/turf/open/floor{
+	icon_state = "delivery"
+	},
+/area/bigredv2/outside/ne)
 "wRH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/device/flashlight,
@@ -38518,7 +38589,9 @@
 "wXj" = (
 /obj/structure/barricade/handrail/wire,
 /turf/open/floor{
-	icon_state = "white"
+	dir = 6;
+	icon_state = "asteroidwarning";
+	tag = "icon-asteroidwarning (SOUTHEAST)"
 	},
 /area/bigredv2/caves/lambda/virology)
 "wXz" = (
@@ -38532,6 +38605,14 @@
 	icon_state = "wood"
 	},
 /area/bigredv2/outside/bar)
+"wYq" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "warning_c"
+	},
+/turf/open/mars_cave{
+	icon_state = "mars_cave_2"
+	},
+/area/space)
 "wYE" = (
 /obj/structure/prop/server_equipment/yutani_server{
 	density = 0;
@@ -38756,6 +38837,12 @@
 	icon_state = "mars_dirt_4"
 	},
 /area/bigredv2/caves/mining)
+"xsY" = (
+/turf/open/floor{
+	icon_state = "brown";
+	dir = 1
+	},
+/area/bigredv2/caves)
 "xte" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light,
@@ -38834,6 +38921,9 @@
 	icon_state = "mars_dirt_4"
 	},
 /area/bigredv2/caves/mining)
+"xyi" = (
+/turf/closed/wall/strata_ice/jungle,
+/area/space)
 "xyu" = (
 /obj/structure/closet/l3closet/security,
 /turf/open/floor{
@@ -38996,15 +39086,6 @@
 	icon_state = "mars_dirt_4"
 	},
 /area/bigredv2/caves/mining)
-"xKb" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 1;
-	tag = "icon-intact-supply (NORTH)"
-	},
-/turf/open/floor{
-	icon_state = "white"
-	},
-/area/bigredv2/caves/lambda/research)
 "xKG" = (
 /obj/structure/bed/sofa/south/grey/right{
 	pixel_y = 6
@@ -39089,8 +39170,7 @@
 "xUo" = (
 /turf/open/floor{
 	dir = 1;
-	icon_state = "darkpurplecorners2";
-	tag = "icon-darkpurplecorners2 (EAST)"
+	icon_state = "darkpurplecorners2"
 	},
 /area/bigredv2/caves_lambda)
 "xUS" = (
@@ -39114,8 +39194,8 @@
 	name = "\improper Lambda Lab Virology Quarantine";
 	req_one_access = null
 	},
-/turf/open/floor{
-	icon_state = "delivery"
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves_lambda)
 "xWr" = (
@@ -68352,7 +68432,7 @@ ovq
 ayz
 ayz
 aAh
-avb
+apo
 anU
 aCf
 aCo
@@ -68569,7 +68649,7 @@ ako
 ako
 ako
 ako
-avb
+apo
 anU
 aCf
 aCZ
@@ -68786,7 +68866,7 @@ axR
 ayw
 azc
 ako
-avb
+apo
 anU
 aCf
 aCo
@@ -69003,7 +69083,7 @@ ako
 ayx
 azd
 ako
-avb
+apo
 anU
 aCf
 aCo
@@ -69220,7 +69300,7 @@ ako
 ako
 ako
 ako
-avb
+apo
 anU
 aCf
 aCo
@@ -69437,7 +69517,7 @@ axR
 ayw
 azc
 ako
-avb
+apo
 anU
 aCf
 aCZ
@@ -69654,7 +69734,7 @@ ako
 ayx
 azd
 ako
-avb
+apo
 anT
 anY
 anY
@@ -69871,7 +69951,7 @@ ako
 ako
 ako
 ako
-avb
+apo
 anT
 aCi
 aCZ
@@ -70088,7 +70168,7 @@ ako
 aao
 arD
 aMk
-avb
+apo
 anT
 aCj
 aCo
@@ -70305,7 +70385,7 @@ ako
 aao
 arD
 aMk
-avb
+apo
 anT
 aOc
 aCo
@@ -70522,7 +70602,7 @@ ako
 aao
 aao
 aMk
-avb
+apo
 anT
 aCl
 aDa
@@ -70739,7 +70819,7 @@ ako
 aao
 aao
 aMk
-avb
+apo
 anT
 aCm
 aCZ
@@ -70956,7 +71036,7 @@ ako
 aao
 aao
 aMk
-avb
+apo
 anT
 aCn
 aCZ
@@ -71173,7 +71253,7 @@ ako
 aao
 aao
 aMk
-avb
+apo
 anT
 aCo
 aCZ
@@ -71390,7 +71470,7 @@ arD
 aao
 aao
 aMk
-avb
+apo
 anT
 aCp
 aDb
@@ -71607,7 +71687,7 @@ arD
 aao
 arD
 aMk
-avb
+apo
 anW
 anW
 anW
@@ -71824,8 +71904,8 @@ arD
 arD
 arD
 aMk
-avb
-avb
+apo
+apo
 anW
 aDc
 aEi
@@ -72041,8 +72121,8 @@ arD
 arD
 arD
 aMk
-avb
-avb
+apo
+apo
 anW
 aDc
 aEi
@@ -72258,8 +72338,8 @@ avN
 avN
 avN
 oea
-avb
-avb
+apo
+apo
 anW
 aDc
 aEi
@@ -72468,7 +72548,7 @@ aao
 aao
 aao
 arD
-alh
+aMk
 anu
 aJe
 aqa
@@ -72685,8 +72765,8 @@ gNH
 gNH
 aGg
 aGg
-oea
-avb
+gWF
+wQF
 aGg
 arD
 arD
@@ -72902,8 +72982,8 @@ aBH
 auD
 auD
 avf
-avb
-avb
+apo
+apo
 aGg
 arD
 arD
@@ -73119,8 +73199,8 @@ aBH
 auD
 auD
 avf
-avb
-avb
+apo
+apo
 aGg
 arD
 arD
@@ -73336,8 +73416,8 @@ aBH
 aBH
 aBH
 avf
-avb
-avb
+apo
+apo
 gNH
 aao
 aao
@@ -73553,7 +73633,7 @@ aBH
 aBH
 aBH
 avf
-avb
+apo
 agh
 gNH
 aao
@@ -73766,7 +73846,7 @@ kpf
 tQw
 tQw
 arK
-fjP
+ajO
 gNH
 gNH
 gNH
@@ -74178,7 +74258,7 @@ tQw
 tQw
 arK
 ajW
-fjP
+ajO
 gNH
 gNH
 gNH
@@ -74394,12 +74474,12 @@ tQw
 tQw
 arK
 arK
-aBH
-aBH
-aBH
-aBH
-aBH
-ocR
+dIb
+dIb
+dIb
+dIb
+dIb
+aMT
 arK
 arK
 kpf
@@ -74610,14 +74690,14 @@ tQw
 tQw
 tQw
 arK
-ocR
-aBH
-aBH
-aBH
-aBH
-aBH
-ocR
-ocR
+aMT
+dIb
+dIb
+dIb
+dIb
+dIb
+aMT
+aMT
 arK
 tQw
 wbp
@@ -74827,14 +74907,14 @@ tQw
 tQw
 tQw
 arK
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-ocR
-ocR
+dIb
+dIb
+dIb
+dIb
+dIb
+dIb
+aMT
+aMT
 arK
 tQw
 wbp
@@ -75044,14 +75124,14 @@ tQw
 tQw
 kpf
 gNH
-aBH
-aBH
-aBH
-agl
-agl
-agl
-agl
-agl
+dIb
+dIb
+dIb
+agk
+agk
+agk
+agk
+agk
 adZ
 arc
 wbp
@@ -75098,15 +75178,15 @@ aao
 aao
 aao
 apI
-aCs
-aKd
+wNw
+wNw
 aUw
-ajw
+wNw
 apI
 apI
 aXt
 aXX
-alU
+aTr
 aZi
 nRT
 bat
@@ -75261,14 +75341,14 @@ tQw
 tQw
 kpf
 gNH
-aBH
-aBH
-agl
-agl
-agl
-agl
-agl
-agl
+dIb
+dIb
+agk
+agk
+agk
+agk
+agk
+agk
 adZ
 arc
 arc
@@ -75323,7 +75403,7 @@ aao
 aao
 aXt
 aXt
-alU
+aTr
 atb
 nRT
 aJy
@@ -75479,12 +75559,12 @@ kpf
 kpf
 gNH
 gNH
-aBH
-agl
-agl
-agl
-agl
-agl
+dIb
+agk
+agk
+agk
+agk
+agk
 adZ
 adZ
 arc
@@ -75540,7 +75620,7 @@ aao
 aao
 aao
 aao
-alU
+aTr
 atb
 atb
 atb
@@ -75696,7 +75776,7 @@ kpf
 kpf
 gNH
 gNH
-fjP
+ajO
 aCy
 adZ
 adZ
@@ -75913,30 +75993,30 @@ kpf
 kpf
 gNH
 gNH
-aBH
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-aBH
-aBH
-agl
-agl
-agl
-agl
-agl
-agl
+ano
+agi
+aFo
+amW
+amW
+amW
+amW
+amW
+amW
+amW
+amW
+amW
+aDk
+amO
+agi
+agi
+aFo
+amW
+amW
+amW
 awG
 awG
 awG
-awG
+alk
 amk
 amk
 azm
@@ -76129,8 +76209,10 @@ tQw
 kpf
 kpf
 gNH
-aBH
-aBH
+she
+ano
+agi
+awK
 agl
 agl
 agl
@@ -76142,19 +76224,17 @@ agl
 agl
 agl
 agl
+auw
+awK
 agl
 agl
 agl
 agl
-agl
-agl
-agl
-agl
-awG
-awG
-awG
-awG
-awG
+aAW
+aAW
+afu
+aCs
+alk
 amk
 azm
 azm
@@ -76184,7 +76264,7 @@ wbp
 wbp
 gNH
 cIq
-aTz
+hLs
 aUA
 hSs
 gNH
@@ -76346,9 +76426,9 @@ tQw
 kpf
 kpf
 gNH
-aBH
-aBH
-aBH
+she
+aoE
+aKf
 adZ
 adZ
 aev
@@ -76361,17 +76441,17 @@ aev
 aev
 adZ
 adZ
-agl
-agl
+aAi
+ati
 adZ
 adZ
 adZ
 adZ
 amk
 amk
-awG
-awG
-awG
+aTw
+afu
+alY
 amk
 amk
 azm
@@ -76401,7 +76481,7 @@ wbp
 wbp
 aRv
 nVw
-aTz
+hLs
 aUA
 qkB
 aao
@@ -76563,8 +76643,8 @@ tQw
 tQw
 kpf
 gNH
-aBH
-aBH
+she
+app
 gNH
 adZ
 wko
@@ -76578,8 +76658,8 @@ aMu
 aMu
 lZb
 adZ
-agl
-agl
+aAi
+ati
 adZ
 wko
 wko
@@ -76587,19 +76667,19 @@ aMu
 aMu
 adZ
 adZ
-agl
-agl
-awG
+aAi
+aFo
+alk
 amk
 amk
 amk
 amk
 amk
 amk
-awG
-aBH
-aBH
-ocR
+aAW
+ano
+ano
+akG
 arK
 gNH
 gNH
@@ -76618,7 +76698,7 @@ wbp
 wbp
 wbp
 aSk
-aTz
+hLs
 aUA
 aao
 aao
@@ -76780,8 +76860,8 @@ tQw
 tQw
 kpf
 gNH
-aBH
-aBH
+she
+app
 gNH
 wko
 wko
@@ -76795,8 +76875,8 @@ rAp
 aMu
 aMu
 aev
-agl
-agl
+aAi
+ati
 aev
 aMu
 weu
@@ -76804,28 +76884,28 @@ aMu
 wTf
 arc
 adZ
-agl
-agl
+aSp
+auw
+aCs
 awG
 awG
 awG
 awG
-awG
-awG
+fyn
 vHA
-awG
-aDn
-aDn
-aDn
+aCs
+arN
+arN
+anV
 hmm
-afz
-afz
-alY
-alY
-alY
-alY
-aMT
-aMT
+aJa
+arN
+aDk
+aDk
+aDk
+aDk
+aOm
+cBc
 arK
 arK
 kpf
@@ -76835,7 +76915,7 @@ wbp
 wbp
 wbp
 aSk
-aTz
+hLs
 aUA
 aao
 aao
@@ -76997,8 +77077,8 @@ tQw
 tQw
 tQw
 gNH
-aBH
-agl
+she
+ati
 adZ
 wko
 aMu
@@ -77012,8 +77092,8 @@ wko
 wko
 aMu
 aev
-agl
-agl
+aAi
+ati
 aev
 aMu
 aMu
@@ -77022,28 +77102,28 @@ arc
 arc
 adZ
 adZ
-agl
-awG
-awG
-awG
-awG
-awG
-awG
+aSp
+aAW
+aAW
+aAW
+aAW
+aAW
+afu
 vHA
-awG
-aDn
-aDn
-aDn
+aiV
+afz
+afz
+aJJ
 hmm
+ooi
 afz
-afz
-alY
-alY
-alY
-alY
-alY
-alY
-aMT
+aKf
+aKf
+aKf
+aKf
+qZt
+aiS
+cBc
 arK
 kpf
 kpf
@@ -77052,7 +77132,7 @@ kpf
 wbp
 wbp
 aSk
-aTz
+hLs
 aUA
 aao
 aao
@@ -77078,7 +77158,7 @@ gCE
 gCE
 gCE
 qFY
-aao
+wbp
 aao
 aao
 aao
@@ -77214,8 +77294,8 @@ tQw
 tQw
 tQw
 agg
-aBH
-agl
+she
+ati
 aev
 aMu
 aMu
@@ -77229,8 +77309,8 @@ wko
 wko
 aMu
 aev
-agl
-agl
+aAi
+ati
 aev
 pSO
 aMu
@@ -77248,9 +77328,9 @@ amk
 amk
 amk
 awG
-aDn
-aDn
-aDn
+aqb
+aqb
+arN
 anI
 anI
 anI
@@ -77258,9 +77338,9 @@ gNH
 gNH
 gNH
 gNH
-alY
-alY
-alY
+ifK
+qZt
+aiS
 arK
 arK
 arK
@@ -77269,7 +77349,7 @@ kpf
 kpf
 aRw
 dLe
-aTz
+hLs
 aUA
 atf
 wbp
@@ -77431,8 +77511,8 @@ tQw
 tQw
 tQw
 agg
-aBH
-agl
+she
+ati
 aev
 aMu
 wTf
@@ -77446,8 +77526,8 @@ aMu
 aMu
 aMu
 adZ
-agl
-agl
+aIJ
+aFo
 adZ
 aMu
 aMu
@@ -77458,10 +77538,10 @@ arc
 arc
 adZ
 amk
-awG
-awG
-awG
-awG
+aGU
+aGU
+aGU
+aGU
 amk
 amk
 amk
@@ -77470,19 +77550,19 @@ hmm
 anI
 anI
 anI
-aDn
-aDn
-aBH
-aBH
+aqb
+aqb
+ano
+ano
 gNH
 gNH
-alY
-alY
-gNH
-alY
-aMT
+she
+ano
+ajO
+tnq
+rbt
 arK
-kpf
+arK
 kpf
 kpf
 eFh
@@ -77497,7 +77577,7 @@ ecK
 gCE
 gCE
 gCE
-gpg
+gCE
 gCE
 gCE
 gCE
@@ -77648,8 +77728,8 @@ tQw
 tQw
 tQw
 agg
-aBH
-agl
+she
+ati
 aev
 aMu
 wko
@@ -77674,31 +77754,31 @@ amk
 azm
 azm
 amk
-awG
-awG
-awG
-awG
-awG
-awG
+aGU
+aGU
+aGU
+aGU
+aGU
+aGU
 azi
-awG
-aDn
-aDn
-aDn
+alY
+aqb
+aqb
+hwy
 anL
-aDn
-aDn
-aDn
-aDn
-aBH
-aBH
+aqb
+aqb
+aqb
+aqb
+ano
+ano
 gNH
-alY
-alY
-gNH
-alY
-aMT
-arK
+she
+ano
+ajO
+ano
+ufC
+rbt
 arK
 arK
 kpf
@@ -77713,11 +77793,11 @@ aao
 ecK
 gCE
 gCE
-qFY
 gCE
 gCE
 gCE
-gpg
+gCE
+gCE
 gCE
 gCE
 gCE
@@ -77865,8 +77945,8 @@ tQw
 tQw
 tQw
 gNH
-aBH
-agl
+she
+ati
 adZ
 aMu
 wko
@@ -77875,48 +77955,48 @@ aMu
 aMu
 adZ
 gNH
-aBH
-aBH
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-awG
+ano
+ano
+agi
+agi
+ati
+auw
+awK
+aAi
+agi
+agi
+agi
+aGU
 amk
 amk
 azm
 amk
-awG
-awG
-awG
-awG
-awG
-aBH
+aGU
+aGU
+aGU
+aGU
+aGU
+ano
 anL
-aDn
-aDn
-aDn
-aDn
+aJa
+hwy
+fWs
+anV
 anL
-aDn
-aDn
-aDn
-aDn
-aBH
-aDn
+aqb
+aqb
+aqb
+aqb
+ano
+aqb
 anI
-afz
-afz
+hwy
+ooi
 anI
-afz
-aMT
-aMT
-aMT
+hzF
+axT
+ufC
+rbt
 arK
 kpf
 tQw
@@ -78082,8 +78162,8 @@ tQw
 tQw
 tQw
 gNH
-aBH
-agl
+she
+ati
 adZ
 aMu
 wko
@@ -78091,49 +78171,49 @@ kWa
 aMu
 adZ
 adZ
-aBH
-aBH
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-awG
+ano
+ano
+agi
+agi
+agi
+agi
+aAi
+ati
+agi
+agi
+agi
+agi
+agi
+aGU
 amk
 amk
 amk
-awG
-awG
-awG
-awG
-awG
-aBH
+aGU
+aGU
+aGU
+aGU
+aGU
+ano
 anL
-aDn
-aDn
-aDn
-aDn
+aqb
+hwy
+fWs
+aqb
 anL
-aDn
-aDn
-aDn
-aDn
-aBH
-aDn
+aqb
+aqb
+aqb
+aqb
+ano
+aqb
 anI
-afz
-afz
+hwy
+fWs
 anI
-afz
-aMT
-aMT
-aMT
+irV
+axT
+axT
+rrh
 arK
 arK
 arK
@@ -78146,13 +78226,13 @@ tQw
 gCE
 gCE
 gCE
-qFY
+gCE
 wbp
 aao
 aao
 aao
 sON
-gCE
+sfI
 gCE
 gCE
 gCE
@@ -78299,63 +78379,63 @@ tQw
 tQw
 tQw
 arK
-aBH
-agl
+she
+ati
 adZ
 aMu
 wko
 aMu
 aMu
 adZ
-agl
-aBH
-aBH
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-awG
-awG
+agi
+ano
+ano
+agi
+agi
+agi
+agi
+aAi
+ati
+agi
+agi
+agi
+agi
+agi
+aGU
+aGU
 amk
 amk
-awG
-awG
-awG
-awG
-awG
-aBH
-anI
-aDn
-aDn
-aDn
-aDn
-anI
-aDn
-aDn
-aDn
-aDn
-aBH
-aDn
+aGU
+aGU
+aGU
+aGU
+aGU
+ano
 anI
 afz
+hwy
+fWs
 afz
 anI
-afz
-aMT
-aMT
-aMT
-aMT
-arK
-aSm
-ocR
-ocR
+aqb
+aqb
+aqb
+aqb
+ano
+aqb
+anI
+hwy
+fWs
+anI
+ojU
+ste
+axT
+ufC
+rbt
+rEJ
+ozQ
+axT
+axT
 aig
 arK
 tQw
@@ -78370,6 +78450,9 @@ aao
 foB
 foB
 gCE
+rAs
+rAs
+sfI
 gCE
 gCE
 gCE
@@ -78382,10 +78465,7 @@ gCE
 gCE
 gCE
 gCE
-gCE
-gCE
-gCE
-gCE
+pSG
 kQc
 gpg
 gCE
@@ -78516,64 +78596,64 @@ tQw
 tQw
 tQw
 rEJ
-aBH
-agl
+she
+ati
 aev
 aMu
 wko
 wko
 aMu
 aev
-agl
-aBH
-aBH
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-awG
-awG
+agi
+ano
+ano
+agi
+agi
+agi
+agi
+aAi
+ati
+agi
+agi
+agi
+agi
+agi
+aGU
+aGU
 amk
 amk
-awG
-awG
-awG
-awG
-awG
-aBH
+aGU
+aGU
+aGU
+aGU
+aGU
+ano
 hmm
-aDn
-aDn
-aDn
-aDn
+aqb
+aqb
+aqb
+aqb
 hmm
-aDn
-aDn
-aDn
-aDn
-aBH
-aDn
+aqb
+aqb
+aqb
+aqb
+ano
+aqb
 anI
-afz
-afz
+hwy
+fWs
 anI
-afz
-aMT
-aMT
-aMT
-aMT
-arK
-aSm
-ocR
-ocR
-aig
+irV
+axT
+axT
+axT
+rrh
+rEJ
+iJb
+axT
+axT
+xUo
 arK
 kpf
 tQw
@@ -78590,18 +78670,18 @@ gpg
 gpg
 gpg
 gCE
+sfI
 gCE
 gCE
 gCE
+gCE
+gCE
+gCE
+sON
+rAs
 gpg
 gpg
 gpg
-gpg
-gpg
-gpg
-gpg
-gpg
-ohD
 aJL
 aao
 foB
@@ -78733,63 +78813,63 @@ tQw
 tQw
 tQw
 agg
-aBH
-agl
+she
+ati
 aev
 aMu
 jnf
 wko
 aMu
 aev
-agl
-aBH
-aBH
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-aBH
-awG
+agi
+ano
+ano
+agi
+agi
+agi
+agi
+aAi
+ati
+agi
+agi
+agi
+agi
+agi
+ano
+aGU
 amk
 amk
 amk
-awG
-awG
-awG
-aBH
-aBH
+aGU
+aGU
+aGU
+ano
+ano
 hmm
-aDn
-aDn
-aDn
-aDn
+aqb
+aqb
+aqb
+aqb
 hmm
-aDn
-aDn
-aDn
-aDn
-aBH
-aDn
+aqb
+aqb
+aqb
+aqb
+ano
+aqb
 anI
-afz
-afz
+hwy
+fWs
 gNH
-alY
-aMT
-aMT
-aMT
-aMT
-arK
-aSm
-ocR
-ocR
+jHb
+axT
+axT
+axT
+rrh
+rEJ
+iJb
+axT
+axT
 aig
 arK
 kpf
@@ -78813,9 +78893,9 @@ gCE
 gCE
 gCE
 gCE
-gCE
-aao
-aao
+sON
+eSD
+aJL
 aao
 aao
 aao
@@ -78950,64 +79030,64 @@ tQw
 tQw
 tQw
 agg
-aBH
-agl
+she
+ati
 aev
 aMu
 aMu
 aMu
 aMu
 aev
-agl
-agl
-aBH
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-aBH
-awG
+agi
+agi
+ano
+agi
+agi
+agi
+agi
+aAi
+ati
+agi
+agi
+agi
+agi
+agi
+ano
+aGU
 amk
 azm
 amk
 amk
-awG
-awG
-awG
-aBH
+aGU
+aGU
+aGU
+ano
 gNH
-aDn
-aDn
-aDn
-aDn
+arN
+hwy
+fWs
+arN
 anI
-aDn
-aDn
-aDn
-aBH
-aBH
-aDn
+aqb
+aqb
+aqb
+ano
+ano
+aqb
 anI
-afz
-afz
+hwy
+fWs
 gNH
-alY
-aMT
-aMT
-aMT
-aMT
+jHb
+axT
+ste
+axT
+rrh
 arK
-aSm
-ocR
-ocR
-aig
+iJb
+axT
+axT
+xUo
 arK
 kpf
 aao
@@ -79025,13 +79105,13 @@ aao
 aao
 foB
 gCE
-gCE
-gCE
-gCE
-gCE
-gCE
-gCE
-aao
+rAs
+rAs
+rAs
+rAs
+rAs
+pSG
+aJL
 aao
 aao
 aao
@@ -79167,63 +79247,63 @@ tQw
 tQw
 tQw
 gNH
-aBH
-aBH
+she
+app
 adZ
 wko
 aMu
 aMu
 aMu
 aev
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-awG
-awG
+agi
+agi
+agi
+agi
+agi
+agi
+agi
+aAi
+ati
+agi
+agi
+agi
+agi
+agi
+aGU
+aGU
 amk
 azm
 azm
 amk
-awG
-awG
-awG
-awG
+aGU
+aGU
+aGU
+aGU
 agg
-aBH
-aDn
-aDn
-aDn
+aoE
+hwy
+fWs
+aJJ
 anL
-aDn
-aDn
-aBH
-aBH
-aBH
-aDn
+aqb
+aqb
+ano
+ano
+ano
+aqb
 anI
-afz
-afz
+hwy
+fWs
 gNH
-aMT
-aMT
-aMT
-aMT
-alY
-gNH
-app
-ocR
-ocR
+vOC
+ste
+ste
+axT
+mKT
+jVE
+jZk
+axT
+axT
 aig
 gNH
 aao
@@ -79242,12 +79322,12 @@ aao
 aao
 aao
 foB
-gCE
-gCE
-gCE
-gCE
-gCE
-gCE
+gpg
+gpg
+gpg
+gpg
+gpg
+ohD
 aao
 aao
 aao
@@ -79384,64 +79464,64 @@ tQw
 kpf
 kpf
 arK
-ocR
-aBH
+xUo
+aiS
 gNH
 xtg
 xtg
 aMu
 aMu
 adZ
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-awG
-awG
+agi
+agi
+agi
+agi
+agi
+agi
+ati
+aIJ
+aFo
+aAi
+agi
+agi
+agi
+agi
+aGU
+aGU
 amk
 azm
 azm
 amk
-awG
-awG
-awG
-awG
+aGU
+aGU
+aGU
+aGU
 anL
-aDn
-aDn
-aDn
-aDn
+fWs
+aqb
+aqb
+hwy
 anL
-aDn
-aDn
-aDn
-aDn
-aDn
-aDn
+aqb
+aqb
+aqb
+aqb
+aqb
+aqb
 anI
-afz
-afz
+hwy
+fWs
 gNH
-aMT
-aMT
-aMT
-aMT
-aMT
-gNH
+iNy
+axT
+axT
+tiM
+oJa
+agg
 app
-aBH
-aBH
-aqg
+ano
+ano
+amO
 gNH
 aao
 aao
@@ -79629,36 +79709,36 @@ amk
 azm
 azm
 amk
-awG
-awG
-awG
-awG
+aGU
+aGU
+aGU
+aGU
 anI
 anI
 hmm
 uaB
 anI
 anI
-aDn
-aDn
-aDn
-aDn
-aDn
-aDn
+aqb
+aqb
+aqb
+aqb
+aqb
+aqb
 anI
-afz
-afz
+hwy
+aJa
 gNH
-aMT
-aMT
-aMT
-aMT
+sHI
+axT
+tiM
+oJa
 arK
 gNH
-app
-aBH
-aBH
-aqg
+muR
+qJs
+ktM
+wAY
 gNH
 gNH
 aao
@@ -79677,10 +79757,10 @@ aao
 aao
 gNH
 gNH
-aBH
-bhs
-bhs
-bhs
+ano
+dKR
+dKR
+dKR
 avh
 avh
 foB
@@ -79817,10 +79897,10 @@ aao
 kpf
 arK
 arK
-ozQ
-ozQ
-ozQ
-ozQ
+axT
+axT
+axT
+axT
 arK
 arK
 tfa
@@ -79832,10 +79912,10 @@ aMu
 aMu
 lZb
 adZ
-agl
-agl
-agl
-agl
+agi
+aAi
+ati
+agi
 adZ
 wko
 wko
@@ -79847,58 +79927,58 @@ azm
 azm
 amk
 amk
-awG
-awG
+aGU
+aGU
 amk
 anI
-aAo
-aAo
-aAo
-aAo
+fWs
+aqb
+aqb
+hwy
 anI
 anI
-aDn
-aDn
-aDn
-aDn
+aqb
+aqb
+aqb
+aqb
 anI
 anI
-afz
-afz
-gNH
-alY
-aMT
-alY
+anV
+aqb
+ajO
+ano
+axT
+mKT
 arK
 arK
 axT
-xUo
-aBH
-aBH
-aJd
-aiV
+ayD
+she
+app
+amO
+ano
 gNH
 gNH
 gNH
 gNH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
+ano
+ano
+ano
+ano
+ano
+ano
 gNH
 gNH
 aao
 aao
 gNH
 gNH
-aBH
-aBH
-bhs
-bhs
-bhs
-bhs
+ano
+ano
+dKR
+dKR
+dKR
+dKR
 avh
 avh
 foB
@@ -80049,10 +80129,10 @@ aMu
 nFF
 aMu
 adZ
-agl
-agl
-agl
-agl
+agi
+aAi
+ati
+agi
 adZ
 wko
 lZb
@@ -80067,10 +80147,10 @@ amk
 amk
 amk
 amk
-ayE
+aqb
 aJa
-aio
-aio
+hwy
+fWs
 anV
 aqb
 anI
@@ -80079,44 +80159,44 @@ anI
 anI
 anI
 anI
-afz
-afz
-afz
+npp
+aqb
+aqb
+ajO
+fuf
+fuf
+iPk
 gNH
-alY
-alY
-alY
-gNH
-aKf
-aDB
-ocR
-aBH
-aBH
-aBH
-aJd
-aiV
+ano
+ano
+axT
+she
+app
+ano
+ano
+ano
 gNH
 gNH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
+ano
+ano
+ano
+ano
+ano
+ano
+ano
+ano
 gNH
 aao
 aao
 gNH
-aBH
-aBH
-aBH
-bhs
-bhs
-bhs
-bhs
-bhs
+ano
+ano
+ano
+dKR
+dKR
+dKR
+dKR
+dKR
 avh
 foB
 foB
@@ -80251,7 +80331,7 @@ gNH
 gNH
 avm
 ajq
-ati
+aig
 akG
 akG
 tIq
@@ -80284,56 +80364,56 @@ amk
 amk
 amk
 aGU
-alN
-amO
-afu
-afu
-aoE
-ahM
-azg
-gNH
-gNH
-anI
-anI
-anI
-anI
-afz
-anI
-gNH
-gNH
-gNH
-gNH
-gNH
+ano
+ano
+she
 app
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-aqg
+ano
+ano
+ano
 gNH
 gNH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
+anI
+anI
+anI
+anI
+hmm
+anI
 gNH
 gNH
 gNH
 gNH
-aBH
-aBH
-aBH
-aBH
-bhs
-bhs
-bhs
-bhs
+gNH
+ano
+ano
+ano
+she
+app
+ano
+ano
+ano
+gNH
+gNH
+ano
+ano
+ano
+ano
+ano
+ano
+ano
+ano
+gNH
+gNH
+gNH
+gNH
+ano
+ano
+ano
+ano
+dKR
+dKR
+dKR
+dKR
 avh
 foB
 foB
@@ -80465,92 +80545,92 @@ aCr
 aao
 aao
 gNH
-auZ
+ano
 alN
 ayD
 tIq
 akG
 akG
-ati
+aig
 xUo
 afd
 agi
 adZ
 agl
+auw
+agi
+agi
+agi
+agi
 agl
+aAi
+agi
+agi
+ati
 agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-aBH
-awG
-awG
-awG
-awG
-awG
-awG
+agi
+agi
+agi
+ano
+aGU
+aGU
+aGU
+aGU
+aiV
+aAW
 amk
 aAW
-alN
-aJd
-aoE
+qZt
+ano
+aKf
 aMx
 atL
-amO
-aDB
-ahM
+aKf
+ano
+aoE
 aLa
 gNH
-aeV
+aKf
 aJJ
-aJJ
-aJJ
-aJJ
-aJJ
-axV
-aDr
-aJJ
+aqb
+aqb
+aqb
+aqb
+aqb
+ooi
+afz
 anI
+afz
 aJJ
-aAU
-aDn
-aDn
-aBH
-aBH
-aBH
-aBH
-aJd
-aeV
+aqb
+ooi
+she
+app
+qZt
+ano
+aoE
+aKf
+gNH
+aKf
+qZt
+ano
+ano
+ano
+ano
+aoE
+aKf
 gNH
 aeV
 aeV
-aeV
-aeV
-aeV
-aeV
-aeV
-aeV
 gNH
-aeV
-aeV
-gNH
-aeV
-aeV
-aeV
-aeV
+aKf
+qZt
+ano
+ano
 dKR
 dKR
 dKR
-agj
+dKR
 avh
 foB
 foB
@@ -80682,92 +80762,92 @@ aCr
 aao
 aao
 gNH
-auZ
+ano
 aVZ
-aig
-aig
 ozQ
 ozQ
+axT
+axT
 aSm
 aSm
 ava
 agi
 aCy
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-aBH
-aBH
+agi
+amW
+amW
+amW
+amW
+amW
+aIJ
+agi
+aio
+aRz
+agi
+aFo
+amW
+amW
+amW
+aDk
+aDk
 awG
 awG
 awG
 awG
-awG
+aGU
 aMX
-auZ
-aVZ
-aqg
+ano
+aDk
+aDk
 aGk
 agb
 apA
 aAM
-app
 aDk
-auZ
+aDk
+ano
 atM
-aBH
-aBH
-xKb
-xKb
-xKb
-xKb
-aMr
-wjW
-xKb
-ajn
-xKb
-xKb
-xKb
-xKb
-aSp
-aAi
-aBH
-aBH
-aBH
-aBH
-fjP
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-fjP
-aBH
-aBH
-fjP
-aBH
-aBH
-aBH
-bhs
-bhs
-bhs
-bhs
-aJW
+ano
+aDk
+arN
+arN
+arN
+arN
+arN
+arN
+aqb
+hmm
+aqb
+arN
+arN
+arN
+ano
+ano
+aDk
+aDk
+aDk
+ano
+ajO
+ano
+aDk
+aDk
+aDk
+aDk
+aDk
+aDk
+ano
+ajO
+aiS
+amO
+ajO
+ano
+aDk
+aDk
+aGn
+aGn
+aGn
+avb
+dKR
 avh
 foB
 foB
@@ -80899,92 +80979,92 @@ aCr
 aao
 aao
 gNH
-auZ
+ano
 aVZ
-aig
-aig
 ozQ
 ozQ
+axT
+axT
 aSm
 aSm
 ava
 agi
 aCy
+agi
 agl
 agl
 agl
 agl
 agl
+auw
+agi
+aSp
+akD
+agi
+awK
 agl
 agl
 agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-aBH
-aBH
-aBH
-awG
-awG
-awG
-awG
+aKf
+aKf
+aKf
+aAW
+aAW
+aAW
+aGU
 amK
 ano
-jgW
-aig
+akG
+akG
 ayA
 ayC
 agX
 agQ
-bMz
-aDt
-ajr
-ajn
-aDn
-aBH
-aDn
-aDn
-aDn
-aDn
-aDn
-aDn
-aDn
+afz
+afz
+aqb
 hmm
-aDn
-aDn
-aDn
-aDn
-aBH
-aeZ
-aBH
-aBH
-aBH
-aBH
-fjP
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-fjP
-aBH
-aBH
-fjP
-aBH
-aBH
-aBH
-bhs
-bhs
-bhs
-bhs
+aqb
+aKf
+afz
+afz
+afz
+afz
+afz
+afz
+aqb
+hmm
+aqb
+afz
+afz
+afz
+ano
+ano
+aKf
+aKf
+aKf
+ano
+ajO
+ano
+aKf
+aKf
+aKf
+aKf
+aKf
+aKf
+ano
+ajO
+aoE
+qZt
+ajO
+ano
+aKf
+aKf
+ajn
+ajn
 aJW
+pbK
+dKR
 avh
 aao
 aao
@@ -81116,92 +81196,92 @@ aCr
 aao
 aao
 gNH
-auZ
+ano
 aDl
 tIq
 ayD
 aOm
 aOm
 xUo
-ati
+aig
 afH
 agi
 adZ
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-aBH
-aBH
-ocR
-awG
-awG
-awG
+amW
+aIJ
+agi
+agi
+agi
+agi
+amW
+aAi
+agi
+agi
+ati
+amW
+agi
+agi
+agi
+ano
+ano
+axT
+aGU
+aGU
+aCs
 awG
 arK
-aJM
-anS
-tIq
-ayD
+aOm
+xUo
+axT
+aOm
 aIQ
-aIQ
-aAU
-ooi
-aDp
+alU
+arN
+aqb
+aJa
 arN
 anI
-aIL
-aIL
-aIL
-aIL
-aIL
-aIL
-aIL
-aIL
-aIL
+arN
+anV
+aqb
+aqb
+aqb
+aqb
+aqb
+aJa
+arN
 anI
-aIL
-ooi
-aDn
-aDn
-aBH
-aeZ
-aBH
-aBH
+arN
+anV
+aqb
+aJa
+she
+app
+amO
+ano
 aiS
-afu
+aDk
 gNH
-afu
-afu
-afu
-afu
-afu
-afu
-afu
-afu
+aDk
+amO
+ano
+ano
+ano
+ano
+aiS
+aDk
 gNH
-afu
-afu
+aeV
+aeV
 gNH
-afu
-afu
-aTw
-aTw
-aFo
-bhs
-bhs
-aJW
+aDk
+amO
+dKR
+dKR
+dKR
+azg
+pbK
+dKR
 avh
 aao
 aao
@@ -81368,14 +81448,14 @@ amk
 amk
 arK
 arK
-wrz
-anS
-xUo
-aJJ
-aJJ
-aAY
-aPq
-aIU
+axT
+axT
+axT
+hwy
+fWs
+aqb
+aqb
+aqb
 anI
 anI
 anI
@@ -81389,36 +81469,36 @@ anI
 anI
 anI
 anI
-bMz
-aDn
-aDn
-aBH
-aeZ
-aBH
-aBH
-aqg
+aqb
+aqb
+aqb
+she
+app
+ano
+ano
+ano
 gNH
 gNH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
+ano
+ano
+ano
+ano
+ano
+ano
+ano
+ano
 gNH
 gNH
 gNH
 gNH
-aBH
-aBH
-bhs
-bhs
+ano
+ano
+dKR
+dKR
+dKR
+azg
 pbK
-bhs
-bhs
-aJW
+dKR
 gNH
 aao
 aao
@@ -81568,10 +81648,10 @@ aMu
 wko
 wko
 adZ
-agl
-agl
-agl
-agl
+agi
+aAi
+ati
+agi
 adZ
 wko
 wko
@@ -81586,12 +81666,12 @@ azm
 kpf
 arK
 arK
-wrz
-anS
+axT
+tIq
 hwy
-hwy
-aPq
-aFk
+fWs
+aJJ
+aqb
 anI
 anI
 aEF
@@ -81607,35 +81687,35 @@ aEF
 aEF
 anI
 vcm
-ooi
-aDn
-aBH
-aeZ
-aBH
-aiS
-akD
+aqb
+aqb
+she
+app
+ano
+ano
+ano
 gNH
 gNH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
+ano
+ano
+ano
+ano
+ano
+ano
+ano
+ano
 gNH
 aao
 aao
 gNH
-aBH
-aBH
-bhs
-bhs
+ano
+ano
+dKR
+dKR
+dKR
+azg
 pbK
-bhs
-bhs
-aJW
+dKR
 gNH
 aao
 aao
@@ -81770,10 +81850,10 @@ aao
 aao
 gNH
 gNH
-auZ
-ozQ
-ozQ
-ozQ
+ano
+axT
+axT
+axT
 arK
 adZ
 aMu
@@ -81785,10 +81865,10 @@ aMu
 aMu
 xtg
 gNH
-aBH
-aBH
-aBH
-aBH
+ano
+she
+app
+ano
 gNH
 xtg
 vmj
@@ -81805,9 +81885,9 @@ kpf
 arK
 arK
 ozQ
-aAo
-aAo
-aAo
+aqb
+aqb
+hwy
 anI
 anI
 aEF
@@ -81824,34 +81904,34 @@ aEF
 aEF
 anI
 anI
-dtf
+aqb
 ooi
-aBH
-aeZ
-aiS
-akD
+she
+app
+qZt
+ano
 gNH
 gNH
 gNH
 gNH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
+ano
+ano
+ano
+ano
+ano
+ano
 gNH
 gNH
 aao
 aao
 gNH
 avh
-bhs
-bhs
-bhs
+dKR
+dKR
+dKR
+bMz
+azg
 pbK
-bhs
-bhs
 aJW
 gNH
 aao
@@ -82003,8 +82083,8 @@ aev
 gNH
 gNH
 gNH
-fjP
-fjP
+ajO
+ajO
 gNH
 gNH
 gNH
@@ -82042,10 +82122,10 @@ anI
 aEF
 anI
 anI
-bMz
-aBH
-aeZ
-aqg
+fWs
+ano
+ano
+she
 gNH
 gNH
 aao
@@ -82064,12 +82144,12 @@ aao
 aao
 avh
 avh
-bhs
-bhs
+dKR
+dKR
 pbK
-bhs
-bhs
-aqg
+dKR
+dKR
+she
 gNH
 aao
 aao
@@ -82205,30 +82285,30 @@ aao
 aao
 aao
 gNH
-ocR
-ocR
+aig
+tIq
 arK
 afE
 aMu
 aMu
 aMu
 adZ
-agl
-agl
-agl
-agl
-aBH
-aBH
-aBH
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
+agi
+agi
+agi
+agi
+ano
+ano
+app
+aig
+tIq
+aSm
+axT
+axT
+axT
+axT
+axT
+axT
 arK
 azm
 kUw
@@ -82241,12 +82321,12 @@ afE
 afE
 kih
 aDn
-aDn
-aDn
-aDn
-aDn
-aDn
-aDn
+myW
+myW
+myW
+myW
+myW
+aAY
 aEF
 anI
 anI
@@ -82260,8 +82340,8 @@ anI
 aEF
 anI
 anI
-fjP
-apv
+ajO
+ajO
 gNH
 gNH
 aao
@@ -82422,30 +82502,30 @@ aao
 aao
 aao
 gNH
-ocR
-ocR
+aSm
+ozQ
 arK
 afE
 aMu
 aMu
 aMu
 aev
-agl
-agl
-agl
-agl
-aBH
-aBH
-aBH
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
+agi
+agi
+agi
+agi
+ano
+ano
+ano
+aSm
+ozQ
+axT
+axT
+axT
+axT
+axT
+axT
+axT
 rEJ
 kUw
 kUw
@@ -82463,23 +82543,23 @@ hMD
 hMD
 aGY
 aDn
-aDn
-aDn
+aTE
+aAY
 anL
 aIV
 aIV
 eNx
 aLI
-aAo
+aqb
 aLH
 aXc
 anI
 aEF
 anI
-bMz
-aRz
-aeZ
-aqg
+fWs
+ano
+ano
+she
 gNH
 aao
 gNH
@@ -82496,7 +82576,7 @@ foB
 foB
 gCE
 gCE
-gCE
+xmc
 gCE
 gCE
 gCE
@@ -82639,38 +82719,38 @@ aao
 aao
 aao
 gNH
-ocR
-ocR
+aSm
+ozQ
 arK
 afE
 aMu
 aMu
 aMu
 aev
-agl
-agl
-agl
-agl
-aBH
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-aBH
+agi
+agi
+agi
+agi
+ano
+axT
+axT
+aSm
+ozQ
+axT
+axT
+axT
+axT
+axT
+axT
+ano
 agg
 sGt
 sGt
 gNH
 gNH
-aBH
-aBH
-ocR
+gOM
+axV
+avi
 arK
 arK
 kih
@@ -82678,25 +82758,25 @@ tFN
 aDq
 aDq
 cTO
-kiq
+jjW
 aGY
 aDn
-aDn
+aMr
 anL
 aIV
 aIV
 anL
 aLI
-aAo
-aAo
+aqb
+aqb
 amT
 ate
 gNH
 gNH
+aiS
+she
 app
-aBH
-aeZ
-aqg
+amO
 gNH
 gNH
 gNH
@@ -82714,7 +82794,7 @@ gCE
 gCE
 xmc
 xmc
-gCE
+xmc
 gCE
 avh
 avh
@@ -82856,39 +82936,39 @@ aao
 aao
 aao
 gNH
-ocR
-ocR
+aSm
+ozQ
 arK
 afE
 afE
 afE
 sGt
 agg
-aBH
-aBH
-aBH
-aBH
-aBH
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-aBH
-aBH
-aBH
+ano
+ano
+ano
+ano
+ano
+axT
+axT
+aSm
+ozQ
+axT
+axT
+axT
+axT
+ano
+ano
+ano
 agg
 sGt
 sGt
 gNH
-aBH
-aBH
-aBH
-ocR
-ocR
+mbn
+fgD
+dIb
+sDh
+avi
 arK
 kih
 tFN
@@ -82898,23 +82978,23 @@ aDq
 cTO
 kiq
 aGY
-aDn
+aMr
 aHS
 amL
 aHS
 aob
 aGm
 aeQ
-aAo
-aAo
+aqb
+aqb
 vRK
 agg
 aKf
-aDB
-aBH
-aeZ
-aJd
-aGn
+qZt
+she
+app
+aoE
+aLa
 gNH
 aMV
 cHA
@@ -82928,11 +83008,11 @@ agU
 agL
 avh
 gCE
-xmc
-xmc
-xmc
-xmc
 gCE
+xmc
+xmc
+xmc
+xmc
 avh
 rCC
 vce
@@ -83073,41 +83153,41 @@ aao
 aao
 aao
 gNH
-ocR
-ocR
+aSm
+ozQ
 arK
 afE
 afE
 afE
 afE
 rEJ
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-aBH
-aBH
-aBH
+axT
+axT
+axT
+axT
+axT
+axT
+axT
+aSm
+ozQ
+axT
+axT
+axT
+axT
+ano
+ano
+ano
 agg
 sGt
 sGt
 gNH
-aBH
-aBH
-aBH
-ocR
-ocR
+xsY
+dIb
+dIb
+aMT
+apv
 ajW
-kih
+aDn
 tFN
 aDq
 aDq
@@ -83115,23 +83195,23 @@ aDq
 aDq
 cTO
 kih
-aDn
+aMr
 aHS
 aIW
 aJU
 aFV
 aGd
 aeQ
-auZ
-auZ
-vRK
+ano
+ano
+ano
 tkN
+ano
+aDk
+she
 app
-aBH
-auw
-alk
-aBH
-aqg
+aDk
+ano
 tkN
 ast
 alP
@@ -83149,7 +83229,7 @@ xmc
 xmc
 xmc
 xmc
-gCE
+xmc
 avh
 jnF
 vce
@@ -83290,41 +83370,41 @@ aao
 aao
 aao
 gNH
-ocR
-ocR
+aSm
+ozQ
 arK
 afE
 afE
 afE
 afE
 arK
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-aBH
-aBH
-aBH
-aBH
+axT
+axT
+axT
+axT
+axT
+axT
+axT
+aSm
+ozQ
+axT
+axT
+axT
+ano
+ano
+ano
+ano
 gNH
 sGt
 sGt
 gNH
-aBH
-aBH
-aBH
-ocR
-ocR
+aPq
+aDr
+dIb
+aJc
+aKd
 arK
-gOM
+aTy
 tFN
 aDq
 aDq
@@ -83332,24 +83412,24 @@ aDq
 aDq
 cTO
 kih
-aBH
+ahC
 aHS
 aIX
 aJV
 aKS
 aLM
 aeQ
-auZ
-auZ
-vRK
-fjP
+ano
+ano
+ano
+ajO
+ano
+aKf
+she
 app
-aBH
-aBH
-aeZ
-aBH
-aqg
-fjP
+aKf
+ano
+ajO
 guP
 ixd
 aux
@@ -83361,7 +83441,7 @@ aOp
 sIb
 bZL
 avh
-gCE
+xmc
 xmc
 xmc
 xmc
@@ -83507,8 +83587,8 @@ aao
 kpf
 kpf
 arK
-ocR
-ocR
+xUo
+ayD
 arK
 amX
 amX
@@ -83516,32 +83596,32 @@ afE
 afE
 arK
 arK
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-aBH
-aBH
-aBH
+axT
+axT
+axT
+axT
+axT
+axT
+aSm
+ozQ
+axT
+axT
+axT
+ano
+ano
+ano
 gNH
 gNH
 sGt
 sGt
 gNH
 gNH
-aBH
-aBH
-ocR
+aPq
+aTz
+aKd
 arK
 arK
-gOM
+aTy
 bUN
 aqY
 aqY
@@ -83549,23 +83629,23 @@ aqY
 aqY
 kgV
 kUO
-aBH
+ahC
 aob
 aob
 aob
 aob
 aGj
 aeQ
-auZ
-auZ
-vRK
+ano
+ano
+atK
 agg
-aIJ
+aDk
 amO
-aBH
-aeZ
+she
+app
 aiS
-akD
+aDk
 gNH
 aMV
 cHA
@@ -83578,11 +83658,11 @@ aFi
 aFl
 aFq
 avh
-gCE
-gCE
 xmc
 xmc
-gCE
+xmc
+xmc
+xmc
 gCE
 avh
 avh
@@ -83734,31 +83814,31 @@ afE
 afE
 arK
 arK
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-ocR
-aBH
-aBH
-aBH
+axT
+axT
+axT
+axT
+ozQ
+xUo
+ayD
+aSm
+axT
+ano
+ano
+ano
 gNH
 gNH
 sGt
 sGt
 sGt
-sGt
+kmL
 gNH
 gNH
 gNH
 arK
 arK
 pIN
-gOM
+aTy
 bUN
 aqY
 aqY
@@ -83766,22 +83846,22 @@ aqY
 aqY
 kgV
 kUO
-aTG
+ayE
 aHS
 aJZ
 aJZ
 aHS
 aGd
 aeQ
-auZ
+ano
 atK
 gan
 gNH
 gNH
-agV
+aeQ
 aqc
 aHY
-msf
+aeQ
 gNH
 gNH
 gNH
@@ -83795,10 +83875,10 @@ avh
 avh
 avh
 avh
-gCE
-gCE
-gCE
-gCE
+xmc
+xmc
+xmc
+xmc
 gCE
 gCE
 gCE
@@ -83940,10 +84020,10 @@ kpf
 kpf
 arK
 arK
-ozQ
-ozQ
-ozQ
-ozQ
+axT
+axT
+axT
+axT
 arK
 arK
 amX
@@ -83975,7 +84055,7 @@ afE
 afE
 afE
 pIN
-gOM
+aTy
 bUN
 aqY
 aqY
@@ -83983,7 +84063,7 @@ aqY
 aqY
 kgV
 aGZ
-aTG
+ayE
 aHS
 aJZ
 aJZ
@@ -83996,8 +84076,8 @@ gNH
 aao
 aob
 agV
-aTG
-aUD
+aqc
+aHY
 msf
 aob
 aao
@@ -84010,10 +84090,10 @@ avh
 avh
 gCE
 gCE
-gCE
-gCE
-gCE
-gCE
+xmc
+xmc
+xmc
+xmc
 gCE
 avh
 avh
@@ -84173,8 +84253,8 @@ sGt
 sGt
 sGt
 gNH
-aBH
-aBH
+qZt
+aoE
 gNH
 aao
 sGt
@@ -84182,7 +84262,7 @@ sGt
 sGt
 sGt
 sGt
-pCc
+pxx
 pAa
 pAa
 pAa
@@ -84192,7 +84272,7 @@ afE
 afE
 afE
 pIN
-gOM
+aTy
 bUN
 aqY
 aqY
@@ -84200,7 +84280,7 @@ aqY
 aqY
 vLD
 aGZ
-aTG
+ayE
 aob
 aob
 aJZ
@@ -84214,7 +84294,7 @@ bQi
 aob
 aSo
 aTD
-aUE
+aTD
 aVx
 aob
 bQi
@@ -84226,10 +84306,10 @@ avh
 avh
 gCE
 gCE
-gCE
-gCE
-gCE
-gCE
+xmc
+xmc
+xmc
+xmc
 gCE
 avh
 avh
@@ -84374,7 +84454,7 @@ arK
 arK
 avm
 ajq
-ati
+aig
 akG
 akG
 tIq
@@ -84390,8 +84470,8 @@ sGt
 sGt
 sGt
 gNH
-aBH
-aBH
+she
+app
 gNH
 aao
 aao
@@ -84402,14 +84482,14 @@ pCc
 amG
 amG
 amG
-amG
+jWI
 eFh
 afE
 afE
 afE
 afE
 pIN
-gOM
+aTy
 bUN
 aqY
 aqY
@@ -84417,7 +84497,7 @@ aqY
 vLD
 vJt
 juo
-aTG
+ayE
 bQi
 aob
 aob
@@ -84431,7 +84511,7 @@ bQi
 aob
 aob
 wvR
-aUF
+aUI
 aob
 aob
 aob
@@ -84444,8 +84524,8 @@ foB
 gCE
 xmc
 xmc
-gCE
-gCE
+xmc
+xmc
 gCE
 avh
 avh
@@ -84588,16 +84668,16 @@ aCr
 aao
 aao
 arK
-ozQ
+axT
 ajq
 ayD
 tIq
 akG
 akG
-ati
+aig
 xUo
 anN
-ozQ
+axT
 arK
 arK
 arK
@@ -84607,8 +84687,8 @@ gNH
 gNH
 gNH
 gNH
-aBH
-aBH
+she
+app
 gNH
 aao
 aao
@@ -84616,7 +84696,7 @@ sGt
 sGt
 pCc
 amG
-amG
+jWI
 amG
 amG
 amG
@@ -84626,15 +84706,15 @@ afE
 afE
 afE
 pIN
-gOM
+aTy
 cvf
 aqY
 aqY
 kgV
-vJt
+phL
 juo
-aTG
-aTG
+anR
+aUE
 bQi
 bQi
 bQi
@@ -84648,7 +84728,7 @@ bQi
 aob
 aSq
 aTJ
-aUJ
+aTJ
 aVz
 aHc
 aob
@@ -84658,11 +84738,11 @@ foB
 foB
 foB
 gCE
-xmc
-xmc
-xmc
 gCE
-gCE
+xmc
+xmc
+xmc
+xmc
 avh
 avh
 bhs
@@ -84805,27 +84885,27 @@ aCr
 aao
 aao
 arK
-ozQ
+axT
 jgW
-aig
-aig
 ozQ
 ozQ
+axT
+axT
 aSm
 aSm
 aHQ
-ozQ
+axT
 ajW
-ocR
-ocR
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
+ayD
+aOm
+aDk
+aDk
+aDk
+aDk
+aDk
+aDk
+amO
+app
 gNH
 aao
 aao
@@ -84838,18 +84918,18 @@ xFZ
 xFZ
 xFZ
 xFZ
-sNQ
+kKq
 afE
 afE
 afE
 pIN
-gOM
+aTy
 ofQ
 avd
 avd
 avd
 juo
-aTG
+anR
 wXj
 msU
 bQi
@@ -84865,7 +84945,7 @@ bQi
 aob
 aSr
 aTG
-aUD
+aTG
 ahb
 aWb
 aob
@@ -84878,7 +84958,7 @@ gCE
 xmc
 xmc
 xmc
-gCE
+xmc
 avh
 avh
 bhs
@@ -85022,27 +85102,27 @@ aCr
 aao
 aao
 arK
-ozQ
+axT
 jgW
-aig
-aig
 ozQ
 ozQ
+axT
+axT
 aSm
 aSm
 aHQ
-ozQ
+axT
 ajW
-ocR
-ocR
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
+tIq
+akG
+aKf
+aKf
+aKf
+aKf
+aKf
+aKf
+qZt
+app
 gNH
 aao
 aao
@@ -85060,12 +85140,12 @@ afE
 afE
 afE
 afE
-gOM
-ocR
-aBH
-aBH
-aBH
-aTG
+aTy
+aTv
+aDp
+aDp
+aDp
+agj
 wXj
 msU
 aHd
@@ -85082,7 +85162,7 @@ bQi
 aob
 aSs
 aTH
-aUH
+aTH
 aVA
 aWc
 aob
@@ -85094,7 +85174,7 @@ gCE
 xmc
 xmc
 xmc
-gCE
+xmc
 gCE
 avh
 bhs
@@ -85239,16 +85319,16 @@ aCr
 aao
 aao
 arK
-ozQ
+axT
 anS
 tIq
 ayD
 aOm
 aOm
 xUo
-ati
+aig
 ait
-ozQ
+axT
 arK
 arK
 arK
@@ -85258,8 +85338,8 @@ gNH
 gNH
 gNH
 gNH
-aBH
-aBH
+she
+app
 gNH
 aao
 aao
@@ -85475,8 +85555,8 @@ aao
 aao
 aao
 gNH
-aBH
-aBH
+amO
+aiS
 gNH
 aao
 ahG
@@ -85490,7 +85570,7 @@ afZ
 afZ
 afZ
 afZ
-afE
+lxh
 arK
 arK
 aKa
@@ -85516,7 +85596,7 @@ gNH
 aob
 ala
 aTJ
-aUJ
+aTJ
 vbi
 aob
 gNH
@@ -85524,10 +85604,10 @@ aao
 foB
 foB
 gCE
-gCE
 xmc
 xmc
-gCE
+xmc
+xmc
 gCE
 foB
 avh
@@ -85692,8 +85772,8 @@ aao
 aao
 gNH
 gNH
-fjP
-fjP
+ajO
+ajO
 gNH
 gNH
 aqY
@@ -85733,7 +85813,7 @@ gNH
 tSI
 axo
 ycM
-awK
+anN
 hWa
 anP
 arK
@@ -85741,9 +85821,9 @@ arK
 foB
 foB
 gCE
-gCE
 xmc
-gCE
+xmc
+xmc
 gCE
 foB
 foB
@@ -85893,10 +85973,10 @@ kpf
 kpf
 arK
 arK
-ozQ
-ozQ
-ozQ
-ozQ
+axT
+axT
+axT
+axT
 arK
 arK
 kpf
@@ -85946,11 +86026,11 @@ kpf
 aao
 gNH
 gNH
-fgD
+tSI
 arI
 afA
 aIS
-aka
+aIS
 aMY
 hWa
 anP
@@ -85958,8 +86038,8 @@ arK
 avh
 foB
 gCE
-gCE
-gCE
+xmc
+xmc
 gCE
 foB
 foB
@@ -86161,11 +86241,11 @@ arK
 arK
 arK
 arK
-arK
+ius
 afB
 ggW
 bXe
-aqj
+kwA
 nFH
 bny
 awD
@@ -86350,11 +86430,11 @@ aBH
 aBH
 gNH
 gNH
+agg
+agg
 gNH
-gNH
-gNH
-arK
-arK
+rEJ
+rEJ
 arK
 arK
 aKT
@@ -86384,7 +86464,7 @@ bXe
 aqj
 aQw
 ocR
-aJc
+ocR
 aew
 awD
 aMY
@@ -86554,7 +86634,7 @@ aIK
 aRy
 aRy
 aRy
-aao
+aRy
 aao
 gNH
 aBH
@@ -86565,14 +86645,14 @@ aBH
 aBH
 aBH
 aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-ocR
-ocR
+ajO
+aiS
+aDk
+aDk
+aDk
+aDk
+aOm
+xUo
 ajW
 aGh
 ajq
@@ -86587,9 +86667,9 @@ aHQ
 anN
 aCA
 ajW
-vlf
-ocR
-ocR
+ajw
+aAU
+aAU
 vlf
 xWm
 ocR
@@ -86601,8 +86681,8 @@ hvQ
 aut
 ocR
 ocR
-anR
-aTE
+ocR
+ocR
 aJS
 aij
 anN
@@ -86771,8 +86851,8 @@ aRy
 aRy
 aRy
 aRy
-aao
-aao
+aRy
+aRy
 gNH
 aBH
 aBH
@@ -86782,14 +86862,14 @@ aBH
 aBH
 aBH
 aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-aBH
-ocR
+ajO
+aoE
+aKf
+aKf
+aKf
+aKf
+aKf
+aig
 ajW
 aGh
 aDl
@@ -86804,9 +86884,9 @@ aHQ
 ait
 aCA
 ajW
-ugs
-ocR
-ocR
+aUJ
+dtf
+dtf
 ugs
 ajW
 ocR
@@ -86818,11 +86898,11 @@ hvQ
 aFh
 ank
 ocR
-avi
-agk
+ocR
+ocR
 ass
-amW
-ahC
+aij
+ait
 aeA
 ajO
 aBH
@@ -86987,9 +87067,9 @@ aRy
 aRy
 aRy
 aRy
-aao
-aao
-aao
+aRy
+aRy
+aRy
 gNH
 aBH
 aBH
@@ -87001,11 +87081,11 @@ aBH
 aBH
 gNH
 gNH
+agg
+agg
 gNH
-gNH
-gNH
-gNH
-gNH
+agg
+agg
 gNH
 gNH
 afD
@@ -87205,8 +87285,8 @@ aRy
 aRy
 aRy
 aRy
-aao
-aao
+aRy
+aRy
 gNH
 gNH
 aBH
@@ -87218,8 +87298,8 @@ aBH
 gNH
 gNH
 aao
-wbp
-wbp
+vjt
+iyU
 wbp
 wbp
 wbp
@@ -87423,8 +87503,8 @@ aRy
 aRy
 aRy
 aRy
-aao
-aao
+aRy
+aRy
 gNH
 gNH
 aBH
@@ -87435,13 +87515,13 @@ gNH
 gNH
 aao
 aao
+sGt
+bKD
 wbp
 wbp
 wbp
 wbp
-wbp
-wbp
-wbp
+mTO
 gNH
 gNH
 amQ
@@ -87641,25 +87721,25 @@ aRy
 aRy
 aRy
 aRy
-aao
-aao
+aRy
+aRy
 gNH
 gNH
-fjP
-fjP
+ajO
+ajO
 gNH
 gNH
 aao
 aao
+xtg
+sGt
+sGt
+bKD
+iyU
 wbp
 wbp
-wbp
-wbp
-wbp
-wbp
-wbp
-wbp
-wbp
+ixp
+sGt
 gNH
 gNH
 amQ
@@ -87859,25 +87939,25 @@ aJX
 aJX
 aJX
 aJX
-aJX
-aJX
+anQ
+anQ
 asx
-aKX
-aKX
+ajr
+aka
 asx
 anQ
 anQ
 anQ
+xyi
+xyi
+aUF
+aUF
+gmI
 ajp
-ajp
-ajp
-ajp
-ajp
-ajp
-ajp
-ajp
-ajp
-ajp
+wYq
+rBW
+aUF
+aUF
 asx
 asx
 auj
@@ -88075,27 +88155,27 @@ aJX
 aJX
 aJX
 aJX
-aJX
-aJX
-aJX
+anQ
+anQ
+anQ
 asx
-aKX
-aKX
+aDt
+aFk
 asx
 anQ
 anQ
 anQ
 anQ
-ajp
-ajp
-ajp
-ajp
-ajp
-ajp
-ajp
-ajp
-ajp
-ajp
+xyi
+xyi
+aUF
+pdb
+fBH
+rBW
+aUF
+aUF
+aUF
+xyi
 asx
 asx
 qNu
@@ -88292,7 +88372,7 @@ aJX
 aJX
 aJX
 aJX
-aJX
+anQ
 asx
 asx
 asx
@@ -88305,18 +88385,18 @@ asx
 asx
 asx
 asx
-ajp
-anQ
-anQ
-ajp
-ajp
-ajp
-ajp
-ajp
-ajp
+aUF
+aUF
+aUF
+aUF
+aUF
+aUF
+xyi
+xyi
+xyi
 asx
-aKX
-aKX
+ajr
+aka
 asx
 anQ
 ajp
@@ -88523,17 +88603,17 @@ aKX
 aKX
 asx
 asx
-anQ
-anQ
-anQ
-ajp
-ajp
-ajp
-ajp
+xyi
+xyi
+aUF
+aUF
+xyi
+xyi
+xyi
 anQ
 asx
-aKX
-aKX
+koC
+aIU
 asx
 anQ
 anQ
@@ -88741,16 +88821,16 @@ aKX
 aKX
 asx
 asx
-anQ
-anQ
-anQ
-ajp
-anQ
+xyi
+xyi
+xyi
+xyi
+xyi
 anQ
 anQ
 asx
-aKX
-pSG
+koC
+aIU
 asx
 anQ
 anQ
@@ -88958,16 +89038,16 @@ aKX
 aKX
 aKX
 asx
-anQ
-anQ
-anQ
-anQ
+xyi
+xyi
+xyi
+xyi
 anQ
 anQ
 anQ
 asx
-aKX
-aKX
+aDt
+aFk
 asx
 anQ
 anQ
@@ -90043,8 +90123,8 @@ aKX
 aKX
 aKX
 asx
-aKX
-aKX
+aDm
+aDm
 asx
 aKX
 aKX
@@ -90260,8 +90340,8 @@ aKX
 aKX
 aKX
 qNu
-aKX
-aKX
+aFk
+aDt
 qNu
 aKX
 aKX
@@ -90477,8 +90557,8 @@ aKX
 aKX
 aKX
 qNu
-aKX
-aKX
+aka
+ajr
 qNu
 aKX
 aKX
@@ -90690,12 +90770,12 @@ asx
 aez
 aNp
 asx
-aKX
+qNu
 asx
 asx
 asx
-aKX
-aKX
+aDm
+aDm
 asx
 aKX
 aKX
