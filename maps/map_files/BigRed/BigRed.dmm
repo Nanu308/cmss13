@@ -26258,6 +26258,12 @@
 	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/outside/c)
+"cRf" = (
+/turf/open/floor{
+	icon_state = "whiteyellowcorner";
+	dir = 8
+	},
+/area/bigredv2/caves/lambda/research)
 "cRP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/splatter,
@@ -26644,6 +26650,12 @@
 "dyv" = (
 /turf/open/mars,
 /area/bigredv2/caves/eta/xenobiology)
+"dyC" = (
+/turf/open/floor{
+	icon_state = "whiteyellow";
+	dir = 4
+	},
+/area/bigredv2/caves/lambda/research)
 "dyH" = (
 /obj/structure/machinery/computer/area_atmos{
 	dir = 1
@@ -27078,6 +27090,13 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/caves/mining)
+"ebm" = (
+/obj/structure/machinery/iv_drip,
+/turf/open/floor{
+	icon_state = "whiteyellow";
+	dir = 5
+	},
+/area/bigredv2/caves/lambda/research)
 "ebr" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor{
@@ -27095,6 +27114,15 @@
 	icon_state = "mars_cave_11"
 	},
 /area/bigredv2/outside/lz1_telecomm_cas)
+"eck" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/closet/secure_closet/surgical{
+	pixel_x = -30
+	},
+/turf/open/floor{
+	icon_state = "whiteyellowfull"
+	},
+/area/bigredv2/caves)
 "ecy" = (
 /obj/structure/prop/invuln/minecart_tracks{
 	desc = "A heavy duty power cable for high voltage applications";
@@ -27362,7 +27390,8 @@
 	icon_state = "triagedecaltopleft"
 	},
 /turf/open/floor{
-	icon_state = "white"
+	icon_state = "whiteyellow";
+	dir = 1
 	},
 /area/bigredv2/caves/lambda/research)
 "exc" = (
@@ -27485,6 +27514,12 @@
 	icon_state = "darkyellowcorners2"
 	},
 /area/bigredv2/outside/engineering)
+"eGS" = (
+/turf/open/floor{
+	icon_state = "whiteyellow";
+	dir = 9
+	},
+/area/bigredv2/caves/lambda/research)
 "eHA" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor{
@@ -27931,6 +27966,18 @@
 	},
 /turf/closed/wall/wood,
 /area/bigredv2/caves/mining)
+"frG" = (
+/turf/open/floor{
+	icon_state = "whiteyellow";
+	dir = 4
+	},
+/area/bigredv2/caves)
+"fsM" = (
+/obj/structure/machinery/cm_vending/sorted/medical,
+/turf/open/floor{
+	icon_state = "whiteyellowfull"
+	},
+/area/bigredv2/caves/lambda/research)
 "fsP" = (
 /turf/open/floor{
 	icon_state = "whitegreencorner"
@@ -28347,6 +28394,22 @@
 	icon_state = "darkyellow2"
 	},
 /area/bigredv2/outside/engineering)
+"fXn" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_y = 1;
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/turf/open/floor{
+	dir = 1;
+	icon_state = "darkgreen2"
+	},
+/area/bigredv2/caves_east)
 "fYH" = (
 /turf/closed/wall/solaris/reinforced/hull,
 /area/bigredv2/caves/mining)
@@ -28639,6 +28702,12 @@
 	icon_state = "darkyellow2"
 	},
 /area/bigredv2/outside/engineering)
+"gws" = (
+/obj/structure/machinery/optable,
+/turf/open/floor{
+	icon_state = "white"
+	},
+/area/bigredv2/caves)
 "gxJ" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_18"
@@ -29541,6 +29610,12 @@
 	icon_state = "mars_cave_15"
 	},
 /area/bigredv2/caves/mining)
+"hXb" = (
+/turf/open/floor{
+	icon_state = "whiteyellow";
+	dir = 5
+	},
+/area/bigredv2/caves/lambda/research)
 "hXY" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_12"
@@ -29879,6 +29954,12 @@
 	icon_state = "asteroidfloor"
 	},
 /area/bigredv2/outside/lambda_cave_cas)
+"ixX" = (
+/obj/structure/closet/l3closet/security,
+/turf/open/floor{
+	icon_state = "dark"
+	},
+/area/bigredv2/caves/lambda/virology)
 "iyd" = (
 /obj/structure/machinery/computer/general_air_control,
 /obj/structure/surface/table,
@@ -29950,9 +30031,23 @@
 	icon_state = "triagedecaltopright"
 	},
 /turf/open/floor{
-	icon_state = "white"
+	icon_state = "whiteyellow";
+	dir = 1
 	},
 /area/bigredv2/caves/lambda/research)
+"iDo" = (
+/obj/structure/machinery/iv_drip,
+/turf/open/floor{
+	icon_state = "whiteyellow";
+	dir = 9
+	},
+/area/bigredv2/caves/lambda/research)
+"iDu" = (
+/turf/open/floor{
+	icon_state = "whiteyellow";
+	dir = 6
+	},
+/area/bigredv2/caves)
 "iDE" = (
 /obj/structure/surface/rack,
 /turf/open/floor{
@@ -30422,6 +30517,14 @@
 	},
 /obj/structure/machinery/door/window{
 	dir = 2
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_x = -1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
 	},
 /turf/open/floor{
 	dir = 8;
@@ -32959,6 +33062,17 @@
 	icon_state = "mars_cave_7"
 	},
 /area/bigredv2/caves/eta/xenobiology)
+"mUM" = (
+/obj/structure/closet/secure_closet/medical2{
+	pixel_y = 16;
+	pixel_x = 8;
+	density = 0
+	},
+/turf/open/floor{
+	icon_state = "whiteyellow";
+	dir = 5
+	},
+/area/bigredv2/caves/lambda/research)
 "mWg" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/comdoor/colony{
 	dir = 2;
@@ -32968,6 +33082,12 @@
 	icon_state = "delivery"
 	},
 /area/bigredv2/outside/admin_building)
+"mWm" = (
+/turf/open/floor{
+	icon_state = "whiteyellow";
+	dir = 8
+	},
+/area/bigredv2/caves)
 "mWt" = (
 /obj/structure/prop/almayer/missile_tube{
 	desc = "A detached drill arm of a big old Seegson D-602 Mining Robot. Seems to be jury rigged to run without the main robot assembly.";
@@ -33323,7 +33443,8 @@
 	dir = 1
 	},
 /turf/open/floor{
-	icon_state = "white"
+	icon_state = "whiteyellow";
+	dir = 1
 	},
 /area/bigredv2/caves/lambda/research)
 "nCp" = (
@@ -34069,6 +34190,15 @@
 	icon_state = "mars_cave_5"
 	},
 /area/bigredv2/caves_virology)
+"oCK" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/closet/secure_closet/surgical{
+	pixel_x = 30
+	},
+/turf/open/floor{
+	icon_state = "whiteyellowfull"
+	},
+/area/bigredv2/caves/lambda/research)
 "oDB" = (
 /obj/structure/closet/l3closet,
 /obj/effect/landmark/objective_landmark/close,
@@ -34624,6 +34754,12 @@
 /obj/structure/sign/safety/hazard,
 /turf/closed/wall/solaris/rock,
 /area/bigredv2/caves)
+"pqb" = (
+/obj/structure/machinery/computer/prisoner,
+/turf/open/floor{
+	icon_state = "dark"
+	},
+/area/bigredv2/caves_lambda)
 "prf" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_11"
@@ -35124,6 +35260,11 @@
 	icon_state = "darkgreen2"
 	},
 /area/bigredv2/caves_lambda)
+"qdd" = (
+/turf/open/floor{
+	icon_state = "whiteyellow"
+	},
+/area/bigredv2/caves/lambda/research)
 "qez" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/open/mars_cave{
@@ -35697,6 +35838,12 @@
 	icon_state = "wood"
 	},
 /area/bigredv2/outside/admin_building)
+"qXM" = (
+/turf/open/floor{
+	icon_state = "whiteyellow";
+	dir = 10
+	},
+/area/bigredv2/caves/lambda/research)
 "qYY" = (
 /obj/structure/prop/invuln/minecart_tracks{
 	dir = 8
@@ -35912,6 +36059,16 @@
 	icon_state = "darkred2"
 	},
 /area/bigredv2/caves/eta/research)
+"roI" = (
+/obj/structure/closet/secure_closet/medical2{
+	pixel_y = 16;
+	pixel_x = -8;
+	density = 0
+	},
+/turf/open/floor{
+	icon_state = "whiteyellowfull"
+	},
+/area/bigredv2/caves)
 "roP" = (
 /obj/item/ore{
 	pixel_x = 9;
@@ -36030,6 +36187,14 @@
 	icon_state = "dark"
 	},
 /area/bigredv2/outside/engineering)
+"rzf" = (
+/obj/structure/machinery/bioprinter{
+	stored_metal = 125
+	},
+/turf/open/floor{
+	icon_state = "white"
+	},
+/area/bigredv2/caves/lambda/research)
 "rzO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/reagent_dispensers/water_cooler/stacks{
@@ -36592,8 +36757,9 @@
 	},
 /area/bigredv2/outside/engineering)
 "snA" = (
+/obj/structure/machinery/cm_vending/sorted/medical/blood,
 /turf/open/floor{
-	icon_state = "white"
+	icon_state = "whiteyellowfull"
 	},
 /area/bigredv2/caves/lambda/research)
 "sog" = (
@@ -37060,6 +37226,13 @@
 	icon_state = "mars_cave_23"
 	},
 /area/bigredv2/outside/lz1_telecomm_cas)
+"sQH" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/device/autopsy_scanner,
+/turf/open/floor{
+	icon_state = "whiteyellowfull"
+	},
+/area/bigredv2/caves/lambda/research)
 "sRy" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -38222,6 +38395,16 @@
 	icon_state = "mars_cave_7"
 	},
 /area/bigredv2/outside/lz2_west_cas)
+"uyR" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor{
+	dir = 1;
+	icon_state = "darkgreen2"
+	},
+/area/bigredv2/caves_east)
 "uzv" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/open/mars_cave{
@@ -38563,6 +38746,12 @@
 	icon_state = "mars_cave_7"
 	},
 /area/bigredv2/caves_sw)
+"uWi" = (
+/turf/open/floor{
+	icon_state = "whiteyellow";
+	dir = 6
+	},
+/area/bigredv2/caves/lambda/research)
 "uWo" = (
 /obj/structure/pipes/standard/manifold/fourway/hidden/green,
 /obj/effect/decal/cleanable/dirt,
@@ -38955,6 +39144,12 @@
 	dir = 1
 	},
 /area/bigredv2/caves/lambda/breakroom)
+"vvf" = (
+/turf/open/floor{
+	icon_state = "whiteyellow";
+	dir = 8
+	},
+/area/bigredv2/caves/lambda/research)
 "vvi" = (
 /obj/effect/landmark/nightmare{
 	insert_tag = "lz1containers"
@@ -38989,6 +39184,12 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/caves/mining)
+"vwz" = (
+/turf/open/floor{
+	icon_state = "whiteyellow";
+	dir = 10
+	},
+/area/bigredv2/caves)
 "vwB" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 8
@@ -39231,6 +39432,13 @@
 /obj/structure/sign/safety/high_voltage,
 /turf/closed/wall/solaris/reinforced,
 /area/bigredv2/caves/mining)
+"vRw" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/device/autopsy_scanner,
+/turf/open/floor{
+	icon_state = "whiteyellowfull"
+	},
+/area/bigredv2/caves)
 "vRK" = (
 /turf/open/floor{
 	dir = 8;
@@ -39268,8 +39476,7 @@
 /area/bigredv2/caves/mining)
 "vVz" = (
 /obj/structure/machinery/power/geothermal{
-	name = "Reactor Turbine";
-	power_generation_max = 100000
+	name = "Reactor Turbine"
 	},
 /turf/open/floor{
 	icon_state = "delivery"
@@ -39293,6 +39500,14 @@
 	icon_state = "darkyellow2"
 	},
 /area/bigredv2/outside/engineering)
+"vWz" = (
+/obj/structure/closet/bodybag,
+/obj/structure/bed/roller,
+/turf/open/floor{
+	icon_state = "whiteyellow";
+	dir = 1
+	},
+/area/bigredv2/caves/lambda/research)
 "vWM" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 1
@@ -39532,6 +39747,11 @@
 /obj/effect/landmark/lv624/xeno_tunnel,
 /turf/open/mars,
 /area/bigredv2/outside/w)
+"wqB" = (
+/turf/open/floor{
+	icon_state = "whiteyellowcorner"
+	},
+/area/bigredv2/caves/lambda/research)
 "wry" = (
 /obj/structure/surface/table,
 /obj/structure/transmitter/colony_net/rotary{
@@ -40185,6 +40405,12 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/caves/mining)
+"xhE" = (
+/turf/open/floor{
+	icon_state = "whiteyellow";
+	dir = 1
+	},
+/area/bigredv2/caves/lambda/research)
 "xhU" = (
 /obj/structure/closet/fireaxecabinet{
 	pixel_y = 27
@@ -79119,10 +79345,10 @@ hmm
 anI
 anI
 anI
-snA
-snA
-aBH
-aBH
+rzf
+anL
+vRw
+eck
 gNH
 gNH
 she
@@ -79335,12 +79561,12 @@ aqb
 aqb
 hwy
 anL
-snA
-snA
-snA
-snA
-aBH
-aBH
+iDo
+qXM
+anL
+eGS
+mWm
+vwz
 gNH
 she
 ano
@@ -79552,12 +79778,12 @@ hwy
 fWs
 anV
 anL
-snA
-snA
-snA
-snA
-aBH
-fAF
+vWz
+qdd
+hmm
+xhE
+gws
+qdd
 anI
 hwy
 ooi
@@ -79769,12 +79995,12 @@ hwy
 fWs
 aqb
 anL
-snA
-snA
-snA
-snA
-aBH
-snA
+vWz
+qdd
+anL
+mUM
+frG
+uWi
 anI
 hwy
 fWs
@@ -79987,17 +80213,17 @@ fWs
 afz
 anI
 iCD
-snA
-snA
-snA
-aBH
-snA
+qdd
+anI
+anL
+agg
+anI
 anI
 hwy
 fWs
 anI
 ojU
-ste
+pqb
 axT
 ufC
 rbt
@@ -80204,10 +80430,10 @@ aqb
 aqb
 hmm
 nCm
-snA
-snA
-snA
-aBH
+cRf
+vvf
+vvf
+vwz
 snA
 anI
 hwy
@@ -80421,11 +80647,11 @@ aqb
 aqb
 hmm
 nCm
-snA
-snA
-snA
-aBH
-snA
+wqB
+dyC
+dyC
+iDu
+fsM
 anI
 hwy
 fWs
@@ -80638,11 +80864,11 @@ fWs
 arN
 anI
 exa
-snA
-snA
-aBH
-aBH
-snA
+qdd
+anI
+agg
+agg
+anI
 anI
 hwy
 fWs
@@ -80854,12 +81080,12 @@ hwy
 fWs
 aJJ
 anL
-snA
-snA
-aBH
-aBH
-aBH
-snA
+vWz
+qdd
+agg
+roI
+mWm
+qXM
 anI
 hwy
 fWs
@@ -81071,12 +81297,12 @@ aqb
 aqb
 hwy
 anL
-snA
-snA
-snA
-snA
-snA
+vWz
+qdd
+hmm
+xhE
 fAF
+qdd
 anI
 hwy
 fWs
@@ -81288,12 +81514,12 @@ hmm
 uaB
 anI
 anI
-snA
-snA
-snA
-snA
-snA
-snA
+ebm
+uWi
+anL
+hXb
+dyC
+uWi
 anI
 hwy
 aJa
@@ -81506,10 +81732,10 @@ aqb
 hwy
 anI
 anI
-snA
-snA
-snA
-snA
+rzf
+anL
+sQH
+oCK
 anI
 anI
 anV
@@ -84584,7 +84810,7 @@ xmc
 xmc
 avh
 rCC
-vce
+uyR
 jLq
 pZz
 gNH
@@ -84801,7 +85027,7 @@ xmc
 xmc
 avh
 jnF
-vce
+fXn
 qRi
 kEA
 avh
@@ -85018,7 +85244,7 @@ xmc
 gCE
 avh
 rCC
-vce
+uyR
 jLq
 pZz
 avh
@@ -86299,7 +86525,7 @@ mGB
 qQg
 qQg
 aVz
-aWc
+ixX
 aob
 aao
 aao
@@ -86733,7 +86959,7 @@ aSs
 aTH
 aTH
 aVA
-aWc
+ixX
 aob
 aao
 aao
@@ -90610,7 +90836,7 @@ asx
 xyi
 xyi
 xyi
-xyi
+anQ
 anQ
 anQ
 anQ
