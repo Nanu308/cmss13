@@ -565,8 +565,14 @@
 	name = "\improper Airlock"
 	icon = 'icons/obj/structures/doors/2x1almayerdoor.dmi'
 
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/colony
+	req_access = null
+	req_one_access = list(ACCESS_CIVILIAN_PUBLIC)
+
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass
 	icon = 'icons/obj/structures/doors/2x1almayerdoor_glass.dmi'
 	opacity = FALSE
 	glass = TRUE
-
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass/colony
+	req_access = null
+	req_one_access = list(ACCESS_CIVILIAN_PUBLIC)
