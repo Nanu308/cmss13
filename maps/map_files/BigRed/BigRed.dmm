@@ -1764,7 +1764,7 @@
 "afu" = (
 /turf/open/floor{
 	dir = 4;
-	icon_state = "darkpurplecorners2"
+	icon_state = "darkgreencorners2"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "afv" = (
@@ -1978,7 +1978,13 @@
 	},
 /area/bigredv2/caves/lambda/virology)
 "agk" = (
-/turf/open/floor,
+/obj/structure/morgue{
+	dir = 1
+	},
+/turf/open/floor{
+	dir = 8;
+	icon_state = "vault"
+	},
 /area/bigredv2/caves/lambda/xenobiology)
 "agl" = (
 /turf/open/floor{
@@ -2514,14 +2520,11 @@
 	},
 /area/bigredv2/caves_lambda)
 "aik" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
-	name = "\improper Lambda Lab Virology Quarantine";
-	req_one_access = null
+/turf/open/floor{
+	dir = 4;
+	icon_state = "darkgreen2"
 	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/bigredv2/caves_east)
+/area/bigredv2/caves/lambda/research)
 "ail" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
@@ -2861,11 +2864,11 @@
 	},
 /area/bigredv2/caves_lambda)
 "ajr" = (
-/turf/open/floor{
-	dir = 4;
-	icon_state = "darkpurplecorners2"
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/colony,
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
-/area/space)
+/area/bigredv2/caves/lambda/research)
 "ajv" = (
 /obj/structure/machinery/shower{
 	dir = 8;
@@ -3095,9 +3098,10 @@
 /area/bigredv2/outside/nw)
 "aka" = (
 /turf/open/floor{
-	icon_state = "darkpurplecorners2"
+	dir = 10;
+	icon_state = "darkgreen2"
 	},
-/area/space)
+/area/bigredv2/caves)
 "akc" = (
 /obj/structure/window/framed/solaris,
 /turf/open/floor/plating,
@@ -3401,7 +3405,7 @@
 "alk" = (
 /turf/open/floor{
 	dir = 10;
-	icon_state = "darkpurple2"
+	icon_state = "darkgreen2"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "all" = (
@@ -3599,10 +3603,10 @@
 /area/bigredv2/caves/lambda/research)
 "alV" = (
 /turf/open/floor{
-	icon_state = "whitegreencorner";
-	tag = "icon-whitegreencorner"
+	icon_state = "darkredcorners2";
+	dir = 4
 	},
-/area/bigredv2/caves_lambda)
+/area/bigredv2/caves)
 "alW" = (
 /turf/open/floor{
 	dir = 9;
@@ -3615,7 +3619,7 @@
 /area/bigredv2/outside/medical)
 "alY" = (
 /turf/open/floor{
-	icon_state = "darkpurple2"
+	icon_state = "darkgreen2"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "alZ" = (
@@ -3856,10 +3860,7 @@
 /turf/open/floor/plating,
 /area/bigredv2/outside/dorms)
 "amK" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 1;
-	tag = "icon-intact-supply (NORTH)"
-	},
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/colony,
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
 	},
@@ -3870,7 +3871,9 @@
 	id = "anomalybelt"
 	},
 /obj/structure/plasticflaps,
-/turf/open/floor/plating,
+/turf/open/floor{
+	icon_state = "dark"
+	},
 /area/bigredv2/caves/lambda/virology)
 "amM" = (
 /turf/open/floor{
@@ -4259,10 +4262,9 @@
 /area/bigredv2/outside/library)
 "aod" = (
 /turf/open/floor{
-	icon_state = "whitegreencorner";
-	tag = "icon-whitegreencorner"
+	icon_state = "darkredcorners2"
 	},
-/area/bigredv2/caves)
+/area/bigredv2/caves/lambda/research)
 "aoe" = (
 /turf/open/floor{
 	dir = 4;
@@ -6047,13 +6049,10 @@
 	},
 /area/bigredv2/caves)
 "atM" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
-	name = "\improper Lambda Lab Break Room"
+/turf/open/floor{
+	icon_state = "darkgreencorners2"
 	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/bigredv2/caves)
+/area/bigredv2/caves/lambda/research)
 "atP" = (
 /obj/structure/window/framed/solaris,
 /obj/structure/machinery/door/poddoor/shutters/almayer{
@@ -8214,14 +8213,11 @@
 	},
 /area/bigredv2/caves_lambda)
 "aAV" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
-	dir = 1;
-	name = "\improper Lambda Lab Break Room"
+/turf/open/floor{
+	dir = 4;
+	icon_state = "darkgreen2"
 	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/bigredv2/caves/lambda/research)
+/area/bigredv2/caves/lambda/xenobiology)
 "aAW" = (
 /turf/open/floor{
 	dir = 4;
@@ -8658,15 +8654,11 @@
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "aCt" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
+/turf/open/floor{
 	dir = 1;
-	name = "\improper Lambda Lab Virology Wing";
-	req_one_access = null
+	icon_state = "darkgreencorners2"
 	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/bigredv2/caves_lambda)
+/area/bigredv2/caves/lambda/research)
 "aCx" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -8983,11 +8975,12 @@
 	},
 /area/bigredv2/caves)
 "aDt" = (
+/obj/structure/closet/bodybag,
 /turf/open/floor{
-	dir = 1;
-	icon_state = "darkpurplecorners2"
+	dir = 8;
+	icon_state = "vault"
 	},
-/area/space)
+/area/bigredv2/caves)
 "aDv" = (
 /obj/structure/window/framed/solaris,
 /turf/open/floor/plating,
@@ -9566,11 +9559,13 @@
 	},
 /area/bigredv2/caves_east)
 "aFk" = (
-/turf/open/floor{
-	dir = 8;
-	icon_state = "darkpurplecorners2"
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/colony{
+	dir = 1
 	},
-/area/space)
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/bigredv2/caves)
 "aFl" = (
 /turf/open/floor{
 	dir = 4;
@@ -10755,8 +10750,9 @@
 /turf/open/floor,
 /area/bigredv2/outside/cargo)
 "aIU" = (
-/turf/open/floor{
-	icon_state = "darkpurple2"
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/colony,
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/space)
 "aIV" = (
@@ -11971,7 +11967,13 @@
 	},
 /area/bigredv2/outside/e)
 "aMT" = (
-/turf/open/floor,
+/obj/structure/morgue{
+	dir = 1
+	},
+/turf/open/floor{
+	dir = 8;
+	icon_state = "vault"
+	},
 /area/bigredv2/caves_lambda)
 "aMV" = (
 /turf/open/floor/bluegrid{
@@ -11990,13 +11992,13 @@
 	},
 /area/space)
 "aMX" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
-	name = "\improper Lambda Lab Biology Wing"
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/colony{
+	dir = 1
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
 	},
-/area/bigredv2/caves/lambda/breakroom)
+/area/space)
 "aMY" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 8
@@ -14465,7 +14467,7 @@
 "aTw" = (
 /turf/open/floor{
 	dir = 5;
-	icon_state = "darkpurple2"
+	icon_state = "darkgreen2"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "aTx" = (
@@ -14841,15 +14843,11 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/space)
 "aUI" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
-	name = "\improper Lambda Lab Virology Quarantine";
-	req_one_access = null;
-	dir = 1
+/turf/open/floor{
+	dir = 8;
+	icon_state = "darkgreencorners2"
 	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/bigredv2/caves/lambda/virology)
+/area/bigredv2/caves/lambda/breakroom)
 "aUJ" = (
 /obj/structure/barricade/handrail/wire{
 	dir = 4
@@ -23075,7 +23073,7 @@
 "byd" = (
 /obj/structure/machinery/botany/extractor,
 /turf/open/floor{
-	icon_state = "whitegreen";
+	icon_state = "whiteyellow";
 	dir = 1
 	},
 /area/bigredv2/caves)
@@ -25511,6 +25509,12 @@
 	icon_state = "asteroidfloor"
 	},
 /area/bigredv2/outside/lz2_south_cas)
+"bIq" = (
+/turf/open/floor{
+	dir = 8;
+	icon_state = "darkgreencorners2"
+	},
+/area/bigredv2/caves/lambda/xenobiology)
 "bII" = (
 /obj/effect/landmark/structure_spawner/xvx_hive/xeno_door,
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
@@ -25608,6 +25612,16 @@
 	icon_state = "mars_cave_17"
 	},
 /area/bigredv2/caves/mining)
+"bPY" = (
+/obj/structure/machinery/door_control{
+	id = "west_side_garage";
+	name = "Storm Shutters";
+	pixel_x = -26
+	},
+/turf/open/floor{
+	icon_state = "dark"
+	},
+/area/bigredv2/caves)
 "bQb" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_18"
@@ -25678,7 +25692,7 @@
 "bUL" = (
 /obj/structure/surface/table/reinforced/prison,
 /turf/open/floor{
-	icon_state = "whitegreenfull"
+	icon_state = "whiteyellowfull"
 	},
 /area/bigredv2/caves_lambda)
 "bUN" = (
@@ -25690,8 +25704,8 @@
 "bVy" = (
 /obj/structure/surface/table/reinforced/prison,
 /turf/open/floor{
-	dir = 4;
-	icon_state = "whitegreen"
+	icon_state = "whiteyellow";
+	dir = 4
 	},
 /area/bigredv2/caves)
 "bWk" = (
@@ -25746,6 +25760,19 @@
 	},
 /turf/open/floor/plating,
 /area/bigredv2/outside/nw/ceiling)
+"bZF" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/book/manual/detective{
+	pixel_y = 8
+	},
+/obj/item/storage/fancy/cigarettes/wypacket{
+	pixel_y = 4;
+	pixel_x = 1
+	},
+/turf/open/floor{
+	icon_state = "dark"
+	},
+/area/bigredv2/caves_lambda)
 "bZJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/clothing/suit/radiation,
@@ -25772,11 +25799,17 @@
 /obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/carpet,
 /area/bigredv2/outside/admin_building)
-"cci" = (
-/obj/structure/machinery/cryo_cell,
-/obj/structure/pipes/standard/cap/hidden,
+"cbX" = (
+/obj/structure/surface/rack,
 /turf/open/floor{
-	icon_state = "whiteyellowfull"
+	dir = 4;
+	icon_state = "darkgreencorners2"
+	},
+/area/bigredv2/caves/lambda/xenobiology)
+"cci" = (
+/obj/structure/pipes/standard/tank/oxygen,
+/turf/open/floor{
+	icon_state = "whitegreenfull"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "ccP" = (
@@ -25894,7 +25927,7 @@
 "cnY" = (
 /obj/structure/machinery/door/window/northleft,
 /turf/open/floor{
-	icon_state = "whitegreen";
+	icon_state = "whiteyellow";
 	dir = 1
 	},
 /area/bigredv2/caves_lambda)
@@ -26039,10 +26072,13 @@
 /turf/open/floor/plating,
 /area/bigredv2/caves/mining)
 "cBc" = (
-/turf/open/floor{
-	dir = 10;
-	icon_state = "darkpurple2"
+/obj/structure/window/framed/solaris/reinforced,
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	dir = 2;
+	id = "main_sec_checkpoint";
+	name = "\improper Lockdown Shutters"
 	},
+/turf/open/floor/plating,
 /area/bigredv2/caves_lambda)
 "cCr" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
@@ -26114,6 +26150,15 @@
 	tag = "icon-bcircuitoff"
 	},
 /area/bigredv2/caves)
+"cHD" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 8
+	},
+/turf/open/floor{
+	dir = 1;
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves/lambda/research)
 "cHI" = (
 /obj/structure/closet/crate,
 /obj/structure/machinery/light{
@@ -26260,8 +26305,8 @@
 /area/bigredv2/outside/c)
 "cRf" = (
 /turf/open/floor{
-	icon_state = "whiteyellowcorner";
-	dir = 8
+	dir = 8;
+	icon_state = "whitegreencorner"
 	},
 /area/bigredv2/caves/lambda/research)
 "cRP" = (
@@ -26372,6 +26417,11 @@
 	icon_state = "mars_cave_2"
 	},
 /area/bigredv2/caves_sw)
+"dao" = (
+/turf/open/floor{
+	icon_state = "whiteyellowcorner"
+	},
+/area/bigredv2/caves)
 "dbi" = (
 /turf/closed/wall/solaris/reinforced/hull,
 /area/bigredv2/outside/telecomm/lz2_cave)
@@ -26393,16 +26443,25 @@
 	pixel_y = -3
 	},
 /turf/open/floor{
-	icon_state = "whitegreenfull"
+	icon_state = "whiteyellowfull"
 	},
 /area/bigredv2/caves_lambda)
+"dcv" = (
+/obj/structure/closet/bodybag{
+	icon_state = "bodybag_open"
+	},
+/turf/open/floor{
+	dir = 8;
+	icon_state = "vault"
+	},
+/area/bigredv2/caves)
 "dcL" = (
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /obj/structure/machinery/portable_atmospherics/hydroponics,
 /turf/open/floor{
-	icon_state = "whitegreen";
+	icon_state = "whiteyellow";
 	dir = 1
 	},
 /area/bigredv2/caves_lambda)
@@ -26642,9 +26701,9 @@
 	},
 /area/bigredv2/caves_sw)
 "dyr" = (
-/obj/structure/machinery/cryo_cell,
+/obj/structure/surface/rack,
 /turf/open/floor{
-	icon_state = "whiteyellowfull"
+	icon_state = "whitegreenfull"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "dyv" = (
@@ -26652,8 +26711,8 @@
 /area/bigredv2/caves/eta/xenobiology)
 "dyC" = (
 /turf/open/floor{
-	icon_state = "whiteyellow";
-	dir = 4
+	dir = 4;
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves/lambda/research)
 "dyH" = (
@@ -26742,6 +26801,12 @@
 /obj/item/weapon/twohanded/folded_metal_chair,
 /turf/open/floor/plating,
 /area/bigredv2/caves/mining)
+"dCG" = (
+/turf/open/floor{
+	dir = 4;
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves/lambda/research)
 "dEf" = (
 /obj/structure/closet/toolcloset,
 /obj/structure/machinery/light,
@@ -27007,8 +27072,8 @@
 	},
 /obj/structure/machinery/portable_atmospherics/hydroponics,
 /turf/open/floor{
-	dir = 4;
-	icon_state = "whitegreen"
+	icon_state = "whiteyellow";
+	dir = 4
 	},
 /area/bigredv2/caves_lambda)
 "dWd" = (
@@ -27061,7 +27126,7 @@
 	pixel_y = 1
 	},
 /turf/open/floor{
-	icon_state = "whiteyellow";
+	icon_state = "whitegreen";
 	dir = 5
 	},
 /area/bigredv2/caves/lambda/breakroom)
@@ -27093,8 +27158,8 @@
 "ebm" = (
 /obj/structure/machinery/iv_drip,
 /turf/open/floor{
-	icon_state = "whiteyellow";
-	dir = 5
+	dir = 5;
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves/lambda/research)
 "ebr" = (
@@ -27120,7 +27185,7 @@
 	pixel_x = -30
 	},
 /turf/open/floor{
-	icon_state = "whiteyellowfull"
+	icon_state = "whitegreenfull"
 	},
 /area/bigredv2/caves)
 "ecy" = (
@@ -27153,6 +27218,12 @@
 	icon_state = "asteroidfloor"
 	},
 /area/bigred/ground/garage_workshop)
+"efu" = (
+/turf/open/floor{
+	dir = 4;
+	icon_state = "darkredcorners2"
+	},
+/area/bigredv2/caves_lambda)
 "ega" = (
 /obj/structure/window/framed/solaris/reinforced,
 /turf/open/floor/plating,
@@ -27193,7 +27264,7 @@
 /area/bigredv2/outside/se)
 "ekg" = (
 /turf/open/floor{
-	icon_state = "whitegreencorner";
+	icon_state = "whiteyellowcorner";
 	dir = 8
 	},
 /area/bigredv2/caves)
@@ -27390,7 +27461,7 @@
 	icon_state = "triagedecaltopleft"
 	},
 /turf/open/floor{
-	icon_state = "whiteyellow";
+	icon_state = "whitegreen";
 	dir = 1
 	},
 /area/bigredv2/caves/lambda/research)
@@ -27400,13 +27471,20 @@
 	icon_state = "asteroidwarning"
 	},
 /area/bigred/ground/garage_workshop)
-"ezg" = (
-/obj/structure/surface/table/reinforced/prison,
+"eza" = (
 /turf/open/floor{
-	dir = 1;
-	icon_state = "darkpurplecorners2"
+	icon_state = "darkgreencorners2"
 	},
-/area/bigredv2/caves_lambda)
+/area/bigredv2/caves/lambda/xenobiology)
+"ezg" = (
+/obj/structure/window/framed/solaris/reinforced,
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	dir = 4;
+	id = "west_side_garage";
+	name = "\improper Storm Shutters"
+	},
+/turf/open/floor/plating,
+/area/bigredv2/caves)
 "ezQ" = (
 /obj/structure/largecrate/supply/supplies/flares,
 /turf/open/floor/plating{
@@ -27456,8 +27534,8 @@
 	},
 /obj/structure/machinery/portable_atmospherics/hydroponics,
 /turf/open/floor{
-	dir = 6;
-	icon_state = "whitegreen"
+	icon_state = "whiteyellow";
+	dir = 6
 	},
 /area/bigredv2/caves_lambda)
 "eER" = (
@@ -27516,8 +27594,8 @@
 /area/bigredv2/outside/engineering)
 "eGS" = (
 /turf/open/floor{
-	icon_state = "whiteyellow";
-	dir = 9
+	dir = 9;
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves/lambda/research)
 "eHA" = (
@@ -27535,9 +27613,7 @@
 	},
 /area/bigredv2/outside/engineering)
 "eIX" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
-	name = "\improper Anomaly Chamber"
-	},
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass/colony,
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
 	},
@@ -27651,6 +27727,20 @@
 	icon_state = "darkyellow2"
 	},
 /area/bigredv2/outside/engineering)
+"eSr" = (
+/obj/structure/surface/rack,
+/obj/item/device/radio{
+	pixel_x = -3;
+	pixel_y = 1
+	},
+/obj/item/device/radio{
+	pixel_x = 5
+	},
+/turf/open/floor{
+	dir = 10;
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves_lambda)
 "eSu" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/mars_cave{
@@ -27674,7 +27764,7 @@
 "eTh" = (
 /obj/structure/machinery/cm_vending/sorted/medical/no_access,
 /turf/open/floor{
-	icon_state = "whiteyellowfull"
+	icon_state = "whitegreenfull"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "eTj" = (
@@ -27850,6 +27940,15 @@
 	icon_state = "darkgreencorners2"
 	},
 /area/bigredv2/caves)
+"fjy" = (
+/obj/structure/bed/sofa/south/grey/right{
+	pixel_y = 15
+	},
+/turf/open/floor{
+	dir = 1;
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves/lambda/research)
 "fjz" = (
 /obj/structure/surface/table,
 /obj/structure/machinery/computer/objective{
@@ -27871,7 +27970,7 @@
 	},
 /obj/structure/machinery/portable_atmospherics/hydroponics,
 /turf/open/floor{
-	icon_state = "whitegreen";
+	icon_state = "whiteyellow";
 	dir = 1
 	},
 /area/bigredv2/caves/lambda/xenobiology)
@@ -27927,7 +28026,7 @@
 	pixel_y = 3
 	},
 /turf/open/floor{
-	icon_state = "whitegreencorner";
+	icon_state = "whiteyellowcorner";
 	dir = 4
 	},
 /area/bigredv2/caves_lambda)
@@ -27966,23 +28065,36 @@
 	},
 /turf/closed/wall/wood,
 /area/bigredv2/caves/mining)
+"fpD" = (
+/turf/open/floor{
+	dir = 4;
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves_lambda)
 "frG" = (
 /turf/open/floor{
-	icon_state = "whiteyellow";
-	dir = 4
+	dir = 4;
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves)
+"frN" = (
+/turf/open/floor{
+	dir = 8;
+	icon_state = "darkgreen2"
+	},
+/area/bigredv2/caves/lambda/research)
 "fsM" = (
 /obj/structure/machinery/cm_vending/sorted/medical,
 /turf/open/floor{
-	icon_state = "whiteyellowfull"
+	icon_state = "whitegreenfull"
 	},
 /area/bigredv2/caves/lambda/research)
 "fsP" = (
-/turf/open/floor{
-	icon_state = "whitegreencorner"
+/obj/structure/fence,
+/turf/open/mars_cave{
+	icon_state = "mars_cave_2"
 	},
-/area/bigredv2/caves/lambda/xenobiology)
+/area/space)
 "fuf" = (
 /turf/open/floor{
 	dir = 4;
@@ -28012,10 +28124,10 @@
 /area/bigredv2/outside/lz2_south_cas)
 "fvJ" = (
 /turf/open/floor{
-	icon_state = "whitegreen";
-	dir = 5
+	dir = 9;
+	icon_state = "darkred2"
 	},
-/area/bigredv2/caves)
+/area/bigredv2/caves_lambda)
 "fwa" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_7"
@@ -28084,7 +28196,7 @@
 "fyn" = (
 /turf/open/floor{
 	dir = 1;
-	icon_state = "darkpurplecorners2"
+	icon_state = "darkgreencorners2"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "fyp" = (
@@ -28124,7 +28236,7 @@
 "fBe" = (
 /obj/structure/machinery/portable_atmospherics/hydroponics,
 /turf/open/floor{
-	icon_state = "whitegreen"
+	icon_state = "whiteyellow"
 	},
 /area/bigredv2/caves)
 "fBo" = (
@@ -28172,6 +28284,15 @@
 	icon_state = "mars_dirt_3"
 	},
 /area/bigredv2/outside/space_port_lz2)
+"fFS" = (
+/obj/structure/window/framed/solaris/reinforced,
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	dir = 2;
+	id = "main_sec_checkpoint";
+	name = "\improper Lockdown Shutters"
+	},
+/turf/open/floor/plating,
+/area/bigredv2/caves)
 "fGN" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_20"
@@ -28194,6 +28315,14 @@
 	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/outside/eta)
+"fKb" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 4
+	},
+/turf/open/floor{
+	icon_state = "dark"
+	},
+/area/bigredv2/caves_lambda)
 "fKW" = (
 /obj/structure/machinery/power/apc{
 	dir = 1
@@ -28251,7 +28380,7 @@
 /area/bigredv2/caves/mining)
 "fNI" = (
 /turf/open/floor{
-	icon_state = "whitegreen";
+	icon_state = "whiteyellow";
 	dir = 8
 	},
 /area/bigredv2/caves_lambda)
@@ -28493,11 +28622,11 @@
 	},
 /area/bigredv2/outside/lz1_north_cas)
 "gft" = (
+/obj/structure/closet/secure_closet/guncabinet/wy,
 /turf/open/floor{
-	dir = 4;
-	icon_state = "whitegreen"
+	icon_state = "darkred2"
 	},
-/area/bigredv2/caves/lambda/xenobiology)
+/area/bigredv2/caves)
 "gfX" = (
 /obj/structure/sign/safety/hazard{
 	pixel_y = -32
@@ -28764,7 +28893,7 @@
 	pixel_x = 5
 	},
 /turf/open/floor{
-	icon_state = "whitegreenfull"
+	icon_state = "whiteyellowfull"
 	},
 /area/bigredv2/caves)
 "gCx" = (
@@ -28844,11 +28973,13 @@
 /turf/open/mars_cave,
 /area/bigredv2/caves_virology)
 "gKj" = (
-/obj/structure/surface/table/reinforced/prison,
-/turf/open/floor{
+/obj/structure/window/framed/solaris/reinforced,
+/obj/structure/machinery/door/poddoor/shutters/almayer{
 	dir = 4;
-	icon_state = "darkpurple2"
+	name = "\improper Storm Shutters";
+	id = "west_side"
 	},
+/turf/open/floor/plating,
 /area/bigredv2/caves_lambda)
 "gKk" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
@@ -28951,6 +29082,12 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/caves/mining)
+"gUg" = (
+/turf/open/floor{
+	dir = 8;
+	icon_state = "darkredcorners2"
+	},
+/area/bigredv2/caves/lambda/research)
 "gUv" = (
 /turf/open/floor{
 	dir = 1;
@@ -29029,7 +29166,7 @@
 	},
 /obj/structure/machinery/portable_atmospherics/hydroponics,
 /turf/open/floor{
-	icon_state = "whitegreen";
+	icon_state = "whiteyellow";
 	dir = 9
 	},
 /area/bigredv2/caves/lambda/xenobiology)
@@ -29164,8 +29301,8 @@
 	pixel_y = 1
 	},
 /turf/open/floor{
-	icon_state = "whiteyellow";
-	dir = 4
+	dir = 4;
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "hko" = (
@@ -29224,13 +29361,13 @@
 /area/bigredv2/caves_research)
 "hnr" = (
 /turf/open/floor{
-	icon_state = "whiteyellow";
-	dir = 8
+	dir = 8;
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "hnD" = (
 /turf/open/floor{
-	icon_state = "whiteyellow"
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "hoQ" = (
@@ -29255,10 +29392,13 @@
 	},
 /area/bigredv2/outside/space_port_lz2)
 "hqo" = (
-/turf/open/floor{
-	icon_state = "whitegreenfull"
+/obj/effect/decal/medical_decals{
+	icon_state = "cryocell1decal"
 	},
-/area/bigredv2/caves)
+/turf/open/floor{
+	icon_state = "white"
+	},
+/area/bigredv2/caves/lambda/breakroom)
 "hqC" = (
 /obj/item/ammo_magazine/rifle/mar40/lmg,
 /turf/open/mars_cave{
@@ -29375,6 +29515,13 @@
 /turf/open/floor,
 /area/bigredv2/outside/cargo)
 "hzF" = (
+/obj/structure/machinery/prop/almayer/computer{
+	icon_state = "messyfiles";
+	dir = 4;
+	desc = "Used to view and edit personnel's security records";
+	pixel_y = 17;
+	pixel_x = 9
+	},
 /turf/open/floor{
 	dir = 4;
 	icon_state = "darkredcorners2"
@@ -29587,6 +29734,23 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/caves/mining)
+"hUY" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/machinery/faxmachine{
+	pixel_y = 3
+	},
+/turf/open/floor{
+	icon_state = "dark"
+	},
+/area/bigredv2/caves_lambda)
+"hVg" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass/colony{
+	dir = 2
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/bigredv2/caves/lambda/virology)
 "hWa" = (
 /turf/open/floor{
 	dir = 8;
@@ -29594,11 +29758,14 @@
 	},
 /area/bigredv2/caves_lambda)
 "hWJ" = (
+/obj/effect/decal/medical_decals{
+	icon_state = "cryotop"
+	},
 /obj/structure/pipes/standard/simple/hidden{
-	dir = 4
+	dir = 9
 	},
 /turf/open/floor{
-	icon_state = "whiteyellow";
+	icon_state = "whitegreen";
 	dir = 1
 	},
 /area/bigredv2/caves/lambda/breakroom)
@@ -29612,8 +29779,14 @@
 /area/bigredv2/caves/mining)
 "hXb" = (
 /turf/open/floor{
-	icon_state = "whiteyellow";
-	dir = 5
+	dir = 5;
+	icon_state = "whitegreen"
+	},
+/area/bigredv2/caves/lambda/research)
+"hXl" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/reinforced/colony,
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves/lambda/research)
 "hXY" = (
@@ -29752,9 +29925,14 @@
 	},
 /area/bigredv2/caves/mining)
 "ifK" = (
+/obj/structure/closet/firecloset{
+	pixel_y = 15;
+	pixel_x = 8;
+	density = 0
+	},
 /turf/open/floor{
 	dir = 5;
-	icon_state = "darkpurple2"
+	icon_state = "darkred2"
 	},
 /area/bigredv2/caves)
 "igM" = (
@@ -29870,6 +30048,15 @@
 	icon_state = "mars_cave_2"
 	},
 /area/bigredv2/caves/mining)
+"ipk" = (
+/obj/structure/machinery/door/airlock/almayer/research/glass/colony{
+	name = "\improper Eta Lab Cell";
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/bigredv2/caves/lambda/xenobiology)
 "iqF" = (
 /obj/structure/prop/invuln/minecart_tracks,
 /turf/open/mars_cave{
@@ -30031,15 +30218,15 @@
 	icon_state = "triagedecaltopright"
 	},
 /turf/open/floor{
-	icon_state = "whiteyellow";
+	icon_state = "whitegreen";
 	dir = 1
 	},
 /area/bigredv2/caves/lambda/research)
 "iDo" = (
 /obj/structure/machinery/iv_drip,
 /turf/open/floor{
-	icon_state = "whiteyellow";
-	dir = 9
+	dir = 9;
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves/lambda/research)
 "iDu" = (
@@ -30049,9 +30236,9 @@
 	},
 /area/bigredv2/caves)
 "iDE" = (
-/obj/structure/surface/rack,
+/obj/structure/machinery/cryo_cell,
 /turf/open/floor{
-	icon_state = "whiteyellowfull"
+	icon_state = "whitegreenfull"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "iDJ" = (
@@ -30183,6 +30370,7 @@
 	},
 /area/bigredv2/caves)
 "iPk" = (
+/obj/structure/closet/secure_closet/guncabinet/wy,
 /turf/open/floor{
 	dir = 6;
 	icon_state = "darkred2"
@@ -30219,6 +30407,17 @@
 	icon_state = "asteroidfloor"
 	},
 /area/bigredv2/outside/telecomm/n_cave)
+"iRs" = (
+/obj/structure/closet/firecloset{
+	pixel_y = 15;
+	pixel_x = -8;
+	density = 0
+	},
+/turf/open/floor{
+	dir = 4;
+	icon_state = "darkgreen2"
+	},
+/area/bigredv2/caves/lambda/breakroom)
 "iRw" = (
 /obj/structure/closet/secure_closet,
 /obj/effect/landmark/objective_landmark/medium,
@@ -30341,10 +30540,16 @@
 	pixel_y = 1
 	},
 /turf/open/floor{
-	icon_state = "whiteyellow";
+	icon_state = "whitegreen";
 	dir = 1
 	},
 /area/bigredv2/caves/lambda/breakroom)
+"jbn" = (
+/turf/open/floor{
+	dir = 8;
+	icon_state = "darkgreen2"
+	},
+/area/bigredv2/caves/lambda/xenobiology)
 "jbU" = (
 /obj/effect/decal/cleanable/blood{
 	base_icon = 'icons/obj/items/weapons/grenade.dmi';
@@ -30357,6 +30562,14 @@
 	icon_state = "mars_cave_13"
 	},
 /area/bigredv2/caves/mining)
+"jci" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass/colony{
+	dir = 2
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/bigredv2/caves_lambda)
 "jcn" = (
 /obj/effect/landmark/nightmare{
 	insert_tag = "tcomms"
@@ -30447,7 +30660,7 @@
 	},
 /obj/item/storage/box/pillbottles,
 /turf/open/floor{
-	icon_state = "whitegreenfull"
+	icon_state = "whiteyellowfull"
 	},
 /area/bigredv2/caves_lambda)
 "jjW" = (
@@ -30839,8 +31052,8 @@
 /area/bigredv2/caves_east)
 "jMf" = (
 /turf/open/floor{
-	icon_state = "whitegreen";
-	dir = 9
+	dir = 8;
+	icon_state = "darkred2"
 	},
 /area/bigredv2/caves_lambda)
 "jMi" = (
@@ -30938,10 +31151,9 @@
 /turf/open/floor/plating,
 /area/bigredv2/caves/mining)
 "jQO" = (
-/obj/structure/surface/table/reinforced/prison,
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass/colony,
 /turf/open/floor{
-	dir = 8;
-	icon_state = "darkpurplecorners2"
+	icon_state = "dark"
 	},
 /area/bigredv2/caves_lambda)
 "jQS" = (
@@ -30984,7 +31196,7 @@
 "jRE" = (
 /obj/structure/machinery/door/window/northright,
 /turf/open/floor{
-	icon_state = "whitegreen";
+	icon_state = "whiteyellow";
 	dir = 1
 	},
 /area/bigredv2/caves_lambda)
@@ -31036,10 +31248,16 @@
 	},
 /area/bigredv2/caves/mining)
 "jVE" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/device/megaphone,
 /obj/structure/machinery/door/window/northright{
 	pixel_y = -12
 	},
-/obj/structure/surface/table/reinforced/prison,
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	dir = 2;
+	id = "main_sec_checkpoint";
+	name = "\improper Lockdown Shutters"
+	},
 /turf/open/floor{
 	icon_state = "dark"
 	},
@@ -31183,16 +31401,32 @@
 	},
 /area/bigredv2/caves/mining)
 "kax" = (
-/obj/structure/surface/table/reinforced/prison,
-/turf/open/floor{
-	icon_state = "darkpurplecorners2"
+/obj/structure/morgue/crematorium{
+	id = "cremation_br_lambda"
 	},
-/area/bigredv2/caves_lambda)
+/obj/structure/machinery/door_control{
+	id = "cremation_br_lambda";
+	name = "Cremation";
+	pixel_x = -26
+	},
+/turf/open/floor{
+	dir = 8;
+	icon_state = "vault"
+	},
+/area/bigredv2/caves)
 "kcx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/weapon/broken_bottle,
 /turf/open/floor/plating,
 /area/bigredv2/caves/mining)
+"kcN" = (
+/obj/structure/machinery/door/airlock/almayer/medical/glass/colony{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/bigredv2/caves/lambda/research)
 "kcZ" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /obj/structure/fence,
@@ -31247,10 +31481,20 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/caves/mining)
+"ket" = (
+/turf/open/floor{
+	icon_state = "darkgreencorners2"
+	},
+/area/bigredv2/caves/lambda/breakroom)
 "key" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/mars_cave,
 /area/bigredv2/caves/mining)
+"keN" = (
+/turf/open/floor{
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves/lambda/research)
 "kfY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -31434,11 +31678,16 @@
 	},
 /area/bigredv2/outside/filtration_cave_cas)
 "koC" = (
-/turf/open/floor{
-	dir = 1;
-	icon_state = "darkpurple2"
+/obj/structure/machinery/door_control{
+	id = "west_side";
+	name = "Storm Shutters";
+	pixel_x = -26
 	},
-/area/space)
+/turf/open/floor{
+	dir = 4;
+	icon_state = "darkgreen2"
+	},
+/area/bigredv2/caves_lambda)
 "koZ" = (
 /obj/structure/closet/secure_closet/medical2{
 	pixel_y = 16;
@@ -31451,21 +31700,20 @@
 	density = 0
 	},
 /turf/open/floor{
-	icon_state = "whiteyellow"
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "kpf" = (
 /turf/closed/wall/solaris/rock,
 /area/bigredv2/caves_lambda)
 "kpE" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor/colony{
-	dir = 1;
-	name = "\improper Lambda Lab Virology Wing"
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass/colony{
+	dir = 2
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
 	},
-/area/bigredv2/caves_east)
+/area/bigredv2/caves/lambda/xenobiology)
 "kqb" = (
 /turf/open/mars_cave{
 	icon_state = "mars_sand_3"
@@ -31515,7 +31763,7 @@
 	},
 /obj/item/tool/pen/clicky,
 /turf/open/floor{
-	icon_state = "whitegreenfull"
+	icon_state = "whiteyellowfull"
 	},
 /area/bigredv2/caves/lambda/xenobiology)
 "ksO" = (
@@ -31544,6 +31792,20 @@
 /area/space)
 "ktM" = (
 /obj/structure/machinery/door/window/westleft,
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 2
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3;
+	pixel_x = -2
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	dir = 4;
+	id = "main_sec_checkpoint_lockdown";
+	name = "\improper Lockdown Shutters"
+	},
 /turf/open/floor{
 	icon_state = "dark"
 	},
@@ -31641,6 +31903,12 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/caves/mining)
+"kCn" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/glass/colony,
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/bigredv2/caves)
 "kDs" = (
 /obj/structure/surface/table,
 /obj/item/reagent_container/food/drinks/cans/waterbottle{
@@ -31680,6 +31948,12 @@
 	icon_state = "vault"
 	},
 /area/bigredv2/caves_east)
+"kER" = (
+/turf/open/floor{
+	dir = 1;
+	icon_state = "darkredcorners2"
+	},
+/area/bigredv2/caves/lambda/research)
 "kFe" = (
 /obj/structure/largecrate/random/barrel/white,
 /turf/open/floor{
@@ -31880,8 +32154,8 @@
 /obj/item/reagent_container/spray/mister,
 /obj/item/device/analyzer/plant_analyzer,
 /turf/open/floor{
-	dir = 4;
-	icon_state = "whitegreen"
+	icon_state = "whiteyellow";
+	dir = 4
 	},
 /area/bigredv2/caves)
 "kVS" = (
@@ -31934,7 +32208,7 @@
 	icon_state = "freezer_1"
 	},
 /turf/open/floor{
-	icon_state = "whiteyellowfull"
+	icon_state = "whitegreenfull"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "lbZ" = (
@@ -31982,15 +32256,15 @@
 "lem" = (
 /obj/structure/surface/table/reinforced/prison,
 /turf/open/floor{
-	dir = 6;
-	icon_state = "whitegreen"
+	icon_state = "whiteyellow";
+	dir = 6
 	},
 /area/bigredv2/caves)
 "lgg" = (
 /obj/structure/window/reinforced,
 /obj/structure/machinery/seed_extractor,
 /turf/open/floor{
-	icon_state = "whitegreen"
+	icon_state = "whiteyellow"
 	},
 /area/bigredv2/caves_lambda)
 "lhh" = (
@@ -32077,7 +32351,7 @@
 /obj/structure/reagent_dispensers/watertank,
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor{
-	icon_state = "whitegreenfull"
+	icon_state = "whiteyellowfull"
 	},
 /area/bigredv2/caves_lambda)
 "lrW" = (
@@ -32139,7 +32413,7 @@
 /obj/item/organ/eyes,
 /obj/item/storage/fancy/vials/random,
 /turf/open/floor{
-	icon_state = "whiteyellow"
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "lvy" = (
@@ -32169,15 +32443,12 @@
 	},
 /area/bigredv2/caves_sw)
 "lxe" = (
-/obj/effect/decal/medical_decals{
-	icon_state = "cryotop"
-	},
 /obj/structure/pipes/standard/simple/hidden{
 	dir = 5
 	},
 /turf/open/floor{
-	icon_state = "whiteyellow";
-	dir = 9
+	dir = 9;
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "lxh" = (
@@ -32238,12 +32509,13 @@
 	},
 /area/bigredv2/caves/lambda/xenobiology)
 "lCD" = (
-/obj/structure/surface/rack,
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/tool/surgery/surgicaldrill,
 /turf/open/floor{
-	dir = 8;
-	icon_state = "darkpurple2"
+	dir = 4;
+	icon_state = "darkgreen2"
 	},
-/area/bigredv2/caves_lambda)
+/area/bigredv2/caves)
 "lCR" = (
 /obj/structure/surface/table,
 /obj/item/reagent_container/food/drinks/flask/vacuumflask{
@@ -32366,7 +32638,7 @@
 	density = 0
 	},
 /turf/open/floor{
-	icon_state = "whiteyellow"
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "lPh" = (
@@ -32497,6 +32769,24 @@
 	icon_state = "mars_cave_7"
 	},
 /area/bigredv2/caves_sw)
+"lYe" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/closet/bodybag{
+	icon_state = "bodybag_folded";
+	pixel_x = -6
+	},
+/obj/structure/closet/bodybag{
+	icon_state = "bodybag_folded"
+	},
+/obj/structure/closet/bodybag{
+	icon_state = "bodybag_folded";
+	pixel_x = 6
+	},
+/turf/open/floor{
+	dir = 4;
+	icon_state = "darkgreen2"
+	},
+/area/bigredv2/caves_lambda)
 "lYi" = (
 /obj/structure/ore_box,
 /turf/open/mars_cave{
@@ -32648,10 +32938,9 @@
 /turf/open/floor,
 /area/bigred/ground/garage_workshop)
 "mkq" = (
-/obj/structure/surface/table/reinforced/prison,
-/turf/open/floor{
-	dir = 1;
-	icon_state = "darkpurple2"
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/colony,
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
 	},
 /area/bigredv2/caves_lambda)
 "mlV" = (
@@ -32782,6 +33071,20 @@
 /obj/structure/barricade/handrail/strata{
 	dir = 8
 	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3;
+	pixel_x = -2
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 2
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	dir = 4;
+	id = "main_sec_checkpoint_lockdown";
+	name = "\improper Lockdown Shutters"
+	},
 /turf/open/floor{
 	dir = 10;
 	icon_state = "darkpurple2"
@@ -32891,7 +33194,7 @@
 	},
 /obj/structure/machinery/portable_atmospherics/hydroponics,
 /turf/open/floor{
-	icon_state = "whitegreen";
+	icon_state = "whiteyellow";
 	dir = 9
 	},
 /area/bigredv2/caves_lambda)
@@ -32962,6 +33265,7 @@
 /turf/closed/wall/solaris/rock,
 /area/bigredv2/caves)
 "mKT" = (
+/obj/structure/bed/chair/office/dark,
 /turf/open/floor{
 	icon_state = "darkred2"
 	},
@@ -33069,8 +33373,8 @@
 	density = 0
 	},
 /turf/open/floor{
-	icon_state = "whiteyellow";
-	dir = 5
+	dir = 5;
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves/lambda/research)
 "mWg" = (
@@ -33084,8 +33388,8 @@
 /area/bigredv2/outside/admin_building)
 "mWm" = (
 /turf/open/floor{
-	icon_state = "whiteyellow";
-	dir = 8
+	dir = 8;
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves)
 "mWt" = (
@@ -33252,6 +33556,15 @@
 /obj/structure/platform_decoration/kutjevo/rock,
 /turf/open/mars,
 /area/space)
+"nmw" = (
+/obj/structure/machinery/photocopier{
+	anchored = 0
+	},
+/turf/open/floor{
+	dir = 5;
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves/lambda/research)
 "nmU" = (
 /obj/structure/surface/table,
 /obj/item/device/analyzer,
@@ -33289,6 +33602,7 @@
 	},
 /area/bigredv2/outside/engineering)
 "npp" = (
+/obj/structure/closet/firecloset,
 /turf/open/floor{
 	dir = 8;
 	icon_state = "vault"
@@ -33411,8 +33725,7 @@
 /area/bigredv2/caves/mining)
 "nxU" = (
 /turf/open/floor{
-	icon_state = "whitegreencorner";
-	dir = 4
+	icon_state = "whiteyellowfull"
 	},
 /area/bigredv2/caves)
 "nyU" = (
@@ -33443,7 +33756,7 @@
 	dir = 1
 	},
 /turf/open/floor{
-	icon_state = "whiteyellow";
+	icon_state = "whitegreen";
 	dir = 1
 	},
 /area/bigredv2/caves/lambda/research)
@@ -33526,7 +33839,7 @@
 "nFP" = (
 /obj/structure/machinery/door/window/southleft,
 /turf/open/floor{
-	icon_state = "whitegreen"
+	icon_state = "whiteyellow"
 	},
 /area/bigredv2/caves_lambda)
 "nGm" = (
@@ -33581,7 +33894,7 @@
 	pixel_y = 6
 	},
 /turf/open/floor{
-	icon_state = "whitegreenfull"
+	icon_state = "whiteyellowfull"
 	},
 /area/bigredv2/caves_lambda)
 "nKL" = (
@@ -33663,7 +33976,7 @@
 /area/bigredv2/caves/mining)
 "nTD" = (
 /turf/open/floor{
-	icon_state = "whitegreen";
+	icon_state = "whiteyellow";
 	dir = 8
 	},
 /area/bigredv2/caves/lambda/xenobiology)
@@ -33839,7 +34152,7 @@
 	pixel_y = 3
 	},
 /turf/open/floor{
-	icon_state = "whitegreen";
+	icon_state = "whiteyellow";
 	dir = 8
 	},
 /area/bigredv2/caves)
@@ -33927,6 +34240,11 @@
 /area/bigredv2/outside/engineering)
 "ojU" = (
 /obj/structure/surface/table/reinforced/prison,
+/obj/structure/machinery/prop/almayer/computer{
+	icon_state = "security";
+	dir = 4;
+	desc = "Used to view and edit personnel's security records"
+	},
 /turf/open/floor{
 	dir = 1;
 	icon_state = "darkred2"
@@ -34196,7 +34514,7 @@
 	pixel_x = 30
 	},
 /turf/open/floor{
-	icon_state = "whiteyellowfull"
+	icon_state = "whitegreenfull"
 	},
 /area/bigredv2/caves/lambda/research)
 "oDB" = (
@@ -34322,7 +34640,7 @@
 	density = 0
 	},
 /turf/open/floor{
-	icon_state = "whitegreenfull"
+	icon_state = "whiteyellowfull"
 	},
 /area/bigredv2/caves)
 "oMd" = (
@@ -34353,7 +34671,7 @@
 /area/bigredv2/caves_research)
 "oOn" = (
 /turf/open/floor{
-	icon_state = "whitegreencorner";
+	icon_state = "whiteyellowcorner";
 	dir = 4
 	},
 /area/bigredv2/caves_lambda)
@@ -34387,6 +34705,19 @@
 	icon_state = "mars_cave_13"
 	},
 /area/bigredv2/caves_north)
+"oRu" = (
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = -4
+	},
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/tool/screwdriver,
+/obj/item/clothing/glasses/welding{
+	pixel_y = 6
+	},
+/turf/open/floor{
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves_lambda)
 "oRK" = (
 /obj/structure/computer3frame/wallcomp,
 /obj/structure/cable{
@@ -34449,8 +34780,8 @@
 "oVa" = (
 /obj/structure/bookcase/manuals/research_and_development,
 /turf/open/floor{
-	dir = 6;
-	icon_state = "whitegreen"
+	icon_state = "whiteyellow";
+	dir = 6
 	},
 /area/bigredv2/caves)
 "oWc" = (
@@ -34504,7 +34835,7 @@
 	icon_state = "triagedecalbottomright"
 	},
 /turf/open/floor{
-	icon_state = "whiteyellow"
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves)
 "oXr" = (
@@ -34691,6 +35022,15 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/space)
+"pkZ" = (
+/obj/structure/closet/secure_closet/wall{
+	pixel_x = -32
+	},
+/turf/open/floor{
+	dir = 10;
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves_lambda)
 "plx" = (
 /obj/structure/machinery/power/apc{
 	dir = 4
@@ -34705,7 +35045,7 @@
 	icon_state = "triagedecalbottomleft"
 	},
 /turf/open/floor{
-	icon_state = "whiteyellow"
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves)
 "pmk" = (
@@ -34755,7 +35095,10 @@
 /turf/closed/wall/solaris/rock,
 /area/bigredv2/caves)
 "pqb" = (
-/obj/structure/machinery/computer/prisoner,
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/clipboard,
+/obj/item/folder/red,
+/obj/item/tool/pen/clicky,
 /turf/open/floor{
 	icon_state = "dark"
 	},
@@ -34911,6 +35254,19 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/caves/mining)
+"pEP" = (
+/obj/structure/bookcase{
+	icon_state = "book-5";
+	name = "law and engineering manuals bookcase";
+	opacity = 0;
+	density = 0;
+	pixel_y = 18
+	},
+/turf/open/floor{
+	dir = 1;
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves/lambda/research)
 "pGP" = (
 /obj/structure/barricade/handrail{
 	dir = 4
@@ -34963,7 +35319,7 @@
 /area/bigredv2/outside/engineering)
 "pLe" = (
 /turf/open/floor{
-	icon_state = "whitegreencorner";
+	icon_state = "whiteyellowcorner";
 	dir = 1
 	},
 /area/bigredv2/caves_lambda)
@@ -35028,8 +35384,9 @@
 	pixel_y = 1
 	},
 /turf/open/floor{
-	icon_state = "whiteyellow";
-	dir = 5
+	dir = 5;
+	icon_state = "whitegreen";
+	tag = "icon-whitegreen (NORTHEAST)"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "pOL" = (
@@ -35045,6 +35402,33 @@
 	icon_state = "dark"
 	},
 /area/bigredv2/outside/filtration_plant)
+"pPS" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/device/camera{
+	pixel_y = 6;
+	pixel_x = 6
+	},
+/obj/item/device/camera_film{
+	pixel_y = 4;
+	pixel_x = 5
+	},
+/obj/structure/machinery/door_control{
+	id = "main_sec_checkpoint";
+	name = "Security Shutters";
+	pixel_x = -8;
+	pixel_y = 10
+	},
+/obj/structure/machinery/door_control{
+	id = "main_sec_checkpoint_lockdown";
+	name = "Lockdown Shutters";
+	pixel_x = -8;
+	pixel_y = 2
+	},
+/turf/open/floor{
+	dir = 6;
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves_lambda)
 "pQv" = (
 /obj/structure/surface/table,
 /obj/effect/landmark/objective_landmark/close,
@@ -35140,9 +35524,19 @@
 	},
 /area/bigred/ground/garage_workshop)
 "pWj" = (
+/obj/structure/machinery/prop/almayer/computer{
+	icon_state = "jas";
+	dir = 8;
+	desc = "A powerful machine produced by Weyland-Yutani to streamline all punishment of prisoners. The best grade policing gear seen on this side of the galaxy.";
+	pixel_y = 5
+	},
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/machinery/computer/cameras/mining{
+	dir = 8;
+	pixel_y = 20
+	},
 /turf/open/floor{
-	icon_state = "whitegreencorner";
-	dir = 8
+	icon_state = "dark"
 	},
 /area/bigredv2/caves_lambda)
 "pWs" = (
@@ -35212,13 +35606,11 @@
 	},
 /area/bigredv2/oob)
 "pYS" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor/colony{
-	name = "\improper Lambda Lab Virology Wing"
+/turf/open/floor{
+	icon_state = "darkgreen2";
+	dir = 1
 	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/bigredv2/caves_east)
+/area/bigredv2/caves/lambda/xenobiology)
 "pZe" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/weapon/twohanded/folded_metal_chair,
@@ -35262,7 +35654,7 @@
 /area/bigredv2/caves_lambda)
 "qdd" = (
 /turf/open/floor{
-	icon_state = "whiteyellow"
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves/lambda/research)
 "qez" = (
@@ -35343,7 +35735,7 @@
 	},
 /obj/structure/machinery/portable_atmospherics/hydroponics,
 /turf/open/floor{
-	icon_state = "whitegreen";
+	icon_state = "whiteyellow";
 	dir = 5
 	},
 /area/bigredv2/caves_lambda)
@@ -35445,6 +35837,12 @@
 	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/outside/filtration_plant)
+"qpO" = (
+/turf/open/floor{
+	dir = 4;
+	icon_state = "darkgreencorners2"
+	},
+/area/bigredv2/caves/lambda/research)
 "qqw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -35452,6 +35850,12 @@
 	icon_state = "darkyellow2"
 	},
 /area/bigredv2/outside/filtration_plant)
+"qqB" = (
+/turf/open/floor{
+	dir = 4;
+	icon_state = "darkgreen2"
+	},
+/area/bigredv2/caves/lambda/breakroom)
 "qrZ" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/storage/firstaid/fire,
@@ -35470,6 +35874,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/bigredv2/caves/mining)
+"quE" = (
+/turf/open/floor{
+	dir = 8;
+	icon_state = "darkgreencorners2"
+	},
+/area/bigredv2/caves/lambda/research)
 "quQ" = (
 /obj/effect/decal/cleanable/blood/drip{
 	pixel_x = 2;
@@ -35516,8 +35926,8 @@
 "qzH" = (
 /obj/structure/machinery/biogenerator,
 /turf/open/floor{
-	dir = 10;
-	icon_state = "whitegreen"
+	icon_state = "whiteyellow";
+	dir = 10
 	},
 /area/bigredv2/caves)
 "qzO" = (
@@ -35656,10 +36066,32 @@
 	icon_state = "dark"
 	},
 /area/bigredv2/caves)
+"qIy" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/colony{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/bigredv2/caves_lambda)
 "qJs" = (
 /obj/structure/machinery/door/window/eastright{
 	dir = 8;
 	req_access_txt = "8"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 2
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3;
+	pixel_x = -2
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	dir = 4;
+	id = "main_sec_checkpoint_lockdown";
+	name = "\improper Lockdown Shutters"
 	},
 /turf/open/floor{
 	icon_state = "dark"
@@ -35734,7 +36166,7 @@
 "qQJ" = (
 /obj/structure/surface/table/reinforced/prison,
 /turf/open/floor{
-	icon_state = "whitegreen";
+	icon_state = "whiteyellow";
 	dir = 8
 	},
 /area/bigredv2/caves_lambda)
@@ -35785,7 +36217,7 @@
 /area/bigredv2/caves/eta/xenobiology)
 "qUm" = (
 /turf/open/floor{
-	icon_state = "whitegreen"
+	icon_state = "whiteyellowfull"
 	},
 /area/bigredv2/caves/lambda/xenobiology)
 "qUF" = (
@@ -35828,7 +36260,7 @@
 "qWZ" = (
 /obj/structure/surface/table/reinforced/prison,
 /turf/open/floor{
-	icon_state = "whiteyellowfull"
+	icon_state = "whitegreenfull"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "qXi" = (
@@ -35840,10 +36272,16 @@
 /area/bigredv2/outside/admin_building)
 "qXM" = (
 /turf/open/floor{
-	icon_state = "whiteyellow";
-	dir = 10
+	dir = 10;
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves/lambda/research)
+"qYa" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/colony,
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/bigredv2/caves/lambda/breakroom)
 "qYY" = (
 /obj/structure/prop/invuln/minecart_tracks{
 	dir = 8
@@ -35919,6 +36357,12 @@
 	icon_state = "mars_dirt_6"
 	},
 /area/bigredv2/caves/mining)
+"rcu" = (
+/obj/structure/machinery/door/airlock/almayer/security/reinforced/colony,
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/bigredv2/caves/lambda/research)
 "rcN" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_16"
@@ -36047,6 +36491,16 @@
 "rnc" = (
 /turf/open/mars_cave,
 /area/bigredv2/caves_research)
+"rnr" = (
+/obj/effect/decal/medical_decals{
+	icon_state = "cryotop"
+	},
+/obj/structure/pipes/standard/manifold/hidden,
+/turf/open/floor{
+	icon_state = "whitegreen";
+	dir = 1
+	},
+/area/bigredv2/caves/lambda/breakroom)
 "rnV" = (
 /obj/item/stack/sheet/glass,
 /turf/open/floor{
@@ -36066,7 +36520,8 @@
 	density = 0
 	},
 /turf/open/floor{
-	icon_state = "whiteyellowfull"
+	dir = 9;
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves)
 "roP" = (
@@ -36103,6 +36558,23 @@
 	},
 /area/bigredv2/caves/mining)
 "rrh" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/handcuffs/zip{
+	pixel_y = 6;
+	pixel_x = -10
+	},
+/obj/item/device/encryptionkey/WY{
+	pixel_y = 4;
+	pixel_x = -11
+	},
+/obj/item/device/encryptionkey/WY{
+	pixel_y = -1;
+	pixel_x = -11
+	},
+/obj/structure/machinery/recharger{
+	pixel_x = 6;
+	pixel_y = -2
+	},
 /turf/open/floor{
 	icon_state = "darkred2"
 	},
@@ -36192,7 +36664,7 @@
 	stored_metal = 125
 	},
 /turf/open/floor{
-	icon_state = "white"
+	icon_state = "whitegreenfull"
 	},
 /area/bigredv2/caves/lambda/research)
 "rzO" = (
@@ -36314,6 +36786,14 @@
 "rIl" = (
 /turf/closed/wall/solaris/reinforced/hull,
 /area/bigredv2/oob)
+"rIw" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass/colony{
+	dir = 2
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/bigredv2/caves)
 "rJJ" = (
 /turf/open/floor{
 	dir = 1;
@@ -36340,10 +36820,10 @@
 /area/bigredv2/caves/mining)
 "rKO" = (
 /turf/open/floor{
-	icon_state = "whitegreen";
-	dir = 10
+	dir = 8;
+	icon_state = "darkred2"
 	},
-/area/bigredv2/caves_lambda)
+/area/bigredv2/caves/lambda/research)
 "rKP" = (
 /obj/structure/machinery/portable_atmospherics/powered/scrubber,
 /turf/open/floor/plating{
@@ -36444,6 +36924,12 @@
 	},
 /turf/open/floor/plating,
 /area/bigredv2/oob)
+"rRh" = (
+/turf/open/floor{
+	dir = 5;
+	icon_state = "darkgreen2"
+	},
+/area/bigredv2/caves/lambda/xenobiology)
 "rRO" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/open/floor{
@@ -36645,7 +37131,7 @@
 	dir = 4
 	},
 /turf/open/floor{
-	icon_state = "whitegreenfull"
+	icon_state = "whiteyellowfull"
 	},
 /area/bigredv2/caves)
 "sfI" = (
@@ -36759,7 +37245,7 @@
 "snA" = (
 /obj/structure/machinery/cm_vending/sorted/medical/blood,
 /turf/open/floor{
-	icon_state = "whiteyellowfull"
+	icon_state = "whitegreenfull"
 	},
 /area/bigredv2/caves/lambda/research)
 "sog" = (
@@ -36838,6 +37324,22 @@
 /area/bigredv2/caves/mining)
 "ste" = (
 /obj/structure/surface/table/reinforced/prison,
+/obj/item/paper_bin/uscm{
+	pixel_x = -6;
+	pixel_y = 7
+	},
+/obj/item/tool/stamp/internalaffairs{
+	pixel_y = 6;
+	pixel_x = 6
+	},
+/obj/item/device/flashlight/lamp/on{
+	pixel_y = 1;
+	pixel_x = 16
+	},
+/obj/item/tool/pen/clicky{
+	pixel_x = -7;
+	pixel_y = 1
+	},
 /turf/open/floor{
 	icon_state = "dark"
 	},
@@ -36899,7 +37401,7 @@
 	},
 /obj/structure/machinery/portable_atmospherics/hydroponics,
 /turf/open/floor{
-	icon_state = "whitegreen";
+	icon_state = "whiteyellow";
 	dir = 9
 	},
 /area/bigredv2/caves_lambda)
@@ -37112,6 +37614,9 @@
 	},
 /area/bigredv2/caves/mining)
 "sHI" = (
+/obj/structure/closet/fireaxecabinet{
+	pixel_y = 27
+	},
 /turf/open/floor{
 	dir = 1;
 	icon_state = "darkredcorners2"
@@ -37160,8 +37665,8 @@
 /area/bigredv2/caves_se)
 "sLt" = (
 /turf/open/floor{
-	icon_state = "whiteyellow";
-	dir = 6
+	dir = 6;
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "sLy" = (
@@ -37230,7 +37735,7 @@
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/device/autopsy_scanner,
 /turf/open/floor{
-	icon_state = "whiteyellowfull"
+	icon_state = "whitegreenfull"
 	},
 /area/bigredv2/caves/lambda/research)
 "sRy" = (
@@ -37252,7 +37757,7 @@
 "sUX" = (
 /obj/structure/machinery/door/window/southright,
 /turf/open/floor{
-	icon_state = "whitegreen"
+	icon_state = "whiteyellow"
 	},
 /area/bigredv2/caves_lambda)
 "sVv" = (
@@ -37292,8 +37797,8 @@
 /area/bigredv2/caves/mining)
 "sWX" = (
 /turf/open/floor{
-	icon_state = "whiteyellow";
-	dir = 4
+	dir = 4;
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "sXv" = (
@@ -37476,7 +37981,7 @@
 "tiw" = (
 /obj/structure/bookcase/manuals/research_and_development,
 /turf/open/floor{
-	icon_state = "whitegreen"
+	icon_state = "whiteyellow"
 	},
 /area/bigredv2/caves)
 "tiD" = (
@@ -37512,10 +38017,7 @@
 	},
 /area/space)
 "tkN" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
-	name = "\improper Lambda Lab Anomaly Lab";
-	req_one_access = null
-	},
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass/colony,
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
 	},
@@ -37529,7 +38031,7 @@
 "tlD" = (
 /obj/structure/machinery/centrifuge,
 /turf/open/floor{
-	icon_state = "whitegreen";
+	icon_state = "whiteyellow";
 	dir = 1
 	},
 /area/bigredv2/caves_lambda)
@@ -37546,7 +38048,7 @@
 	pixel_y = 4
 	},
 /turf/open/floor{
-	icon_state = "whitegreen";
+	icon_state = "whiteyellow";
 	dir = 5
 	},
 /area/bigredv2/caves_lambda)
@@ -37562,7 +38064,7 @@
 "tmX" = (
 /obj/structure/machinery/cm_vending/sorted/medical/blood,
 /turf/open/floor{
-	icon_state = "whiteyellowfull"
+	icon_state = "whitegreenfull"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "tnd" = (
@@ -37606,6 +38108,12 @@
 /obj/item/prop/alien/hugger,
 /turf/open/floor,
 /area/bigredv2/outside/admin_building)
+"tpH" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor/colony,
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/bigredv2/caves/lambda/research)
 "tpR" = (
 /obj/structure/bed/chair{
 	dir = 4;
@@ -37970,6 +38478,12 @@
 	icon_state = "delivery"
 	},
 /area/bigredv2/outside/hydroponics)
+"tLj" = (
+/turf/open/floor{
+	dir = 8;
+	icon_state = "darkgreen2"
+	},
+/area/bigredv2/caves/lambda/breakroom)
 "tLt" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_14"
@@ -38126,10 +38640,19 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/caves/mining)
-"uaB" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
+"tZW" = (
+/obj/structure/machinery/vending/coffee{
+	density = 0;
+	pixel_y = 16
+	},
+/turf/open/floor{
 	dir = 1;
-	name = "\improper Lambda Lab Administration Wing"
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves/lambda/research)
+"uaB" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/colony{
+	dir = 1
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
@@ -38149,7 +38672,7 @@
 "ubO" = (
 /obj/structure/machinery/botany/editor,
 /turf/open/floor{
-	icon_state = "whitegreen";
+	icon_state = "whiteyellow";
 	dir = 5
 	},
 /area/bigredv2/caves_lambda)
@@ -38176,8 +38699,8 @@
 /area/bigredv2/outside/engineering)
 "ufk" = (
 /turf/open/floor{
-	icon_state = "whiteyellow";
-	dir = 10
+	dir = 10;
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "ufu" = (
@@ -38224,6 +38747,14 @@
 	icon_state = "asteroidfloor"
 	},
 /area/bigredv2/caves_lambda)
+"ugz" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass/colony{
+	dir = 2
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/bigredv2/caves_east)
 "ugW" = (
 /obj/structure/machinery/light/small,
 /turf/open/floor/plating{
@@ -38256,6 +38787,15 @@
 	icon_state = "delivery"
 	},
 /area/bigredv2/outside/filtration_cave_cas)
+"ujJ" = (
+/obj/structure/bed/sofa/south/grey/left{
+	pixel_y = 15
+	},
+/turf/open/floor{
+	dir = 1;
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves/lambda/research)
 "ujU" = (
 /obj/item/ammo_magazine/handful/shotgun/custom_color{
 	color = "#6666ff";
@@ -38390,6 +38930,12 @@
 /obj/structure/machinery/door/poddoor/almayer/closed,
 /turf/open/floor/plating,
 /area/bigredv2/caves/mining)
+"uxC" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass/colony,
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/bigredv2/caves/lambda/breakroom)
 "uyk" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_7"
@@ -38431,7 +38977,7 @@
 	pixel_y = 3
 	},
 /turf/open/floor{
-	icon_state = "whitegreen";
+	icon_state = "whiteyellow";
 	dir = 5
 	},
 /area/bigredv2/caves_lambda)
@@ -38490,6 +39036,12 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/caves/mining)
+"uDJ" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/colony,
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/bigredv2/caves/lambda/xenobiology)
 "uDZ" = (
 /obj/structure/machinery/light/small{
 	dir = 4
@@ -38592,6 +39144,12 @@
 	icon_state = "asteroidfloor"
 	},
 /area/bigred/ground/garage_workshop)
+"uIV" = (
+/turf/open/floor{
+	icon_state = "darkgreen2";
+	dir = 1
+	},
+/area/bigredv2/caves/lambda/research)
 "uJj" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -38662,6 +39220,19 @@
 	icon_state = "mars_dirt_4"
 	},
 /area/bigredv2/caves/mining)
+"uPJ" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/handcuffs{
+	pixel_y = 12
+	},
+/obj/item/handcuffs{
+	pixel_y = 6
+	},
+/obj/item/handcuffs,
+/turf/open/floor{
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves_lambda)
 "uQC" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/xenoautopsy{
@@ -38676,6 +39247,22 @@
 	icon_state = "whitepurple"
 	},
 /area/bigredv2/caves/lambda/breakroom)
+"uRj" = (
+/obj/structure/filingcabinet/medical{
+	density = 0;
+	pixel_x = 7;
+	pixel_y = 16
+	},
+/obj/structure/filingcabinet/medical{
+	density = 0;
+	pixel_x = -8;
+	pixel_y = 16
+	},
+/turf/open/floor{
+	dir = 1;
+	icon_state = "darkred2"
+	},
+/area/bigredv2/caves)
 "uRE" = (
 /obj/effect/landmark/nightmare{
 	insert_tag = "medbay-passage"
@@ -38748,8 +39335,8 @@
 /area/bigredv2/caves_sw)
 "uWi" = (
 /turf/open/floor{
-	icon_state = "whiteyellow";
-	dir = 6
+	dir = 6;
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves/lambda/research)
 "uWo" = (
@@ -38771,8 +39358,17 @@
 /area/bigredv2/caves_sw)
 "uZj" = (
 /turf/open/floor{
-	icon_state = "whitegreen";
-	dir = 1
+	icon_state = "browncorner"
+	},
+/area/bigredv2/caves)
+"uZq" = (
+/obj/structure/machinery/prop/almayer/computer{
+	icon_state = "explosive";
+	dir = 4;
+	desc = "Used to view and edit personnel's security records"
+	},
+/turf/open/floor{
+	icon_state = "dark"
 	},
 /area/bigredv2/caves_lambda)
 "vai" = (
@@ -38818,7 +39414,7 @@
 	pixel_y = 1
 	},
 /turf/open/floor{
-	icon_state = "whiteyellowcorner";
+	icon_state = "whitegreencorner";
 	dir = 4
 	},
 /area/bigredv2/caves/lambda/breakroom)
@@ -38893,6 +39489,11 @@
 	icon_state = "mars_dirt_13"
 	},
 /area/bigredv2/outside/eta)
+"vfP" = (
+/turf/open/floor{
+	icon_state = "darkgreen2"
+	},
+/area/bigredv2/caves/lambda/research)
 "vfQ" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
 /obj/effect/landmark/structure_spawner/xvx_hive/xeno_wall,
@@ -38921,8 +39522,8 @@
 	},
 /obj/structure/machinery/vending/hydronutrients,
 /turf/open/floor{
-	dir = 6;
-	icon_state = "whitegreen"
+	icon_state = "whiteyellow";
+	dir = 6
 	},
 /area/bigredv2/caves_lambda)
 "vis" = (
@@ -39116,8 +39717,8 @@
 "vtH" = (
 /obj/structure/surface/table/reinforced/prison,
 /turf/open/floor{
-	dir = 10;
-	icon_state = "whitegreen"
+	icon_state = "whiteyellow";
+	dir = 10
 	},
 /area/bigredv2/caves_lambda)
 "vuz" = (
@@ -39133,21 +39734,15 @@
 	},
 /area/bigredv2/caves/eta/research)
 "vuU" = (
-/obj/effect/decal/medical_decals{
-	icon_state = "cryotop"
-	},
-/obj/structure/pipes/standard/simple/hidden{
-	dir = 9
-	},
 /turf/open/floor{
-	icon_state = "whiteyellow";
+	icon_state = "whitegreen";
 	dir = 1
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "vvf" = (
 /turf/open/floor{
-	icon_state = "whiteyellow";
-	dir = 8
+	dir = 8;
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves/lambda/research)
 "vvi" = (
@@ -39186,8 +39781,8 @@
 /area/bigredv2/caves/mining)
 "vwz" = (
 /turf/open/floor{
-	icon_state = "whiteyellow";
-	dir = 10
+	dir = 10;
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves)
 "vwB" = (
@@ -39275,7 +39870,7 @@
 "vCO" = (
 /obj/structure/pipes/standard/manifold/hidden,
 /turf/open/floor{
-	icon_state = "whiteyellow";
+	icon_state = "whitegreen";
 	dir = 1
 	},
 /area/bigredv2/caves/lambda/breakroom)
@@ -39389,6 +39984,13 @@
 /area/bigredv2/outside/admin_building)
 "vOC" = (
 /obj/structure/surface/table/reinforced/prison,
+/obj/structure/transmitter/rotary/no_dnd{
+	name = "Lambda Main Checkpoint Telephone";
+	phone_category = "Lambda Labs";
+	phone_id = "Lambda Main Checkpoint";
+	pixel_x = 1;
+	pixel_y = 6
+	},
 /turf/open/floor{
 	dir = 1;
 	icon_state = "darkred2"
@@ -39436,7 +40038,7 @@
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/device/autopsy_scanner,
 /turf/open/floor{
-	icon_state = "whiteyellowfull"
+	icon_state = "whitegreenfull"
 	},
 /area/bigredv2/caves)
 "vRK" = (
@@ -39504,7 +40106,7 @@
 /obj/structure/closet/bodybag,
 /obj/structure/bed/roller,
 /turf/open/floor{
-	icon_state = "whiteyellow";
+	icon_state = "whitegreen";
 	dir = 1
 	},
 /area/bigredv2/caves/lambda/research)
@@ -39749,7 +40351,7 @@
 /area/bigredv2/outside/w)
 "wqB" = (
 /turf/open/floor{
-	icon_state = "whiteyellowcorner"
+	icon_state = "whitegreencorner"
 	},
 /area/bigredv2/caves/lambda/research)
 "wry" = (
@@ -39776,6 +40378,12 @@
 /obj/structure/plasticflaps,
 /turf/open/floor/plating,
 /area/bigredv2/caves/mining)
+"wsa" = (
+/turf/open/floor{
+	icon_state = "darkredcorners2";
+	dir = 8
+	},
+/area/bigredv2/caves/lambda/research)
 "wtj" = (
 /turf/open/floor/plating,
 /area/bigredv2/caves/mining)
@@ -39873,13 +40481,27 @@
 	start_vials = 2
 	},
 /turf/open/floor{
-	icon_state = "whitegreen";
+	icon_state = "whiteyellow";
 	dir = 5
 	},
 /area/bigredv2/caves_lambda)
 "wAY" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 8
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 2
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3;
+	pixel_x = -2
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	dir = 4;
+	id = "main_sec_checkpoint_lockdown";
+	name = "\improper Lockdown Shutters"
 	},
 /turf/open/floor{
 	dir = 9;
@@ -39906,14 +40528,18 @@
 	},
 /area/bigredv2/caves/mining)
 "wCT" = (
-/obj/effect/decal/medical_decals{
-	icon_state = "cryocell1decal"
+/obj/structure/bookcase{
+	icon_state = "book-5";
+	name = "law and engineering manuals bookcase";
+	opacity = 0;
+	density = 0;
+	pixel_y = 18
 	},
 /turf/open/floor{
-	icon_state = "whiteyellow";
-	dir = 8
+	dir = 9;
+	icon_state = "darkred2"
 	},
-/area/bigredv2/caves/lambda/breakroom)
+/area/bigredv2/caves_lambda)
 "wDa" = (
 /obj/effect/decal/cleanable/blood/drip{
 	pixel_x = 6
@@ -40011,7 +40637,7 @@
 /area/bigredv2/outside/c)
 "wHi" = (
 /turf/open/floor{
-	icon_state = "whitegreenfull"
+	icon_state = "whiteyellowfull"
 	},
 /area/bigredv2/caves_lambda)
 "wHx" = (
@@ -40027,7 +40653,7 @@
 "wHD" = (
 /obj/structure/surface/table/reinforced/prison,
 /turf/open/floor{
-	icon_state = "whitegreen"
+	icon_state = "whiteyellow"
 	},
 /area/bigredv2/caves_lambda)
 "wIw" = (
@@ -40056,11 +40682,13 @@
 	},
 /area/bigredv2/outside/lz1_north_cas)
 "wLd" = (
-/obj/structure/surface/table/reinforced/prison,
-/turf/open/floor{
-	icon_state = "darkpurple2"
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/colony{
+	dir = 1
 	},
-/area/bigredv2/caves_lambda)
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/bigredv2/caves/lambda/xenobiology)
 "wLD" = (
 /obj/structure/largecrate/random/barrel/yellow,
 /turf/open/floor/plating{
@@ -40133,6 +40761,12 @@
 	icon_state = "dark"
 	},
 /area/bigredv2/caves/eta/xenobiology)
+"wPx" = (
+/turf/open/floor{
+	dir = 8;
+	icon_state = "darkredcorners2"
+	},
+/area/bigredv2/caves)
 "wQa" = (
 /obj/structure/surface/table,
 /obj/item/reagent_container/food/drinks/cans/beer{
@@ -40208,7 +40842,7 @@
 	pixel_y = -2
 	},
 /turf/open/floor{
-	icon_state = "whitegreenfull"
+	icon_state = "whiteyellowfull"
 	},
 /area/bigredv2/caves/lambda/xenobiology)
 "wUD" = (
@@ -40245,9 +40879,10 @@
 	},
 /area/bigredv2/caves/mining)
 "wWo" = (
-/obj/structure/pipes/standard/tank/oxygen,
+/obj/structure/machinery/cryo_cell,
+/obj/structure/pipes/standard/cap/hidden,
 /turf/open/floor{
-	icon_state = "whiteyellowfull"
+	icon_state = "whitegreenfull"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "wWK" = (
@@ -40407,7 +41042,7 @@
 /area/bigredv2/caves/mining)
 "xhE" = (
 /turf/open/floor{
-	icon_state = "whiteyellow";
+	icon_state = "whitegreen";
 	dir = 1
 	},
 /area/bigredv2/caves/lambda/research)
@@ -40427,7 +41062,7 @@
 	pixel_y = 1
 	},
 /turf/open/floor{
-	icon_state = "whiteyellowfull"
+	icon_state = "whitegreenfull"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "xkq" = (
@@ -40493,7 +41128,7 @@
 	icon_state = "triagedecaldir"
 	},
 /turf/open/floor{
-	icon_state = "whiteyellow"
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves)
 "xpb" = (
@@ -40596,9 +41231,9 @@
 /area/bigredv2/caves_east)
 "xvo" = (
 /turf/open/floor{
-	icon_state = "whiteyellow"
+	icon_state = "whiteyellowcorner"
 	},
-/area/bigredv2/caves)
+/area/bigredv2/caves_lambda)
 "xwo" = (
 /obj/structure/disposalpipe/junction,
 /turf/open/mars_cave{
@@ -40742,6 +41377,13 @@
 	icon_state = "bcircuitoff"
 	},
 /area/bigredv2/caves)
+"xEB" = (
+/obj/structure/machinery/optable,
+/obj/item/tool/surgery/circular_saw,
+/turf/open/floor{
+	icon_state = "dark"
+	},
+/area/bigredv2/caves)
 "xFZ" = (
 /turf/open/mars_cave,
 /area/bigredv2/caves_lambda)
@@ -40788,7 +41430,7 @@
 "xJc" = (
 /obj/structure/surface/table/reinforced/prison,
 /turf/open/floor{
-	icon_state = "whitegreenfull"
+	icon_state = "whiteyellowfull"
 	},
 /area/bigredv2/caves)
 "xJC" = (
@@ -40820,7 +41462,7 @@
 /obj/item/organ/lungs,
 /obj/item/frame/firstaid_arm_assembly,
 /turf/open/floor{
-	icon_state = "whiteyellow"
+	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves/lambda/breakroom)
 "xKG" = (
@@ -40910,7 +41552,7 @@
 	density = 0
 	},
 /turf/open/floor{
-	icon_state = "whitegreenfull"
+	icon_state = "whiteyellowfull"
 	},
 /area/bigredv2/caves_lambda)
 "xUo" = (
@@ -40942,10 +41584,7 @@
 	},
 /area/bigredv2/caves/lambda/xenobiology)
 "xWm" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
-	name = "\improper Lambda Lab Virology Quarantine";
-	req_one_access = null
-	},
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass/colony,
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
 	},
@@ -40981,7 +41620,7 @@
 /obj/structure/window/reinforced,
 /obj/structure/machinery/mill,
 /turf/open/floor{
-	icon_state = "whitegreen"
+	icon_state = "whiteyellow"
 	},
 /area/bigredv2/caves_lambda)
 "xWH" = (
@@ -41028,12 +41667,14 @@
 	},
 /area/bigredv2/outside/engineering)
 "xXD" = (
-/obj/structure/surface/table/reinforced/prison,
-/turf/open/floor{
+/obj/structure/window/framed/solaris/reinforced,
+/obj/structure/machinery/door/poddoor/shutters/almayer{
 	dir = 4;
-	icon_state = "darkpurplecorners2"
+	id = "west_side";
+	name = "\improper Storm Shutters"
 	},
-/area/bigredv2/caves_lambda)
+/turf/open/floor/plating,
+/area/bigredv2/caves)
 "xXP" = (
 /obj/structure/prop/invuln/minecart_tracks/bumper,
 /turf/open/mars_cave{
@@ -41255,8 +41896,8 @@
 	},
 /obj/structure/machinery/vending/hydronutrients,
 /turf/open/floor{
-	dir = 10;
-	icon_state = "whitegreen"
+	icon_state = "whiteyellow";
+	dir = 10
 	},
 /area/bigredv2/caves)
 "ykR" = (
@@ -76051,14 +76692,14 @@ tQw
 tQw
 tQw
 tQw
+tQw
+tQw
+wbp
+wbp
+gNH
+ezg
+ezg
 arK
-ajW
-ajO
-gNH
-gNH
-gNH
-gNH
-arK
 kpf
 kpf
 tQw
@@ -76071,10 +76712,10 @@ tQw
 kpf
 kpf
 kpf
-tQw
-tQw
-tQw
-tQw
+gXp
+gXp
+gXp
+gXp
 tQw
 tQw
 tQw
@@ -76267,14 +76908,14 @@ tQw
 tQw
 tQw
 tQw
+tQw
 arK
-arK
-dIb
-dIb
-dIb
-dIb
-dIb
-aMT
+ajO
+aFk
+gNH
+gNH
+lCD
+lYe
 arK
 arK
 kpf
@@ -76288,8 +76929,8 @@ tQw
 tQw
 kpf
 tQw
-tQw
-tQw
+xFZ
+xFZ
 xFZ
 tQw
 gXp
@@ -76485,13 +77126,13 @@ tQw
 tQw
 tQw
 arK
-aMT
-dIb
-dIb
-dIb
-dIb
-dIb
-aMT
+arK
+alN
+aka
+gNH
+kax
+bPY
+axT
 aMT
 arK
 tQw
@@ -76702,20 +77343,20 @@ tQw
 tQw
 tQw
 arK
-dIb
-dIb
-dIb
-dIb
-dIb
-dIb
-aMT
+aDt
+aVZ
+kNP
+gNH
+xEB
+ano
+axT
 aMT
 arK
 tQw
 wbp
 wbp
-kpf
-kpf
+tQw
+tQw
 tQw
 tQw
 tQw
@@ -76919,18 +77560,18 @@ tQw
 tQw
 kpf
 gNH
-dIb
-dIb
-dIb
-agk
-agk
-agk
-agk
+dcv
+aVZ
+kNP
+adZ
+afd
+agi
+agi
 agk
 adZ
-arc
+bNl
 wbp
-aao
+wbp
 aao
 aao
 wbp
@@ -77136,16 +77777,16 @@ tQw
 tQw
 kpf
 gNH
-dIb
-dIb
-agk
-agk
-agk
-agk
-agk
-agk
+aDt
+aVZ
+ava
 adZ
-arc
+ava
+aAV
+aAV
+cbX
+adZ
+bNl
 arc
 aao
 aao
@@ -77346,7 +77987,7 @@ aaa
 aab
 aao
 aao
-aao
+wbp
 tQw
 tQw
 tQw
@@ -77354,12 +77995,12 @@ kpf
 kpf
 gNH
 gNH
-dIb
-agk
-agk
-agk
-agk
-agk
+aDl
+hQW
+ipk
+afH
+afH
+afH
 adZ
 adZ
 arc
@@ -77367,10 +78008,10 @@ arc
 arc
 arc
 aao
-aao
-bNl
-bNl
-arc
+gNH
+aCy
+wLd
+adZ
 arc
 arc
 arc
@@ -77572,7 +78213,7 @@ kpf
 gNH
 gNH
 ajO
-aCy
+kpE
 adZ
 adZ
 adZ
@@ -77585,8 +78226,8 @@ adZ
 adZ
 gNH
 gNH
-aCy
-aCy
+gUv
+bIq
 adZ
 adZ
 adZ
@@ -77788,29 +78429,29 @@ kpf
 kpf
 gNH
 gNH
-ano
-agi
-aFo
-amW
-amW
-amW
-amW
-amW
-amW
-amW
-amW
-amW
-aDk
-amO
-agi
-agi
-aFo
-amW
-amW
-amW
-awG
-awG
-awG
+aGi
+bIq
+bIq
+jbn
+jbn
+jbn
+jbn
+jbn
+jbn
+jbn
+jbn
+jbn
+oMN
+aGi
+gUv
+bIq
+bIq
+jbn
+jbn
+jbn
+tLj
+tLj
+tLj
 alk
 amk
 amk
@@ -78004,31 +78645,31 @@ tQw
 kpf
 kpf
 gNH
-she
-ano
-agi
-awK
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-agl
-auw
-awK
-agl
-agl
-agl
-agl
-aAW
-aAW
+aVZ
+fiR
+eza
+aAV
+aAV
+aAV
+aAV
+aAV
+aAV
+aAV
+aAV
+aAV
+aAV
+aAV
+afH
+afH
+eza
+eza
+aAV
+aAV
+aAV
+qqB
+qqB
 afu
-aCs
+aUI
 alk
 amk
 azm
@@ -78221,9 +78862,9 @@ tQw
 kpf
 kpf
 gNH
-she
-aoE
-aKf
+aVZ
+aFn
+avM
 adZ
 adZ
 aev
@@ -78236,8 +78877,8 @@ aev
 aev
 adZ
 adZ
-aAi
-ati
+afH
+eza
 adZ
 adZ
 adZ
@@ -78255,8 +78896,8 @@ azm
 azm
 gNH
 gNH
-agg
-rEJ
+xXD
+gKj
 arK
 arK
 kpf
@@ -78435,11 +79076,11 @@ wbp
 tQw
 tQw
 tQw
-tQw
+kpf
 kpf
 gNH
-she
-app
+aDl
+avM
 gNH
 adZ
 wko
@@ -78453,8 +79094,8 @@ aMu
 aMu
 lZb
 adZ
-aAi
-ati
+aCy
+kpE
 adZ
 wko
 wko
@@ -78462,8 +79103,8 @@ aMu
 aMu
 adZ
 adZ
-aAi
-aFo
+pYS
+bIq
 alk
 amk
 amk
@@ -78471,10 +79112,10 @@ amk
 amk
 amk
 amk
-aAW
+iRs
 ano
 ano
-akG
+koC
 arK
 gNH
 gNH
@@ -78648,15 +79289,15 @@ aaa
 axs
 aCr
 aao
-aao
+wbp
 tQw
 tQw
 tQw
 tQw
 kpf
 gNH
-she
-app
+gNH
+gNH
 gNH
 wko
 wko
@@ -78670,8 +79311,8 @@ rAp
 aMu
 aMu
 aev
-aAi
-ati
+afH
+eza
 aev
 aMu
 weu
@@ -78679,28 +79320,28 @@ aMu
 wTf
 arc
 adZ
-aSp
-auw
-aCs
-awG
-awG
-awG
-awG
+rRh
+afH
+aUI
+tLj
+tLj
+tLj
+tLj
 fyn
-vHA
-aCs
-arN
-arN
-anV
-hmm
-aJa
-arN
-aDk
-aDk
-aDk
-aDk
-aOm
-cBc
+uxC
+aUI
+aCt
+quE
+aCt
+hXl
+wsa
+rKO
+tnq
+tnq
+tnq
+tnq
+jMf
+rbt
 arK
 arK
 kpf
@@ -78870,11 +79511,11 @@ tQw
 tQw
 tQw
 tQw
-tQw
-gNH
-she
-ati
-adZ
+afE
+sGt
+sGt
+aMu
+aMu
 wko
 aMu
 aMu
@@ -78887,8 +79528,8 @@ wko
 wko
 aMu
 aev
-aAi
-ati
+pYS
+ava
 aev
 aMu
 aMu
@@ -78897,28 +79538,28 @@ arc
 arc
 adZ
 adZ
-aSp
-aAW
-aAW
-aAW
-aAW
-aAW
+rRh
+qqB
+qqB
+qqB
+qqB
+qqB
 afu
 vHA
-aiV
-afz
-afz
-aJJ
+ket
+qpO
+atM
+qpO
 hmm
-ooi
-afz
-aKf
-aKf
-aKf
-aKf
-qZt
-aiS
-cBc
+aod
+dCG
+fuf
+fuf
+fuf
+fuf
+alV
+wPx
+rbt
 arK
 kpf
 kpf
@@ -79088,10 +79729,10 @@ tQw
 tQw
 tQw
 tQw
-agg
-she
-ati
-aev
+sGt
+sGt
+aMu
+aMu
 aMu
 aMu
 aMu
@@ -79104,8 +79745,8 @@ wko
 wko
 aMu
 aev
-aAi
-ati
+pYS
+ava
 aev
 pSO
 aMu
@@ -79122,10 +79763,10 @@ amk
 amk
 amk
 amk
-awG
+tLj
 aqb
 aqb
-arN
+frN
 anI
 anI
 anI
@@ -79134,8 +79775,8 @@ gNH
 gNH
 gNH
 ifK
-qZt
-aiS
+alV
+wPx
 arK
 arK
 arK
@@ -79305,10 +79946,10 @@ tQw
 tQw
 tQw
 tQw
-agg
-she
-ati
-aev
+sGt
+sGt
+aMu
+aMu
 aMu
 wTf
 wko
@@ -79321,8 +79962,8 @@ aMu
 aMu
 aMu
 adZ
-aIJ
-aFo
+gUv
+bIq
 adZ
 aMu
 aMu
@@ -79341,7 +79982,7 @@ amk
 amk
 amk
 hmm
-hmm
+uaB
 anI
 anI
 anI
@@ -79351,11 +79992,11 @@ vRw
 eck
 gNH
 gNH
-she
+jHb
 ano
-ajO
+kCn
 tnq
-rbt
+pkZ
 arK
 arK
 kpf
@@ -79522,10 +80163,10 @@ tQw
 tQw
 tQw
 tQw
-agg
-she
-ati
-aev
+wbp
+sGt
+aMu
+aMu
 aMu
 wko
 wko
@@ -79539,7 +80180,7 @@ agg
 adZ
 adZ
 aCy
-aCy
+kpE
 adZ
 aev
 aev
@@ -79551,7 +80192,7 @@ azm
 amk
 cci
 lxe
-wCT
+hnr
 hnr
 hnr
 ufk
@@ -79559,7 +80200,7 @@ azi
 alY
 aqb
 aqb
-hwy
+uIV
 anL
 iDo
 qXM
@@ -79568,7 +80209,7 @@ eGS
 mWm
 vwz
 gNH
-she
+jHb
 ano
 ajO
 ano
@@ -79733,16 +80374,16 @@ aaa
 axs
 aCr
 aao
+aao
+tQw
+tQw
+tQw
+tQw
+tQw
 wbp
-tQw
-tQw
-tQw
-tQw
-tQw
-gNH
-she
-ati
-adZ
+sGt
+aMu
+aMu
 aMu
 wko
 wko
@@ -79767,26 +80408,26 @@ amk
 azm
 amk
 wWo
-hWJ
+rnr
+hqo
 ydS
 ydS
-ydS
-xvo
+aeA
 anL
-aJa
-hwy
-fWs
-anV
+quE
+uIV
+vfP
+aCt
 anL
 vWz
 qdd
-hmm
+kcN
 xhE
 gws
 qdd
 anI
-hwy
-ooi
+irV
+aod
 anI
 hzF
 axT
@@ -79950,16 +80591,16 @@ aaa
 axs
 aCr
 aao
+aao
+kpf
+tQw
+tQw
+tQw
+tQw
 wbp
-tQw
-tQw
-tQw
-tQw
-tQw
-gNH
-she
-ati
-adZ
+wbp
+aMu
+aMu
 aMu
 wko
 kWa
@@ -79988,11 +80629,11 @@ vCO
 ydS
 ydS
 ydS
-xvo
+aeA
 anL
 aqb
-hwy
-fWs
+uIV
+vfP
 aqb
 anL
 vWz
@@ -80002,18 +80643,18 @@ mUM
 frG
 uWi
 anI
-hwy
-fWs
-anI
 irV
-axT
-axT
-rrh
+keN
+anI
+nmw
+fpD
+fpD
+oJa
 arK
 arK
 arK
 ajW
-ajW
+jci
 arK
 gNH
 wbp
@@ -80168,15 +80809,15 @@ axs
 aCr
 aao
 aao
+kpf
 tQw
 tQw
 tQw
 tQw
 tQw
-arK
-she
-ati
-adZ
+sGt
+aMu
+aMu
 aMu
 wko
 aMu
@@ -80193,8 +80834,8 @@ aAi
 ati
 gPD
 djb
-djb
-djb
+mfB
+mfB
 djb
 tHp
 rMo
@@ -80202,15 +80843,15 @@ amk
 amk
 iDE
 hWJ
-ydS
+dlp
 ydS
 ydS
 oXc
 anI
-afz
-hwy
-fWs
-afz
+aik
+uIV
+vfP
+aik
 anI
 iCD
 qdd
@@ -80219,15 +80860,15 @@ anL
 agg
 anI
 anI
-hwy
-fWs
+pEP
+keN
 anI
 ojU
 pqb
-axT
-ufC
-rbt
-rEJ
+uZq
+fvJ
+eSr
+cBc
 ozQ
 axT
 axT
@@ -80385,15 +81026,15 @@ axs
 aCr
 aao
 aao
+kpf
+kpf
 tQw
 tQw
 tQw
 tQw
-tQw
-rEJ
-she
-ati
-aev
+sGt
+aMu
+aMu
 aMu
 wko
 wko
@@ -80410,25 +81051,25 @@ aAi
 ati
 tVu
 djb
-djb
-djb
-djb
+mfB
+mfB
+mfB
 oQu
 uQC
 amk
 amk
 dyr
 vuU
-dlp
+ydS
 ydS
 ydS
 xoL
-hmm
+tpH
 aqb
 aqb
 aqb
 aqb
-hmm
+tpH
 nCm
 cRf
 vvf
@@ -80436,15 +81077,15 @@ vvf
 vwz
 snA
 anI
-hwy
-fWs
+ujJ
+keN
 anI
-irV
+cHD
 axT
 axT
 axT
-rrh
-rEJ
+oRu
+cBc
 iJb
 axT
 axT
@@ -80602,15 +81243,15 @@ axs
 aCr
 aao
 aao
+kpf
+kpf
+kpf
 tQw
 tQw
-tQw
-tQw
-tQw
-agg
-she
-ati
-aev
+sGt
+sGt
+aMu
+aMu
 aMu
 jnf
 wko
@@ -80628,8 +81269,8 @@ ati
 rmd
 djb
 djb
-djb
-djb
+mfB
+mfB
 cUr
 yhd
 amk
@@ -80650,18 +81291,18 @@ nCm
 wqB
 dyC
 dyC
-iDu
+arL
 fsM
 anI
-hwy
-fWs
+fjy
+keN
 gNH
-jHb
+uRj
 axT
-axT
-axT
-rrh
-rEJ
+hUY
+efu
+uPJ
+cBc
 iJb
 axT
 axT
@@ -80819,15 +81460,15 @@ axs
 aCr
 aao
 aao
-wbp
-tQw
-tQw
-tQw
-tQw
-agg
-she
-ati
-aev
+aao
+kpf
+kpf
+kpf
+afE
+sGt
+sGt
+aMu
+aMu
 aMu
 aMu
 aMu
@@ -80858,10 +81499,10 @@ jaG
 ydS
 pmg
 gNH
-arN
-hwy
-fWs
-arN
+frN
+uIV
+vfP
+frN
 anI
 exa
 qdd
@@ -80870,13 +81511,13 @@ agg
 agg
 anI
 anI
-hwy
-fWs
+tZW
+keN
 gNH
 jHb
-axT
+fKb
 ste
-axT
+iNy
 rrh
 arK
 iJb
@@ -81037,14 +81678,14 @@ aCr
 aao
 aao
 aao
-tQw
-tQw
-tQw
-tQw
-gNH
-she
-app
-adZ
+kpf
+kpf
+kpf
+kpf
+sGt
+sGt
+sGt
+arc
 wko
 aMu
 aMu
@@ -81075,10 +81716,10 @@ jaG
 ydS
 hnD
 agg
-aoE
-hwy
-fWs
-aJJ
+aFn
+uIV
+vfP
+qpO
 anL
 vWz
 qdd
@@ -81087,13 +81728,13 @@ roI
 mWm
 qXM
 anI
-hwy
-fWs
+irV
+keN
 gNH
 vOC
-ste
-ste
-axT
+pWj
+bZF
+iNy
 mKT
 jVE
 jZk
@@ -81255,12 +81896,12 @@ aCr
 aao
 aao
 kpf
-tQw
-kpf
 kpf
 arK
-xUo
-aiS
+arK
+arK
+arK
+gNH
 gNH
 xtg
 xtg
@@ -81292,27 +81933,27 @@ jaG
 ydS
 hnD
 anL
-fWs
+vfP
 aqb
 aqb
-hwy
+uIV
 anL
 vWz
 qdd
-hmm
+kcN
 xhE
 fAF
 qdd
 anI
-hwy
-fWs
+irV
+keN
 gNH
-iNy
-axT
-axT
-tiM
-oJa
-agg
+wCT
+jMf
+jMf
+rbt
+pPS
+fFS
 app
 ano
 ano
@@ -81472,12 +82113,12 @@ aCr
 aao
 aao
 aao
-kpf
-kpf
 arK
 arK
-ajW
-ajW
+axT
+axT
+axT
+axT
 arK
 arK
 xtg
@@ -81492,7 +82133,7 @@ adZ
 adZ
 adZ
 aCy
-aCy
+kpE
 adZ
 adZ
 adZ
@@ -81521,8 +82162,8 @@ hXb
 dyC
 uWi
 anI
-hwy
-aJa
+irV
+gUg
 gNH
 sHI
 axT
@@ -81688,10 +82329,10 @@ axn
 aCr
 aao
 aao
-aao
-kpf
+gNH
 arK
-arK
+axT
+axT
 axT
 axT
 axT
@@ -81738,12 +82379,12 @@ sQH
 oCK
 anI
 anI
-anV
+kER
 aqb
-ajO
+kCn
 ano
 axT
-mKT
+gft
 arK
 arK
 axT
@@ -81904,16 +82545,16 @@ axs
 axn
 aCr
 aao
-aao
-aao
 gNH
-arK
-wSx
-ajq
-awz
-awz
-anN
-aBD
+gNH
+ano
+axT
+axT
+axT
+axT
+axT
+axT
+axT
 adZ
 adZ
 wko
@@ -82121,17 +82762,17 @@ dWr
 axn
 aCr
 aao
-aao
 gNH
-gNH
-wSx
-ajq
-aig
-akG
-akG
-tIq
-anN
-afH
+ano
+ano
+axT
+axT
+axT
+axT
+arK
+arK
+arK
+adZ
 adZ
 adZ
 adZ
@@ -82143,7 +82784,7 @@ adZ
 adZ
 adZ
 aCy
-aCy
+kpE
 adZ
 adZ
 adZ
@@ -82172,7 +82813,7 @@ anI
 anI
 anI
 anI
-hmm
+rcu
 anI
 gNH
 gNH
@@ -82338,17 +82979,17 @@ axs
 axn
 aCr
 aao
-aao
 gNH
 ano
-alN
-ayD
-kax
-gKj
-gKj
-aig
-xUo
-afd
+ano
+ano
+axT
+axT
+arK
+arK
+axT
+axT
+agi
 agi
 adZ
 agl
@@ -82555,19 +83196,19 @@ dwv
 axn
 aCr
 aao
-aao
 gNH
 ano
-aVZ
-ozQ
-wLd
+ano
+ano
+axT
+arK
+arK
 axT
 axT
-aSm
-mkq
-ava
+axT
 agi
-aCy
+agi
+uDJ
 agi
 amW
 amW
@@ -82590,7 +83231,7 @@ awG
 awG
 awG
 aGU
-aMX
+qYa
 ano
 aDk
 aDk
@@ -82601,7 +83242,7 @@ aAM
 aDk
 aDk
 ano
-atM
+amK
 ano
 aDk
 arN
@@ -82611,7 +83252,7 @@ arN
 arN
 arN
 aqb
-hmm
+ajr
 aqb
 arN
 arN
@@ -82622,7 +83263,7 @@ aDk
 aDk
 aDk
 ano
-ajO
+amK
 ano
 aDk
 aDk
@@ -82631,10 +83272,10 @@ aDk
 aDk
 aDk
 ano
-ajO
+amK
 aiS
 amO
-ajO
+amK
 ano
 aDk
 aDk
@@ -82772,17 +83413,17 @@ axs
 axn
 aCr
 aao
-aao
 gNH
 ano
-aVZ
-ozQ
-wLd
+ano
+ano
+axT
+arK
 axT
 axT
-aSm
-mkq
-ava
+axT
+axT
+agi
 agi
 aCy
 agi
@@ -82807,7 +83448,7 @@ aAW
 aAW
 aAW
 aGU
-amK
+ajO
 ano
 akG
 akG
@@ -82989,17 +83630,17 @@ jtc
 axn
 aCr
 aao
-aao
 gNH
 ano
-aDl
-tIq
+ano
+ano
+axT
 jQO
-lCD
-lCD
-ezg
-xXD
-hQW
+axT
+axT
+axT
+axT
+agi
 agi
 adZ
 amW
@@ -83206,17 +83847,17 @@ axs
 axn
 aCr
 aao
-aao
 gNH
-gNH
-fiR
-anS
-xUo
-aOm
-aOm
-ayD
-ait
-gUv
+ano
+ano
+ano
+axT
+axT
+axT
+axT
+axT
+axT
+agi
 adZ
 adZ
 adZ
@@ -83228,7 +83869,7 @@ adZ
 adZ
 adZ
 aCy
-aCy
+kpE
 adZ
 adZ
 adZ
@@ -83423,16 +84064,16 @@ vrj
 axn
 aCr
 aao
-aao
-aao
 gNH
 gNH
-fiR
-anS
-aqe
-aqe
-ait
-ojp
+ano
+ano
+ano
+arK
+axT
+axT
+axT
+axT
 adZ
 adZ
 aMu
@@ -83641,11 +84282,11 @@ axn
 aCr
 aao
 aao
-aao
-aao
 gNH
 gNH
 ano
+ano
+gNH
 axT
 axT
 axT
@@ -83859,12 +84500,12 @@ aCr
 aao
 aao
 aao
-aao
-aao
 gNH
 gNH
+ano
+gNH
 ajW
-ajW
+qIy
 arK
 arK
 aMu
@@ -83879,7 +84520,7 @@ gNH
 gNH
 gNH
 ajO
-ajO
+rIw
 gNH
 gNH
 gNH
@@ -83898,7 +84539,7 @@ afE
 arK
 arK
 hmm
-aAV
+uaB
 anI
 anI
 aEF
@@ -84077,8 +84718,8 @@ aao
 aao
 aao
 aao
-aao
-aao
+gNH
+gNH
 gNH
 aig
 tIq
@@ -84136,7 +84777,7 @@ aEF
 anI
 anI
 ajO
-ajO
+aFk
 gNH
 gNH
 aao
@@ -84160,7 +84801,7 @@ avh
 avh
 avh
 aql
-kpE
+ugz
 gNH
 gNH
 aao
@@ -84306,9 +84947,9 @@ aMu
 aMu
 aev
 fjI
-fsP
-gft
-gft
+qUm
+qUm
+qUm
 nxU
 ekg
 yke
@@ -84526,8 +85167,8 @@ fjI
 qUm
 ksc
 wUr
-fvJ
-oOn
+nxU
+wHi
 xWG
 aSm
 ozQ
@@ -84740,11 +85381,11 @@ afE
 sGt
 agg
 byd
-aeA
+nxU
 sff
 gAN
 oKH
-uZj
+wHi
 nFP
 aSm
 ozQ
@@ -84753,7 +85394,7 @@ wHi
 lrO
 bUL
 xJc
-hqo
+nxU
 fBe
 agg
 sGt
@@ -84761,7 +85402,7 @@ sGt
 gNH
 mbn
 fgD
-dIb
+fgD
 sDh
 avi
 arK
@@ -84957,11 +85598,11 @@ afE
 afE
 rEJ
 tlD
-pWj
-rKO
+wHi
+wHi
 nJH
 xUb
-uZj
+wHi
 sUX
 aSm
 ozQ
@@ -84969,17 +85610,17 @@ cnY
 wHi
 jjh
 dcj
-hqo
-hqo
+nxU
+nxU
 tiw
 agg
 sGt
 sGt
 gNH
 xsY
-dIb
-dIb
-aMT
+fgD
+aDr
+aJc
 apv
 ajW
 aDn
@@ -85175,19 +85816,19 @@ afE
 arK
 ubO
 oOn
-pWj
-rKO
-jMf
-pLe
+wHi
+wHi
+wHi
+wHi
 lgg
 aSm
 ozQ
 dcL
 wHi
 wHi
-hqo
-hqo
-bNs
+nxU
+nxU
+dao
 oVa
 gNH
 sGt
@@ -85195,7 +85836,7 @@ sGt
 gNH
 aPq
 aDr
-dIb
+uZj
 aJc
 aKd
 arK
@@ -85393,18 +86034,18 @@ arK
 arK
 wzW
 fnd
-pWj
-pLe
-evH
+wHi
+wHi
+xvo
 viq
 aSm
 ozQ
 qig
 oOn
 wHi
-hqo
-bNs
-arL
+nxU
+dao
+iDu
 gNH
 gNH
 sGt
@@ -85600,7 +86241,7 @@ kpf
 arK
 arK
 ajW
-ajW
+qIy
 arK
 arK
 amX
@@ -85832,7 +86473,7 @@ rEJ
 arK
 arK
 ajW
-ajW
+jci
 gNH
 gNH
 agg
@@ -85896,7 +86537,7 @@ avh
 avh
 avh
 aql
-kpE
+ugz
 avh
 avh
 gCE
@@ -86306,7 +86947,7 @@ bQi
 aob
 aob
 wvR
-aUI
+hVg
 aob
 aob
 aob
@@ -86690,7 +87331,7 @@ aSm
 aSm
 aHQ
 axT
-ajW
+mkq
 ayD
 aOm
 aDk
@@ -87153,7 +87794,7 @@ afE
 arK
 arK
 ajW
-aCt
+qIy
 gNH
 gNH
 uri
@@ -87174,7 +87815,7 @@ bQi
 aob
 aob
 wvR
-aUI
+hVg
 aob
 aob
 aob
@@ -87568,7 +88209,7 @@ aao
 gNH
 gNH
 ajO
-ajO
+aFk
 gNH
 gNH
 aqY
@@ -87777,7 +88418,7 @@ arK
 kpf
 kpf
 kpf
-aRy
+aao
 aao
 aao
 aao
@@ -87987,15 +88628,15 @@ kpf
 arK
 arK
 ajW
-ajW
+qIy
 arK
 arK
+kpf
+kpf
 aIK
-kpf
-kpf
 aRy
-aRy
-aRy
+aao
+aao
 aao
 gNH
 gNH
@@ -88193,7 +88834,7 @@ aaa
 aaa
 aaa
 aaa
-axs
+aaa
 aCr
 aCr
 aao
@@ -88212,7 +88853,7 @@ aIK
 aRy
 aRy
 aRy
-aRy
+aao
 aao
 gNH
 aBH
@@ -88417,7 +89058,7 @@ aao
 aao
 aao
 kpf
-aIK
+kpf
 aIK
 aIK
 aIK
@@ -88440,15 +89081,15 @@ aBH
 aBH
 aBH
 aBH
-ajO
-aiS
-aDk
-aDk
-aDk
-aDk
-aOm
-xUo
-ajW
+amK
+aBH
+aBH
+aBH
+aBH
+aBH
+ocR
+ocR
+mkq
 aGh
 ajq
 aVZ
@@ -88461,12 +89102,12 @@ ocR
 aHQ
 anN
 aCA
-ajW
+mkq
 ajw
 aAU
 aAU
 vlf
-xWm
+mkq
 ocR
 ocR
 xWm
@@ -88482,7 +89123,7 @@ aJS
 aij
 anN
 amM
-aik
+eIX
 oMN
 bhs
 bhs
@@ -88490,7 +89131,7 @@ bhs
 bhs
 bhs
 bhs
-pYS
+eIX
 dKR
 bhs
 bhs
@@ -88633,7 +89274,7 @@ aao
 aao
 aao
 aao
-aIK
+kpf
 aIK
 aIK
 aRy
@@ -88658,13 +89299,13 @@ aBH
 aBH
 aBH
 ajO
-aoE
-aKf
-aKf
-aKf
-aKf
-aKf
-aig
+aBH
+aBH
+aBH
+aBH
+aBH
+aBH
+ocR
 ajW
 aGh
 aDl
@@ -88849,8 +89490,8 @@ aao
 aao
 aao
 aao
-aRy
-aRy
+aao
+aao
 aRy
 aRy
 aRy
@@ -88893,7 +89534,7 @@ aBH
 aBH
 aFn
 avM
-alV
+evH
 lVr
 arK
 tQw
@@ -88914,7 +89555,7 @@ aBH
 air
 ail
 afC
-aod
+bNs
 aJY
 gNH
 gNH
@@ -89065,8 +89706,8 @@ aab
 aao
 aao
 aao
-aRy
-aRy
+aao
+aao
 aRy
 aRy
 aRy
@@ -89109,7 +89750,7 @@ aBH
 aBH
 aFn
 avM
-aod
+bNs
 arL
 gNH
 gNH
@@ -89130,7 +89771,7 @@ aLS
 apy
 aFr
 lPL
-aod
+bNs
 arL
 gNH
 gNH
@@ -89282,7 +89923,7 @@ aab
 aao
 aao
 aao
-aRy
+aao
 aRy
 aRy
 aRy
@@ -89325,7 +89966,7 @@ aDl
 asu
 asu
 avM
-aod
+bNs
 arL
 gNH
 gNH
@@ -89346,7 +89987,7 @@ aky
 akB
 avc
 lPL
-aod
+bNs
 arL
 gNH
 gNH
@@ -89499,7 +90140,7 @@ aab
 aao
 aao
 aao
-aRy
+aao
 aRy
 aRy
 aRy
@@ -89521,7 +90162,7 @@ aRy
 gNH
 gNH
 ajO
-ajO
+aFk
 gNH
 gNH
 aao
@@ -89541,7 +90182,7 @@ amQ
 asw
 aDl
 avM
-aod
+bNs
 arL
 gNH
 gNH
@@ -89562,7 +90203,7 @@ amQ
 asw
 aDl
 avM
-aod
+bNs
 arL
 gNH
 gNH
@@ -89716,7 +90357,7 @@ aab
 anQ
 anQ
 anQ
-aJX
+anQ
 aJX
 aJX
 aJX
@@ -89737,8 +90378,8 @@ aJX
 anQ
 anQ
 asx
-ajr
-aka
+aKX
+aKX
 asx
 anQ
 anQ
@@ -89933,7 +90574,7 @@ aab
 anQ
 anQ
 anQ
-aJX
+anQ
 aJX
 aJX
 aJX
@@ -89954,8 +90595,8 @@ anQ
 anQ
 anQ
 asx
-aDt
-aFk
+aKX
+aKX
 asx
 anQ
 anQ
@@ -89974,7 +90615,7 @@ xyi
 asx
 asx
 qNu
-qNu
+aMX
 asx
 asx
 ajp
@@ -90150,7 +90791,7 @@ aab
 anQ
 anQ
 anQ
-aJX
+anQ
 aJX
 aJX
 aJX
@@ -90172,7 +90813,7 @@ asx
 asx
 asx
 qNu
-qNu
+aMX
 asx
 asx
 asx
@@ -90190,27 +90831,27 @@ xyi
 xyi
 xyi
 asx
-ajr
-aka
+aKX
+aKX
 asx
+ajp
+ajp
+ajp
+ajp
+ajp
+ajp
+anQ
+anQ
+anQ
+anQ
 anQ
 ajp
 ajp
 ajp
 ajp
 ajp
-anQ
-anQ
-anQ
-anQ
-anQ
 ajp
-ajp
-ajp
-ajp
-ajp
-ajp
-ajp
+fsP
 ajp
 anQ
 anQ
@@ -90367,8 +91008,8 @@ aab
 anQ
 anQ
 anQ
-aJX
-aJX
+anQ
+anQ
 aJX
 aJX
 aJX
@@ -90407,9 +91048,17 @@ xyi
 xyi
 anQ
 asx
-koC
-aIU
+aKX
+aKX
 asx
+ajp
+ajp
+ajp
+ajp
+ajp
+ajp
+ajp
+ajp
 anQ
 anQ
 ajp
@@ -90418,16 +91067,8 @@ ajp
 ajp
 ajp
 ajp
-anQ
-anQ
 ajp
-ajp
-ajp
-ajp
-ajp
-ajp
-ajp
-ajp
+fsP
 ajp
 ajp
 anQ
@@ -90585,7 +91226,7 @@ anQ
 anQ
 anQ
 anQ
-aJX
+anQ
 aJX
 aJX
 aJX
@@ -90624,12 +91265,9 @@ xyi
 anQ
 anQ
 asx
-koC
-aIU
+aKX
+aKX
 asx
-anQ
-anQ
-anQ
 ajp
 ajp
 ajp
@@ -90647,7 +91285,10 @@ ajp
 ajp
 ajp
 ajp
+fsP
 ajp
+ajp
+fsP
 ajp
 ajp
 ajp
@@ -90802,7 +91443,7 @@ anQ
 anQ
 anQ
 anQ
-aJX
+anQ
 aJX
 aJX
 aJX
@@ -90841,14 +91482,9 @@ anQ
 anQ
 anQ
 asx
-aDt
-aFk
+aKX
+aKX
 asx
-anQ
-anQ
-anQ
-anQ
-anQ
 ajp
 ajp
 ajp
@@ -90865,6 +91501,11 @@ ajp
 ajp
 ajp
 ajp
+ajp
+fsP
+ajp
+ajp
+fsP
 ajp
 ajp
 ajp
@@ -91020,7 +91661,7 @@ anQ
 anQ
 anQ
 anQ
-aJX
+anQ
 aJX
 aJX
 aJX
@@ -91059,29 +91700,29 @@ asx
 asx
 asx
 qNu
-qNu
+aMX
 asx
 asx
 asx
 asx
 anQ
 anQ
+ajp
+ajp
+ajp
+ajp
+ajp
+ajp
+ajp
+ajp
+ajp
+anQ
+anQ
+anQ
 anQ
 ajp
 ajp
-ajp
-ajp
-ajp
-ajp
-ajp
-ajp
-anQ
-anQ
-anQ
-anQ
-ajp
-ajp
-ajp
+fsP
 ajp
 ajp
 ajp
@@ -91238,7 +91879,7 @@ anQ
 anQ
 anQ
 anQ
-aJX
+anQ
 aJX
 aJX
 aJX
@@ -91284,7 +91925,7 @@ asx
 asx
 anQ
 anQ
-ajp
+anQ
 ajp
 ajp
 ajp
@@ -91503,9 +92144,9 @@ asx
 anQ
 anQ
 anQ
-anQ
-anQ
-anQ
+ajp
+ajp
+ajp
 anQ
 anQ
 anQ
@@ -91676,7 +92317,7 @@ anQ
 anQ
 anQ
 anQ
-anQ
+aJX
 aJX
 aJX
 aJX
@@ -91894,7 +92535,7 @@ anQ
 anQ
 anQ
 anQ
-anQ
+aJX
 aJX
 aJX
 aJX
@@ -91918,8 +92559,8 @@ aKX
 aKX
 aKX
 asx
-aDm
-aDm
+aKX
+aKX
 asx
 aKX
 aKX
@@ -92114,7 +92755,7 @@ anQ
 anQ
 anQ
 anQ
-anQ
+aJX
 aJX
 aJX
 aJX
@@ -92134,10 +92775,10 @@ asx
 aKX
 aKX
 aKX
-qNu
-aFk
-aDt
-qNu
+aIU
+aKX
+aKX
+aIU
 aKX
 aKX
 aKX
@@ -92332,7 +92973,7 @@ anQ
 anQ
 anQ
 anQ
-anQ
+aJX
 aJX
 aJX
 aJX
@@ -92352,8 +92993,8 @@ aKX
 aKX
 aKX
 qNu
-aka
-ajr
+aKX
+aKX
 qNu
 aKX
 aKX
@@ -92550,7 +93191,7 @@ anQ
 anQ
 anQ
 anQ
-aJX
+anQ
 aJX
 aJX
 aJX
@@ -92569,8 +93210,8 @@ qNu
 asx
 asx
 asx
-aDm
-aDm
+aKX
+aKX
 asx
 aKX
 aKX
@@ -92768,7 +93409,7 @@ anQ
 anQ
 anQ
 anQ
-aJX
+anQ
 aJX
 aJX
 ega
@@ -92987,7 +93628,7 @@ anQ
 anQ
 anQ
 anQ
-aJX
+anQ
 asx
 asx
 asx
