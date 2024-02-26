@@ -1624,17 +1624,6 @@
 	icon_state = "dark"
 	},
 /area/bigredv2/caves/lambda/virology)
-"aeV" = (
-/turf/open/floor{
-	dir = 8;
-	icon_state = "vault"
-	},
-/area/bigredv2/caves)
-"aeY" = (
-/turf/open/floor{
-	icon_state = "darkgreen2"
-	},
-/area/space)
 "afb" = (
 /obj/structure/machinery/computer/telecomms/traffic{
 	req_one_access_txt = "19;200"
@@ -2846,12 +2835,6 @@
 	icon_state = "wood"
 	},
 /area/bigredv2/outside/dorms)
-"ajn" = (
-/turf/open/floor{
-	dir = 4;
-	icon_state = "darkpurple2"
-	},
-/area/bigredv2/caves_east)
 "ajp" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_2"
@@ -4649,10 +4632,6 @@
 	},
 /area/bigredv2/caves)
 "apq" = (
-/obj/structure/sign/safety/biohazard{
-	pixel_x = 8;
-	pixel_y = -32
-	},
 /obj/structure/machinery/light,
 /obj/structure/machinery/door_control{
 	id = "viro_q";
@@ -5376,12 +5355,6 @@
 "arD" = (
 /turf/open/mars,
 /area/bigredv2/outside/ne)
-"arE" = (
-/turf/open/floor{
-	dir = 5;
-	icon_state = "darkgreen2"
-	},
-/area/bigredv2/caves_east)
 "arI" = (
 /turf/open/floor{
 	dir = 1;
@@ -6430,12 +6403,6 @@
 	icon_state = "darkgreen2"
 	},
 /area/bigredv2/caves/lambda/xenobiology)
-"avb" = (
-/turf/open/floor{
-	dir = 10;
-	icon_state = "darkpurple2"
-	},
-/area/bigredv2/caves_east)
 "avc" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
@@ -6467,16 +6434,6 @@
 	dir = 10
 	},
 /area/bigredv2/caves_lambda)
-"avm" = (
-/obj/structure/barricade/handrail/strata{
-	dir = 4
-	},
-/obj/structure/barricade/handrail/strata,
-/turf/open/floor{
-	dir = 1;
-	icon_state = "darkgreencorners2"
-	},
-/area/bigredv2/caves_east)
 "avn" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_2"
@@ -7696,12 +7653,6 @@
 	icon_state = "mars_cave_18"
 	},
 /area/bigredv2/caves_lambda)
-"azg" = (
-/turf/open/floor{
-	dir = 1;
-	icon_state = "darkpurple2"
-	},
-/area/bigredv2/caves_east)
 "azi" = (
 /obj/structure/window/framed/solaris/reinforced,
 /turf/open/floor/plating,
@@ -9952,12 +9903,6 @@
 	icon_state = "darkyellow2"
 	},
 /area/bigredv2/caves/lambda/virology)
-"aGn" = (
-/turf/open/floor{
-	dir = 8;
-	icon_state = "darkpurple2"
-	},
-/area/bigredv2/caves_east)
 "aGo" = (
 /obj/structure/fence,
 /turf/open/mars_cave{
@@ -10158,12 +10103,6 @@
 	icon_state = "wood"
 	},
 /area/bigredv2/outside/library)
-"aGS" = (
-/turf/open/floor{
-	dir = 6;
-	icon_state = "darkgreen2"
-	},
-/area/space)
 "aGT" = (
 /obj/structure/surface/table,
 /turf/open/floor{
@@ -10225,12 +10164,6 @@
 	icon_state = "white"
 	},
 /area/bigredv2/outside/virology)
-"aHc" = (
-/obj/structure/barricade/handrail/strata,
-/turf/open/floor{
-	icon_state = "dark"
-	},
-/area/space)
 "aHd" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_2"
@@ -10718,11 +10651,6 @@
 	icon_state = "darkpurplecorners2"
 	},
 /area/bigredv2/caves/lambda/xenobiology)
-"aIK" = (
-/turf/open/mars_cave{
-	icon_state = "mars_sand_1"
-	},
-/area/bigredv2/caves_lambda)
 "aIQ" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -11052,22 +10980,12 @@
 	icon_state = "dark"
 	},
 /area/bigredv2/caves/lambda/virology)
-"aJW" = (
-/turf/open/floor{
-	dir = 4;
-	icon_state = "darkpurplecorners2"
-	},
-/area/bigredv2/caves_east)
 "aJX" = (
 /turf/open/mars_cave{
 	icon_state = "mars_sand_1"
 	},
 /area/space)
 "aJY" = (
-/obj/structure/sign/safety/biohazard{
-	pixel_x = 7;
-	pixel_y = -32
-	},
 /obj/structure/machinery/light/built,
 /turf/open/floor{
 	dir = 6;
@@ -11319,17 +11237,6 @@
 "aKP" = (
 /turf/open/mars,
 /area/bigredv2/outside/e)
-"aKQ" = (
-/obj/structure/barricade/handrail/strata{
-	dir = 4
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "NE-out"
-	},
-/turf/open/floor{
-	icon_state = "dark"
-	},
-/area/space)
 "aKS" = (
 /obj/structure/machinery/conveyor{
 	id = "anomalybelt"
@@ -11362,15 +11269,6 @@
 	tag = "icon-podhatchfloor"
 	},
 /area/bigredv2/caves/lambda/virology)
-"aKV" = (
-/obj/structure/barricade/handrail/strata{
-	dir = 8
-	},
-/turf/open/floor{
-	dir = 4;
-	icon_state = "darkgreen2"
-	},
-/area/bigredv2/caves_east)
 "aKX" = (
 /turf/open/floor{
 	icon_state = "white"
@@ -11997,14 +11895,6 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
-	},
-/area/space)
-"aMY" = (
-/obj/structure/barricade/handrail/strata{
-	dir = 8
-	},
-/turf/open/floor{
-	icon_state = "dark"
 	},
 /area/space)
 "aMZ" = (
@@ -13992,12 +13882,6 @@
 	icon_state = "darkpurple2"
 	},
 /area/bigredv2/caves/lambda/xenobiology)
-"aSq" = (
-/turf/open/floor{
-	dir = 4;
-	icon_state = "darkgreen2"
-	},
-/area/bigredv2/caves_east)
 "aSr" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NW-out";
@@ -14507,12 +14391,6 @@
 	icon_state = "asteroidfloor"
 	},
 /area/bigredv2/caves/lambda/research)
-"aTG" = (
-/obj/structure/barricade/handrail/strata{
-	dir = 1
-	},
-/turf/closed/wall/solaris/reinforced,
-/area/space)
 "aTH" = (
 /turf/open/floor{
 	dir = 4;
@@ -18987,12 +18865,6 @@
 /obj/effect/landmark/crap_item,
 /turf/open/mars,
 /area/bigredv2/outside/se)
-"bhs" = (
-/turf/open/floor{
-	dir = 8;
-	icon_state = "darkgreen2"
-	},
-/area/bigredv2/caves_east)
 "bhu" = (
 /obj/structure/machinery/landinglight/ds2/delaytwo,
 /turf/open/floor{
@@ -25575,11 +25447,6 @@
 	icon_state = "asteroidwarning"
 	},
 /area/bigredv2/outside/filtration_plant)
-"bMz" = (
-/turf/open/floor{
-	icon_state = "darkpurplecorners2"
-	},
-/area/bigredv2/caves_east)
 "bNl" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_2"
@@ -26092,11 +25959,6 @@
 	icon_state = "mars_dirt_6"
 	},
 /area/bigredv2/caves/mining)
-"cCH" = (
-/turf/open/floor{
-	icon_state = "darkgreen2"
-	},
-/area/bigredv2/caves_east)
 "cDx" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
 	dir = 1;
@@ -26263,12 +26125,6 @@
 	icon_state = "dark"
 	},
 /area/bigredv2/outside/engineering)
-"cOb" = (
-/turf/open/floor{
-	dir = 1;
-	icon_state = "darkgreen2"
-	},
-/area/space)
 "cOl" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_18"
@@ -26317,12 +26173,6 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/caves/mining)
-"cSe" = (
-/obj/structure/barricade/handrail/strata,
-/turf/open/floor{
-	icon_state = "dark"
-	},
-/area/bigredv2/caves)
 "cSu" = (
 /obj/structure/prop/invuln/minecart_tracks{
 	desc = "A heavy duty power cable for high voltage applications";
@@ -26914,11 +26764,6 @@
 /obj/item/ore/iron,
 /turf/open/floor/plating,
 /area/bigredv2/caves/mining)
-"dKR" = (
-/turf/open/floor{
-	icon_state = "dark"
-	},
-/area/bigredv2/caves_east)
 "dLe" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_5"
@@ -27335,17 +27180,6 @@
 	},
 /turf/open/floor/plating,
 /area/bigredv2/caves/mining)
-"eoO" = (
-/obj/structure/barricade/handrail/strata{
-	dir = 8
-	},
-/obj/structure/barricade/handrail/strata{
-	dir = 1
-	},
-/turf/open/floor{
-	icon_state = "darkgreen2"
-	},
-/area/bigredv2/caves_east)
 "eoU" = (
 /turf/open/floor/almayer{
 	dir = 1;
@@ -27403,12 +27237,6 @@
 	icon_state = "mars_cave_20"
 	},
 /area/bigredv2/caves/mining)
-"eue" = (
-/turf/open/floor{
-	dir = 8;
-	icon_state = "darkgreen2"
-	},
-/area/space)
 "eup" = (
 /obj/structure/bed/chair,
 /obj/item/trash/cigbutt,
@@ -27579,14 +27407,6 @@
 	icon_state = "mars_cave_2"
 	},
 /area/bigredv2/caves_sw)
-"eGG" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "E"
-	},
-/turf/open/floor{
-	icon_state = "dark"
-	},
-/area/space)
 "eGM" = (
 /turf/open/floor{
 	icon_state = "darkyellowcorners2"
@@ -27979,16 +27799,6 @@
 	icon_state = "delivery"
 	},
 /area/bigredv2/caves)
-"fkR" = (
-/obj/structure/barricade/handrail/strata{
-	dir = 8
-	},
-/obj/structure/barricade/handrail/strata,
-/turf/open/floor{
-	dir = 4;
-	icon_state = "darkgreencorners2"
-	},
-/area/bigredv2/caves_east)
 "fmd" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -28523,22 +28333,6 @@
 	icon_state = "darkyellow2"
 	},
 /area/bigredv2/outside/engineering)
-"fXn" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "NE-out";
-	pixel_y = 1;
-	pixel_x = 1
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "NW-out";
-	pixel_x = -1;
-	pixel_y = 1
-	},
-/turf/open/floor{
-	dir = 1;
-	icon_state = "darkgreen2"
-	},
-/area/bigredv2/caves_east)
 "fYH" = (
 /turf/closed/wall/solaris/reinforced/hull,
 /area/bigredv2/caves/mining)
@@ -28579,16 +28373,6 @@
 /turf/open/floor{
 	dir = 6;
 	icon_state = "darkyellow2"
-	},
-/area/bigredv2/caves)
-"gbk" = (
-/obj/structure/barricade/handrail/strata,
-/obj/effect/decal/warning_stripes{
-	icon_state = "SE-out";
-	tag = "icon-SE-out"
-	},
-/turf/open/floor{
-	icon_state = "dark"
 	},
 /area/bigredv2/caves)
 "gcR" = (
@@ -29423,14 +29207,6 @@
 	icon_state = "mars_cave_2"
 	},
 /area/bigredv2/outside/filtration_cave_cas)
-"hqU" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "W"
-	},
-/turf/open/floor{
-	icon_state = "dark"
-	},
-/area/space)
 "hsF" = (
 /obj/structure/closet/firecloset/full,
 /obj/effect/landmark/objective_landmark/close,
@@ -30207,12 +29983,6 @@
 	},
 /turf/open/gm/river,
 /area/bigredv2/outside/engineering)
-"iAN" = (
-/turf/open/floor{
-	dir = 1;
-	icon_state = "darkgreencorners2"
-	},
-/area/space)
 "iCD" = (
 /obj/effect/decal/medical_decals{
 	icon_state = "triagedecaltopright"
@@ -30474,12 +30244,6 @@
 /obj/structure/fence,
 /turf/open/mars,
 /area/bigredv2/outside/se)
-"iWG" = (
-/obj/structure/barricade/handrail/strata{
-	dir = 1
-	},
-/turf/closed/wall/solaris/reinforced,
-/area/bigredv2/caves)
 "iXp" = (
 /turf/open/floor{
 	dir = 6;
@@ -30617,12 +30381,6 @@
 	icon_state = "dark"
 	},
 /area/bigredv2/caves/eta/xenobiology)
-"jgW" = (
-/turf/open/floor{
-	dir = 4;
-	icon_state = "darkgreen2"
-	},
-/area/space)
 "jhj" = (
 /obj/structure/machinery/vending/sovietsoda{
 	icon_state = "sovietsoda-broken";
@@ -30718,32 +30476,6 @@
 	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/bigredv2/caves/lambda/xenobiology)
-"jnF" = (
-/obj/structure/machinery/shower{
-	pixel_y = 16
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/machinery/door/window{
-	dir = 2
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "W";
-	pixel_x = -1
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "E";
-	pixel_x = 1
-	},
-/turf/open/floor{
-	dir = 8;
-	icon_state = "vault"
-	},
-/area/bigredv2/caves_east)
 "jnR" = (
 /turf/open/floor{
 	dir = 9;
@@ -31041,15 +30773,6 @@
 	icon_state = "mars_dirt_5"
 	},
 /area/bigredv2/caves/mining)
-"jLq" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "S";
-	pixel_y = -1
-	},
-/turf/open/floor{
-	icon_state = "darkgreen2"
-	},
-/area/bigredv2/caves_east)
 "jMf" = (
 /turf/open/floor{
 	dir = 8;
@@ -31919,35 +31642,6 @@
 	icon_state = "mars_cave_3"
 	},
 /area/bigredv2/caves/mining)
-"kEA" = (
-/obj/structure/machinery/shower{
-	dir = 1;
-	tag = "icon-shower (NORTH)"
-	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/machinery/door/window{
-	dir = 1;
-	opacity = 1;
-	tag = "icon-left (NORTH)"
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "W";
-	pixel_x = -1
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "E";
-	pixel_x = 1
-	},
-/turf/open/floor{
-	dir = 8;
-	icon_state = "vault"
-	},
-/area/bigredv2/caves_east)
 "kER" = (
 /turf/open/floor{
 	dir = 1;
@@ -33420,14 +33114,6 @@
 	icon_state = "mars_cave_13"
 	},
 /area/bigredv2/caves/mining)
-"mZv" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "S"
-	},
-/turf/open/floor{
-	icon_state = "dark"
-	},
-/area/bigredv2/caves)
 "mZC" = (
 /turf/open/mars_cave{
 	icon_state = "mars_cave_11"
@@ -33619,12 +33305,6 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/caves/mining)
-"npQ" = (
-/turf/open/floor{
-	dir = 6;
-	icon_state = "darkgreen2"
-	},
-/area/bigredv2/caves_east)
 "nqr" = (
 /obj/structure/prop/invuln/minecart_tracks{
 	dir = 8
@@ -33632,6 +33312,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/bigredv2/caves/mining)
+"nqA" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass/colony{
+	dir = 2
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/bigredv2/caves/lambda/research)
 "nrj" = (
 /obj/effect/decal/cleanable/blood/drip{
 	pixel_x = -1;
@@ -34382,14 +34070,6 @@
 	icon_state = "dark"
 	},
 /area/bigredv2/caves/eta/research)
-"orB" = (
-/obj/structure/barricade/handrail/strata{
-	dir = 4
-	},
-/turf/open/floor{
-	icon_state = "dark"
-	},
-/area/bigredv2/caves_east)
 "orZ" = (
 /obj/structure/closet/secure_closet/atmos_personal,
 /obj/effect/landmark/objective_landmark/medium,
@@ -34902,11 +34582,6 @@
 	icon_state = "grass_impenetrable"
 	},
 /area/bigredv2/caves/eta/living)
-"pbK" = (
-/turf/open/floor{
-	icon_state = "darkpurple2"
-	},
-/area/bigredv2/caves_east)
 "pbX" = (
 /obj/effect/spawner/random/tool,
 /obj/effect/decal/cleanable/dirt,
@@ -35629,12 +35304,6 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/caves/mining)
-"pZz" = (
-/obj/structure/closet/l3closet/security,
-/turf/open/floor{
-	icon_state = "dark"
-	},
-/area/bigredv2/caves_east)
 "qaK" = (
 /obj/structure/largecrate,
 /turf/open/floor{
@@ -36015,15 +35684,6 @@
 	icon_state = "platingdmg3"
 	},
 /area/bigredv2/caves/mining)
-"qGF" = (
-/obj/structure/barricade/handrail/strata{
-	dir = 4
-	},
-/turf/open/floor{
-	dir = 8;
-	icon_state = "darkgreen2"
-	},
-/area/bigredv2/caves_east)
 "qGH" = (
 /turf/open/mars_cave{
 	icon_state = "mars_dirt_3"
@@ -36054,18 +35714,6 @@
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
 /turf/open/floor,
 /area/bigredv2/outside/cargo)
-"qIj" = (
-/obj/structure/barricade/handrail/strata{
-	dir = 8
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "SW-out";
-	tag = "icon-SW-out"
-	},
-/turf/open/floor{
-	icon_state = "dark"
-	},
-/area/bigredv2/caves)
 "qIy" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/colony{
 	dir = 1
@@ -36175,21 +35823,6 @@
 	icon_state = "mars_sand_13"
 	},
 /area/space)
-"qRi" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "SW-out";
-	pixel_y = -1;
-	pixel_x = -1
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "SE-out";
-	pixel_x = 1;
-	pixel_y = -1
-	},
-/turf/open/floor{
-	icon_state = "darkgreen2"
-	},
-/area/bigredv2/caves_east)
 "qSe" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "warning_c"
@@ -36276,12 +35909,6 @@
 	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves/lambda/research)
-"qYa" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/colony,
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/bigredv2/caves/lambda/breakroom)
 "qYY" = (
 /obj/structure/prop/invuln/minecart_tracks{
 	dir = 8
@@ -36714,12 +36341,6 @@
 	icon_state = "mars_cave_7"
 	},
 /area/bigredv2/outside/lz1_telecomm_cas)
-"rCC" = (
-/obj/structure/closet/l3closet/virology,
-/turf/open/floor{
-	icon_state = "dark"
-	},
-/area/bigredv2/caves_east)
 "rDl" = (
 /obj/effect/decal/cleanable/blood/drip{
 	pixel_x = -3;
@@ -37032,14 +36653,6 @@
 	icon_state = "mars_dirt_6"
 	},
 /area/bigredv2/caves_north)
-"rYu" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "W"
-	},
-/turf/open/floor{
-	icon_state = "dark"
-	},
-/area/bigredv2/caves)
 "rYD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light{
@@ -37503,34 +37116,12 @@
 	icon_state = "mars_cave_2"
 	},
 /area/bigredv2/caves_east)
-"sBw" = (
-/obj/structure/barricade/handrail/strata{
-	dir = 4
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "SE-out"
-	},
-/turf/open/floor{
-	icon_state = "dark"
-	},
-/area/bigredv2/caves_east)
 "sCj" = (
 /obj/item/stack/cable_coil/cut,
 /turf/open/mars_cave{
 	icon_state = "mars_cave_17"
 	},
 /area/bigredv2/caves/mining)
-"sCr" = (
-/obj/structure/barricade/handrail/strata{
-	dir = 8
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "NW-out"
-	},
-/turf/open/floor{
-	icon_state = "dark"
-	},
-/area/space)
 "sCt" = (
 /turf/open/floor{
 	icon_state = "darkyellow2"
@@ -37629,15 +37220,6 @@
 	tag = "icon-bcircuit"
 	},
 /area/bigredv2/caves_east)
-"sIh" = (
-/obj/structure/barricade/handrail/strata,
-/obj/structure/barricade/handrail/strata{
-	dir = 4
-	},
-/turf/open/floor{
-	icon_state = "dark"
-	},
-/area/space)
 "sIP" = (
 /obj/effect/landmark/structure_spawner/xvx_hive/xeno_door,
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
@@ -37782,12 +37364,6 @@
 	icon_state = "mars_dirt_7"
 	},
 /area/bigredv2/caves/mining)
-"sWe" = (
-/turf/open/floor{
-	dir = 10;
-	icon_state = "darkgreen2"
-	},
-/area/bigredv2/caves_east)
 "sWS" = (
 /obj/structure/largecrate/random/barrel/white,
 /turf/open/floor/plating{
@@ -38135,16 +37711,6 @@
 	icon_state = "mars_cave_13"
 	},
 /area/bigredv2/caves_sw)
-"trl" = (
-/obj/structure/barricade/handrail/strata{
-	dir = 4
-	},
-/obj/structure/barricade/handrail/strata,
-/turf/open/floor{
-	dir = 1;
-	icon_state = "darkgreencorners2"
-	},
-/area/bigredv2/caves)
 "trr" = (
 /obj/structure/surface/table,
 /obj/effect/spawner/random/tool,
@@ -38489,12 +38055,6 @@
 	icon_state = "mars_cave_14"
 	},
 /area/bigredv2/caves_north)
-"tMC" = (
-/turf/open/floor{
-	dir = 9;
-	icon_state = "darkgreen2"
-	},
-/area/bigredv2/caves_east)
 "tNz" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E-corner"
@@ -38747,14 +38307,6 @@
 	icon_state = "asteroidfloor"
 	},
 /area/bigredv2/caves_lambda)
-"ugz" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass/colony{
-	dir = 2
-	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/bigredv2/caves_east)
 "ugW" = (
 /obj/structure/machinery/light/small,
 /turf/open/floor/plating{
@@ -38888,14 +38440,6 @@
 	icon_state = "mars_cave_18"
 	},
 /area/bigredv2/caves_east)
-"utl" = (
-/obj/structure/barricade/handrail/strata{
-	dir = 8
-	},
-/turf/open/floor{
-	icon_state = "dark"
-	},
-/area/bigredv2/caves)
 "uuo" = (
 /obj/structure/blocker/forcefield/vehicles,
 /turf/open/mars_cave{
@@ -38941,16 +38485,6 @@
 	icon_state = "mars_cave_7"
 	},
 /area/bigredv2/outside/lz2_west_cas)
-"uyR" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "N";
-	pixel_y = 1
-	},
-/turf/open/floor{
-	dir = 1;
-	icon_state = "darkgreen2"
-	},
-/area/bigredv2/caves_east)
 "uzv" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/open/mars_cave{
@@ -39037,7 +38571,7 @@
 	},
 /area/bigredv2/caves/mining)
 "uDJ" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/colony,
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass/colony,
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
 	},
@@ -39093,24 +38627,6 @@
 	icon_state = "darkredcorners2"
 	},
 /area/bigredv2/caves/eta/xenobiology)
-"uHf" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "E"
-	},
-/turf/open/floor{
-	icon_state = "dark"
-	},
-/area/bigredv2/caves)
-"uHA" = (
-/obj/structure/barricade/handrail/strata,
-/obj/effect/decal/warning_stripes{
-	icon_state = "SW-out";
-	tag = "icon-SW-out"
-	},
-/turf/open/floor{
-	icon_state = "dark"
-	},
-/area/bigredv2/caves)
 "uHE" = (
 /obj/item/tool/warning_cone{
 	pixel_y = 19
@@ -39402,12 +38918,6 @@
 	icon_state = "darkyellow2"
 	},
 /area/bigredv2/outside/engineering)
-"vce" = (
-/turf/open/floor{
-	dir = 1;
-	icon_state = "darkgreen2"
-	},
-/area/bigredv2/caves_east)
 "vcj" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NE-out";
@@ -39484,6 +38994,10 @@
 "vex" = (
 /turf/closed/wall/wood,
 /area/bigredv2/outside/lz2_south_cas)
+"veM" = (
+/obj/structure/fence,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/space)
 "vfI" = (
 /turf/open/mars{
 	icon_state = "mars_dirt_13"
@@ -39785,16 +39299,6 @@
 	icon_state = "whitegreen"
 	},
 /area/bigredv2/caves)
-"vwB" = (
-/obj/structure/barricade/handrail/strata{
-	dir = 8
-	},
-/obj/structure/barricade/handrail/strata,
-/turf/open/floor{
-	dir = 1;
-	icon_state = "darkgreen2"
-	},
-/area/bigredv2/caves_east)
 "vwP" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/open/mars_cave{
@@ -40110,18 +39614,6 @@
 	dir = 1
 	},
 /area/bigredv2/caves/lambda/research)
-"vWM" = (
-/obj/structure/barricade/handrail/strata{
-	dir = 1
-	},
-/obj/structure/barricade/handrail/strata{
-	dir = 4
-	},
-/turf/open/floor{
-	dir = 8;
-	icon_state = "darkgreencorners2"
-	},
-/area/bigredv2/caves)
 "vXp" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -79982,7 +79474,7 @@ amk
 amk
 amk
 hmm
-uaB
+nqA
 anI
 anI
 anI
@@ -81320,8 +80812,8 @@ aao
 aao
 aao
 aao
-aao
-aao
+wbp
+wbp
 ecK
 qFY
 gCE
@@ -81538,8 +81030,8 @@ aao
 aao
 aao
 aao
-aao
-foB
+wbp
+gCE
 gCE
 rAs
 rAs
@@ -81756,8 +81248,8 @@ aao
 aao
 aao
 aao
-aao
-foB
+wbp
+gCE
 gpg
 gpg
 gpg
@@ -81973,14 +81465,14 @@ aao
 aao
 aao
 aao
-aao
-aao
-avh
-avh
-avh
-avh
-avh
-avh
+wbp
+wbp
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
 foB
 aao
 aao
@@ -82152,7 +81644,7 @@ sLt
 anI
 anI
 hmm
-uaB
+nqA
 anI
 anI
 ebm
@@ -82190,15 +81682,15 @@ gNH
 aao
 aao
 aao
-aao
-gNH
-gNH
-ano
-dKR
-dKR
-dKR
-avh
-avh
+wbp
+wbp
+wbp
+wbp
+gCE
+gCE
+gCE
+gCE
+gCE
 foB
 aao
 aao
@@ -82407,16 +81899,16 @@ gNH
 gNH
 aao
 aao
-gNH
-gNH
-ano
-ano
-dKR
-dKR
-dKR
-dKR
-avh
-avh
+wbp
+wbp
+wbp
+wbp
+gCE
+gCE
+gCE
+gCE
+gCE
+foB
 foB
 foB
 foB
@@ -82624,16 +82116,16 @@ ano
 gNH
 aao
 aao
-gNH
-ano
-ano
-ano
-dKR
-dKR
-dKR
-dKR
-dKR
-avh
+wbp
+wbp
+wbp
+wbp
+gCE
+gCE
+gCE
+gCE
+gCE
+foB
 foB
 foB
 foB
@@ -82839,18 +82331,18 @@ ano
 ano
 ano
 gNH
-gNH
-gNH
-gNH
-ano
-ano
-ano
-ano
-dKR
-dKR
-dKR
-dKR
-avh
+aao
+aao
+wbp
+wbp
+wbp
+wbp
+wbp
+gCE
+gCE
+gCE
+gCE
+foB
 foB
 foB
 foB
@@ -83056,18 +82548,18 @@ ano
 aoE
 aKf
 gNH
-aeV
-aeV
-gNH
-aKf
-qZt
-ano
-ano
-dKR
-dKR
-dKR
-dKR
-avh
+aao
+aao
+wbp
+wbp
+wbp
+wbp
+wbp
+gCE
+gCE
+gCE
+foB
+foB
 foB
 foB
 foB
@@ -83231,7 +82723,7 @@ awG
 awG
 awG
 aGU
-qYa
+uxC
 ano
 aDk
 aDk
@@ -83272,19 +82764,19 @@ aDk
 aDk
 aDk
 ano
-amK
-aiS
-amO
-amK
-ano
-aDk
-aDk
-aGn
-aGn
-aGn
-avb
-dKR
-avh
+gNH
+aao
+aao
+wbp
+wbp
+wbp
+wbp
+gCE
+gCE
+gCE
+gCE
+foB
+foB
 foB
 foB
 foB
@@ -83489,19 +82981,19 @@ aKf
 aKf
 aKf
 ano
-ajO
-aoE
-qZt
-ajO
-ano
-aKf
-aKf
-ajn
-ajn
-aJW
-pbK
-dKR
-avh
+gNH
+aao
+aao
+wbp
+wbp
+wbp
+wbp
+gCE
+gCE
+gCE
+gCE
+foB
+foB
 aao
 aao
 aao
@@ -83707,18 +83199,18 @@ ano
 aiS
 aDk
 gNH
-aeV
-aeV
-gNH
-aDk
-amO
-dKR
-dKR
-dKR
-azg
-pbK
-dKR
-avh
+aao
+aao
+wbp
+wbp
+wbp
+gCE
+gCE
+gCE
+gCE
+gCE
+foB
+foB
 aao
 aao
 aao
@@ -83924,18 +83416,18 @@ ano
 ano
 ano
 gNH
-gNH
-gNH
-gNH
-ano
-ano
-dKR
-dKR
-dKR
-azg
-pbK
-dKR
-gNH
+aao
+aao
+wbp
+wbp
+wbp
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
+aao
 aao
 aao
 aao
@@ -84143,16 +83635,16 @@ ano
 gNH
 aao
 aao
-gNH
-ano
-ano
-dKR
-dKR
-dKR
-azg
-pbK
-dKR
-gNH
+wbp
+wbp
+wbp
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
+wbp
 aao
 aao
 aao
@@ -84360,17 +83852,17 @@ gNH
 gNH
 aao
 aao
-gNH
-avh
-dKR
-dKR
-dKR
-bMz
-azg
-pbK
-aJW
-gNH
-aao
+wbp
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
+wbp
+wbp
 aao
 aao
 aao
@@ -84505,7 +83997,7 @@ gNH
 ano
 gNH
 ajW
-qIy
+jci
 arK
 arK
 aMu
@@ -84576,20 +84068,20 @@ gNH
 gNH
 aao
 aao
-aao
-aao
-avh
-avh
-dKR
-dKR
-pbK
-dKR
-dKR
-she
-gNH
-aao
-aao
-aao
+aRy
+aRy
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
+wbp
+wbp
+wbp
+wbp
+wbp
 aao
 aao
 aao
@@ -84793,25 +84285,25 @@ aao
 aao
 foB
 foB
-foB
+xmc
+xmc
+xmc
 gCE
 gCE
-avh
-avh
-avh
-avh
-aql
-ugz
-gNH
-gNH
+gCE
+gCE
+gCE
+gCE
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
 aao
 aao
-aao
-aao
-aao
-aao
-aao
-aao
+wbp
 gCE
 gCE
 gCE
@@ -85009,25 +84501,25 @@ aao
 aao
 foB
 foB
-foB
-gCE
-gCE
+xmc
+xmc
+xmc
 xmc
 gCE
 gCE
 gCE
-avh
-tMC
-sWe
-gNH
-aao
-aao
-aao
+gCE
+gCE
+gCE
 wbp
 wbp
 wbp
 wbp
-aao
+wbp
+wbp
+wbp
+wbp
+wbp
 gCE
 gCE
 gCE
@@ -85226,19 +84718,19 @@ gNH
 avh
 avh
 avh
-gCE
-gCE
 xmc
 xmc
 xmc
+xmc
+xmc
 gCE
-avh
-avh
-vce
-cCH
-gNH
-gNH
-aao
+gCE
+gCE
+gCE
+gCE
+wbp
+wbp
+wbp
 wbp
 wbp
 wbp
@@ -85443,18 +84935,18 @@ alW
 agU
 agL
 avh
+xmc
+xmc
+xmc
+xmc
+xmc
 gCE
 gCE
-xmc
-xmc
-xmc
-xmc
-avh
-rCC
-uyR
-jLq
-pZz
-gNH
+gCE
+gCE
+gCE
+gCE
+wbp
 wbp
 wbp
 wbp
@@ -85660,27 +85152,27 @@ aOp
 aSl
 bZL
 avh
-gCE
 xmc
 xmc
 xmc
 xmc
 xmc
-avh
-jnF
-fXn
-qRi
-kEA
-avh
 gCE
 gCE
 gCE
 gCE
-foB
 gCE
 gCE
 gCE
-wWK
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
 gCE
 gCE
 gCE
@@ -85883,19 +85375,19 @@ xmc
 xmc
 xmc
 gCE
-avh
-rCC
-uyR
-jLq
-pZz
-avh
+gCE
+gCE
+gCE
+gCE
+gCE
 gCE
 gCE
 gCE
 foB
-foB
-foB
 gCE
+gCE
+gCE
+wWK
 gCE
 gCE
 gCE
@@ -86100,19 +85592,19 @@ xmc
 xmc
 xmc
 gCE
-avh
-avh
-vce
-cCH
-avh
-avh
+gCE
+gCE
+gCE
+gCE
 gCE
 gCE
 gCE
 foB
 foB
 foB
-foB
+gCE
+gCE
+gCE
 gCE
 gCE
 gCE
@@ -86318,10 +85810,7 @@ xmc
 gCE
 gCE
 gCE
-avh
-arE
-npQ
-avh
+gCE
 gCE
 gCE
 gCE
@@ -86331,6 +85820,9 @@ foB
 foB
 foB
 foB
+gCE
+gCE
+gCE
 gCE
 gCE
 gCE
@@ -86530,16 +86022,13 @@ xmc
 xmc
 xmc
 xmc
+xmc
 gCE
-avh
-avh
-avh
-avh
-avh
-aql
-ugz
-avh
-avh
+gCE
+gCE
+gCE
+gCE
+gCE
 gCE
 gCE
 gCE
@@ -86547,6 +86036,9 @@ gCE
 gCE
 foB
 foB
+foB
+foB
+gCE
 gCE
 gCE
 gCE
@@ -86746,22 +86238,22 @@ xmc
 xmc
 xmc
 xmc
+xmc
+xmc
 gCE
-avh
-avh
-dKR
-dKR
-ano
-eoO
-dKR
-dKR
-vwB
-avh
+gCE
+gCE
+wbp
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
 foB
-gCE
-gCE
-gCE
-wWK
+foB
 gCE
 gCE
 gCE
@@ -86962,21 +86454,21 @@ xmc
 xmc
 xmc
 xmc
+xmc
+xmc
 gCE
-avh
-avh
-dKR
-dKR
-dKR
-ano
-vWM
-aVZ
-kNP
-trl
-gNH
-foB
-foB
 gCE
+gCE
+gCE
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+gCE
+gCE
+wWK
 gCE
 gCE
 gCE
@@ -87179,22 +86671,22 @@ xmc
 xmc
 xmc
 xmc
-avh
-avh
-dKR
-dKR
-dKR
-ano
-ano
-cSe
-aVZ
-kNP
-iWG
-gNH
-foB
-foB
-foB
-foB
+xmc
+gCE
+gCE
+gCE
+gCE
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+gCE
+gCE
+gCE
+gCE
 gCE
 gCE
 gCE
@@ -87395,30 +86887,30 @@ xmc
 xmc
 xmc
 xmc
-avh
-avh
-dKR
-ano
-ano
-ano
-ano
-ano
-cSe
-aVZ
-kNP
-iWG
-aao
-aao
-aao
-aao
-aao
+xmc
+gCE
+gCE
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
 gCE
 gCE
 gCE
 gCE
 gCE
-foB
-foB
+gCE
+gCE
 gCE
 gCE
 gCE
@@ -87611,32 +87103,32 @@ xmc
 xmc
 xmc
 xmc
+xmc
+xmc
+foB
 gCE
-avh
-dKR
-dKR
-ano
-ano
-ano
-ano
-ano
-cSe
-aVZ
-kNP
-iWG
-aao
-aao
-aao
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
 aao
 wbp
 wbp
+wbp
+wbp
+wbp
 gCE
 gCE
 gCE
-foB
-foB
-foB
-foB
+gCE
+gCE
+gCE
+gCE
 gCE
 gCE
 gCE
@@ -87829,32 +87321,32 @@ xmc
 xmc
 gCE
 foB
-avh
-dKR
-dKR
-dKR
-ano
-ano
-ano
-ano
-gbk
-aVZ
-kNP
-iWG
-aao
-aao
-aao
-wbp
-wbp
-wbp
-wbp
-wbp
-aao
-aao
 foB
 foB
 foB
-foB
+gCE
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+aao
+aao
+aao
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+gCE
+gCE
+gCE
+gCE
 gCE
 wbp
 wbp
@@ -88046,21 +87538,12 @@ xmc
 xmc
 gCE
 foB
-avh
-dKR
-dKR
-dKR
-ano
-ano
-ano
-ano
-mZv
-aVZ
-kNP
-iWG
-aao
-aao
-aao
+foB
+foB
+foB
+gCE
+wbp
+wbp
 wbp
 wbp
 wbp
@@ -88069,11 +87552,20 @@ wbp
 aao
 aao
 aao
-aao
-aao
-aao
-aao
-aao
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
 aao
 aao
 aao
@@ -88263,23 +87755,10 @@ xmc
 gCE
 foB
 foB
-avh
-dKR
-dKR
-dKR
-ano
-ano
-ano
-ano
-mZv
-aVZ
-kNP
-iWG
-aao
-aao
-aao
-wbp
-wbp
+foB
+foB
+foB
+gCE
 wbp
 wbp
 wbp
@@ -88290,6 +87769,19 @@ aao
 aao
 aao
 aao
+aao
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
 aao
 aao
 aao
@@ -88480,18 +87972,18 @@ gCE
 foB
 foB
 foB
-avh
-dKR
-dKR
-dKR
-ano
-ano
-ano
-ano
-uHA
-aVZ
-kNP
-iWG
+foB
+foB
+gCE
+gCE
+wbp
+wbp
+wbp
+wbp
+wbp
+aao
+aao
+aao
 aao
 aao
 aao
@@ -88502,10 +87994,10 @@ wbp
 wbp
 wbp
 wbp
-aao
-aao
-aao
-aao
+wbp
+wbp
+wbp
+wbp
 aao
 aao
 aao
@@ -88633,8 +88125,8 @@ arK
 arK
 kpf
 kpf
-aIK
-aRy
+tQw
+wbp
 aao
 aao
 aao
@@ -88697,18 +88189,18 @@ foB
 foB
 foB
 foB
-avh
-dKR
-dKR
-dKR
-dKR
-ano
-aDm
-aDm
-aHc
-cOb
-aeY
-aTG
+foB
+foB
+gCE
+gCE
+gCE
+wbp
+ajp
+ajp
+anQ
+anQ
+anQ
+anQ
 anQ
 anQ
 anQ
@@ -88719,10 +88211,10 @@ ajp
 ajp
 ajp
 ajp
-anQ
-anQ
-anQ
-anQ
+ajp
+ajp
+ajp
+ajp
 anQ
 anQ
 anQ
@@ -88841,18 +88333,18 @@ aao
 aao
 kpf
 kpf
-kpf
-kpf
-arK
-aIK
-aIK
-arK
-aIK
-aIK
-aIK
-aRy
-aRy
-aRy
+tQw
+tQw
+tQw
+axT
+axT
+tQw
+tQw
+tQw
+tQw
+wbp
+wbp
+wbp
 aao
 aao
 gNH
@@ -88907,25 +88399,25 @@ aps
 hWa
 apq
 avh
-avh
-avh
-avh
-avh
-avh
-avh
-avh
-avh
-aKV
-fkR
-orB
-sBw
-uHf
-eGG
-aKQ
-sIh
-cOb
-aeY
-aTG
+gCE
+gCE
+gCE
+gCE
+foB
+foB
+foB
+foB
+gCE
+gCE
+gCE
+gCE
+wbp
+ajp
+ajp
+ajp
+anQ
+anQ
+anQ
 anQ
 anQ
 anQ
@@ -88936,10 +88428,10 @@ ajp
 ajp
 ajp
 ajp
-anQ
-anQ
-anQ
-anQ
+ajp
+ajp
+ajp
+ajp
 anQ
 anQ
 anQ
@@ -89056,21 +88548,21 @@ aCr
 aao
 aao
 aao
-aao
-kpf
-kpf
-aIK
-aIK
-aIK
-aIK
-aIK
-aIK
-aIK
-aIK
-aRy
-aRy
-aRy
-aRy
+wbp
+tQw
+tQw
+tQw
+tQw
+axT
+axT
+tQw
+tQw
+tQw
+tQw
+wbp
+wbp
+wbp
+wbp
 aao
 gNH
 aBH
@@ -89123,26 +88615,26 @@ aJS
 aij
 anN
 amM
-eIX
-oMN
-bhs
-bhs
-bhs
-bhs
-bhs
-bhs
-eIX
-dKR
-bhs
-bhs
-oMN
-oMN
-eue
-eue
-eue
-iAN
-aeY
-aTG
+avh
+wbp
+gCE
+gCE
+gCE
+foB
+foB
+foB
+gCE
+gCE
+gCE
+gCE
+wbp
+wbp
+ajp
+ajp
+ajp
+anQ
+anQ
+anQ
 anQ
 anQ
 anQ
@@ -89153,10 +88645,10 @@ ajp
 ajp
 ajp
 ajp
-anQ
-anQ
-anQ
-anQ
+ajp
+ajp
+ajp
+ajp
 anQ
 anQ
 anQ
@@ -89273,22 +88765,22 @@ aao
 aao
 aao
 aao
-aao
-kpf
-aIK
-aIK
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
+wbp
+tQw
+tQw
+tQw
+wbp
+ano
+ano
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
 gNH
 aBH
 aBH
@@ -89340,26 +88832,26 @@ ass
 aij
 ait
 aeA
-ajO
-asu
-asu
-aSq
-aSq
-aSq
-aSq
-aSq
-aql
-dKR
-aSq
-aSq
-asu
-asu
-jgW
-jgW
-jgW
-jgW
-aGS
-aTG
+gNH
+wbp
+wbp
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
+wbp
+wbp
+ajp
+ajp
+ajp
+ajp
+anQ
+anQ
 anQ
 anQ
 anQ
@@ -89371,8 +88863,8 @@ ajp
 ajp
 ajp
 ajp
-anQ
-anQ
+ajp
+ajp
 anQ
 anQ
 anQ
@@ -89488,24 +88980,24 @@ aaa
 aab
 aao
 aao
-aao
-aao
-aao
-aao
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
+gNH
+gNH
+gNH
+gNH
+gNH
+gNH
+wbp
+ano
+ano
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
 gNH
 aBH
 aBH
@@ -89558,37 +89050,37 @@ afC
 bNs
 aJY
 gNH
-gNH
-gNH
-avh
-avh
-avh
-avh
-avh
-avh
-qGF
-avm
-utl
-qIj
-rYu
-hqU
-sCr
-aMY
-aMY
-aMY
-asx
-anQ
-anQ
-anQ
-ajp
-ajp
-ajp
-ajp
+wbp
+wbp
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
+gCE
+wbp
+wbp
+wbp
 ajp
 ajp
 ajp
 ajp
 anQ
+anQ
+anQ
+anQ
+anQ
+ajp
+ajp
+ajp
+ajp
+ajp
+ajp
+ajp
+ajp
+ajp
 anQ
 anQ
 anQ
@@ -89704,25 +89196,25 @@ aaa
 aaa
 aab
 aao
-aao
-aao
-aao
-aao
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
+gNH
+gNH
+ano
+ano
+ano
+ano
+gNH
+wbp
+ano
+ano
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
 gNH
 gNH
 aBH
@@ -89775,25 +89267,25 @@ bNs
 arL
 gNH
 gNH
-aao
-aao
+wbp
+wbp
 wbp
 gCE
 gCE
 gCE
 gCE
-avh
-avh
-ano
-ano
-ano
-ano
-aDm
-aDm
-aDm
-aDm
-aDm
-asx
+gCE
+gCE
+wbp
+wbp
+wbp
+wbp
+ajp
+ajp
+ajp
+ajp
+ajp
+ajp
 anQ
 anQ
 anQ
@@ -89921,26 +89413,26 @@ aaa
 aaa
 aab
 aao
-aao
-aao
-aao
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
+gNH
+ano
+ano
+ano
+ano
+ano
+gNH
+wbp
+ano
+ano
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
 gNH
 gNH
 aBH
@@ -90000,17 +89492,17 @@ wbp
 gCE
 gCE
 gCE
-avh
-gNH
-ano
-ano
-ano
-aDm
-aDm
-aDm
-aDm
-asx
-asx
+gCE
+wbp
+wbp
+wbp
+wbp
+ajp
+ajp
+ajp
+ajp
+ajp
+ajp
 anQ
 anQ
 ajp
@@ -90138,27 +89630,27 @@ aaa
 aaa
 aab
 aao
-aao
-aao
-aao
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
-aRy
+gNH
+ano
+ano
+ano
+ano
+ano
+gNH
+wbp
+ano
+ano
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
+wbp
 gNH
 gNH
 ajO
@@ -90218,15 +89710,15 @@ wbp
 wbp
 wbp
 wbp
-gNH
-gNH
-gNH
-gNH
-asx
-asx
-asx
-asx
-asx
+wbp
+wbp
+wbp
+wbp
+ajp
+ajp
+ajp
+ajp
+ajp
 ajp
 ajp
 ajp
@@ -90355,26 +89847,26 @@ aaa
 aaa
 aab
 anQ
-anQ
-anQ
-anQ
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
+asx
+aDm
+aDm
+aDm
+aDm
+aDm
+asx
+asx
+aDm
+aDm
+asx
+asx
+asx
+asx
+ajp
+ajp
+ajp
+ajp
+ajp
+ajp
 anQ
 anQ
 asx
@@ -90572,25 +90064,25 @@ aaa
 aaa
 aab
 anQ
-anQ
-anQ
-anQ
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
+asx
+aDm
+aDm
+aDm
+aDm
+aDm
+asx
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+asx
+asx
+ajp
+ajp
+ajp
+ajp
 anQ
 anQ
 anQ
@@ -90789,25 +90281,25 @@ axs
 axs
 aab
 anQ
-anQ
-anQ
-anQ
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
+asx
+aDm
+aDm
+aDm
+aDm
+aDm
+asx
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+asx
+aUF
+ajp
+ajp
+ajp
 anQ
 asx
 asx
@@ -91006,25 +90498,25 @@ axs
 axs
 aab
 anQ
-anQ
-anQ
-anQ
-anQ
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
+asx
+aDm
+aDm
+aDm
+aDm
+aDm
+asx
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+asx
+aUF
+aUF
+ajp
+aUF
 asx
 asx
 aKX
@@ -91223,25 +90715,25 @@ axs
 axs
 aab
 anQ
-anQ
-anQ
-anQ
-anQ
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
+asx
+aDm
+aDm
+aDm
+aDm
+aDm
+asx
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+asx
+aUF
+aUF
+aUF
+aUF
 asx
 aKX
 aKX
@@ -91440,25 +90932,25 @@ axs
 axs
 aab
 anQ
-anQ
-anQ
-anQ
-anQ
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
+asx
+asx
+aDm
+aDm
+aDm
+aDm
+asx
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+asx
+aUF
+aUF
+aUF
+aUF
 asx
 aKX
 aKX
@@ -91658,24 +91150,24 @@ axs
 aab
 anQ
 anQ
-anQ
-anQ
-anQ
-anQ
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
+asx
+asx
+asx
+aDm
+aDm
+asx
+asx
+aDm
+aDm
+asx
+asx
+asx
+asx
+asx
+veM
+veM
+veM
+veM
 asx
 asx
 asx
@@ -91877,22 +91369,22 @@ aab
 anQ
 anQ
 anQ
-anQ
-anQ
-anQ
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
+asx
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+asx
+aUF
+aUF
+aUF
+aUF
 ega
 aNp
 aez
@@ -92094,22 +91586,22 @@ aab
 aab
 anQ
 anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
+asx
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+asx
+aUF
+aUF
+aUF
+aUF
 ega
 aDm
 aDm
@@ -92311,22 +91803,22 @@ axs
 aab
 anQ
 anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
+asx
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+asx
+aUF
+aUF
+aUF
+aUF
 asx
 asx
 asx
@@ -92528,22 +92020,22 @@ axs
 aab
 anQ
 anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
+asx
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+asx
+aUF
+aUF
+aUF
+aUF
 ega
 aNp
 aez
@@ -92745,22 +92237,22 @@ axs
 aab
 anQ
 anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
+asx
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+asx
+aUF
+aUF
+aUF
+aUF
 ega
 aDm
 aDm
@@ -92962,22 +92454,22 @@ axs
 aab
 anQ
 anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-aJX
-aJX
-aJX
-aJX
-aJX
+asx
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+asx
+aUF
+aUF
+aUF
+aUF
 asx
 asx
 asx
@@ -93179,22 +92671,22 @@ axs
 aab
 anQ
 anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-aJX
-aJX
-aJX
+asx
+asx
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+aDm
+asx
+asx
+xyi
+aUF
+aUF
+aUF
 ega
 hGu
 aez
@@ -93397,21 +92889,21 @@ aab
 anQ
 anQ
 anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-anQ
-aJX
-aJX
+asx
+asx
+asx
+asx
+asx
+asx
+asx
+asx
+asx
+asx
+xyi
+xyi
+xyi
+aUF
+aUF
 ega
 aDm
 aDm
@@ -93624,10 +93116,10 @@ anQ
 anQ
 anQ
 anQ
-anQ
-anQ
-anQ
-anQ
+xyi
+xyi
+xyi
+xyi
 anQ
 asx
 asx
@@ -93843,8 +93335,8 @@ anQ
 anQ
 anQ
 anQ
-anQ
-anQ
+xyi
+xyi
 anQ
 asx
 aDm
@@ -94045,21 +93537,21 @@ axs
 axs
 axs
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+anQ
+anQ
+anQ
+anQ
+anQ
+anQ
+anQ
+anQ
+anQ
+anQ
+anQ
+anQ
+anQ
+anQ
+anQ
 anQ
 anQ
 anQ
@@ -94261,21 +93753,21 @@ axs
 axs
 axs
 axs
-axs
-axs
-axs
-axs
-axs
-axs
-axs
-axs
-axs
-axs
-axs
-axs
-axs
-axs
-axs
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
 aab
 anQ
 anQ
